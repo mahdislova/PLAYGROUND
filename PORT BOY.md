@@ -2388,3 +2388,327 @@ Sable was already at the door. She’d pulled on the rough-spun shift under his 
 
 He opened his mouth to argue. She was already on the stairs.
 
+
+## **Chapter Ten: The Fourth Place**
+
+The Lowers at dusk smelled like fish frying in old fat and coal smoke settling into the streets the way silt settles in a jar. The gaslamps were coming on one at a time along Bent Street — *tick, hiss, pop* — a lamplighter on a ladder working his way north with a pole and a cough that sounded like a rail brake.
+
+Sable walked three steps ahead of him. Barefoot. His shirt belted at her waist with a length of twine she’d stolen from Rosso’s counter on the way out. She kept her head down and her ears pinned flat under a scrap of headscarf, because ears drew eyes and eyes drew trouble, and a Felinara walking free in the Lowers after dark was the kind of thing men noticed and remembered and sometimes acted on.
+
+“Sail-maker’s first,” Jonah said. “Then the boathouse. Then —”
+
+“She’s not at any of them.”
+
+“You don’t know that.”
+
+“I know you checked all three yesterday. Twice. You came home smelling like tar, river mud, and candle wax.” She didn’t turn around. “She’s somewhere you haven’t been.”
+
+“There’s a fourth place. I don’t know where.”
+
+“I do.” Now she looked back. Those amber eyes in the lamplight, flat gold coins. “Cedar shavings and steel. That’s her. I’ve smelled it on your pillow for a week. I can follow that through a fish market.”
+
+He didn’t argue. There was no point arguing with Sable about things her nose had already decided.
+
+---
+
+She led him east, away from the water. Through the tanners’ yards, where the stink of lime pits made his eyes run. Under the first of the rail trestles, a great black spine of riveted iron that cut the Lowers in half and dripped condensation on everyone who walked beneath it. Past a row of shuttered pawnshops and a gin cellar where somebody was singing a Rekker drinking song with no regard for key or decency.
+
+Every forty yards or so she’d stop. Lift her face. Breathe in through her nose in short sharp pulls — *sff, sff, sff* — and her ears would twitch under the headscarf, and she’d turn a corner he’d never have chosen.
+
+“You could make a living at this,” he said.
+
+“I did. Finding things people dropped. Mostly fish.” *Sff, sff.* “Left.”
+
+The streets got worse as the ground rose. Not poorer — the Lowers were all poor — but emptier. Fewer lit windows. More boarded doors. They were coming up into the rail yards now, the great flat sprawl of sidings and switching tracks and coal stacks that sat between the Lowers and the merchant quarter like a no-man’s-land. Steam rose from somewhere and hung low and orange under the gaslamps. A locomotive idled on a far track, breathing — *chuff… chuff… chuff* — the slow, enormous patience of a sleeping animal.
+
+And on the far side of the yards, rising out of the steam three stories high, lit up like a lantern at every window: the Meridian Exchange.
+
+Jonah stopped walking.
+
+He’d seen the map. Charcoal on brown paper. He hadn’t seen *this*. Grey stone and iron, a clock tower at the north corner with a face as big as a cartwheel, a glass-roofed platform along the east wing where the freight coaches pulled in. Two Communion militia stood at the main doors with rifles. Two more walked the platform. Even from here he could see the building did not sleep.
+
+“That’s it,” Sable said quietly beside him. “Isn’t it.”
+
+“That’s it.”
+
+She stared at it for a long moment. He watched her look at the windows. Count them, maybe. Wonder which one had her mother written down behind it in somebody’s tidy ledger hand. *Goods, perishable.*
+
+Then she turned away and pointed up.
+
+“There.”
+
+At the edge of the yards, backing onto the coal stacks, stood a coal loft — a tall timber shed on stilts, three stories of blackened planking, built to feed fuel down chutes into waiting tenders. Half its windows were boarded. At the very top, under the eaves, one wasn’t.
+
+There was a light in it. Small. Steady. A single candle.
+
+---
+
+The ladder was on the inside, nailed to the wall, every rung slick with coal dust. Jonah climbed with his palms going black and his shoulders scraping the planking. Sable went up the outside of the building instead — he didn’t see how, just heard the soft *tk-tk-tk* of claws finding grain in old wood — and was waiting at the top when he hauled himself through the hatch, sitting cross-legged on a beam like she’d been there an hour.
+
+The room under the eaves was small. Low ceiling, pitched roof, a straw tick on the floor with a grey army blanket folded on it with almost military precision. A crate for a table. A tin cup. A candle stub on a saucer.
+
+And the walls.
+
+Every inch of the walls was covered.
+
+Brown paper, pinned with nails. Charcoal drawings — the Meridian from the front, the side, the platform, the clock tower. Floor plans, some of them the same as Marks’s map and some of them *not* — more detailed, annotated in a small cramped hand. Guard rotations, written in columns, times crossed out and rewritten. Rail timetables torn from the public boards and marked up in red chalk. A drawing of a uniform, militia issue, every button counted. A drawing of a vault door, the dial rendered so carefully you could see the numbers.
+
+Some of the paper was fresh. Some of it was old enough that the edges had curled and gone yellow and the charcoal had smudged soft under the oil of a hundred touches.
+
+Months, Jonah thought. Not weeks. *Months.*
+
+Marks had pitched the Meridian four days ago.
+
+Mary was sitting on the crate with her back to the far wall and her knife in her hand.
+
+She didn’t point it at him. She was using it to pare an apple, the peel coming off in one long unbroken red curl, and she didn’t stop when he came through the hatch, and she didn’t look up.
+
+“You brought the cat,” she said.
+
+“She brought me.”
+
+“Of course she did.” The peel dropped. She cut a slice, ate it off the knife. “Felinara nose. I should’ve slept somewhere that smelled worse.”
+
+Sable said nothing. She was perfectly still on her beam, tail wrapped around it, eyes half-lidded. But Jonah saw her nostrils flare once, and he saw Mary see it, and he saw something pass across Mary’s face that she put away very fast.
+
+“Mary.”
+
+“Say what you came to say. I’ve got work.”
+
+He looked at the walls. At the yellowed paper. At the vault door drawn so lovingly it might have been a portrait.
+
+“How long?” he said.
+
+The knife paused. Just for a second.
+
+“How long have you been watching that building, Mary? Because that drawing” — he pointed at the oldest of them, the clock tower, the charcoal gone grey and soft — “that’s not from this month. That’s not from this *season*.”
+
+She set the apple down on the crate. Set the knife down next to it. Wiped her fingers on her trousers. All of it slow, deliberate, the way you’d move around a dog you didn’t know.
+
+“Since spring,” she said.
+
+“Marks pitched it four days ago.”
+
+“Marks pitched it to *you* four days ago.” She finally looked up. The green eyes weren’t blank anymore. They were tired. They were the eyes of somebody who’d been carrying something heavy uphill a long time and had just been asked to set it down in front of strangers. “I pitched it to him in the summer. He didn’t bite. Said it was too big, too clean, too close to the Authority. Then two months ago he comes back and says he’s been thinking. Says he’s found a way. Says all he needs is the right face.”
+
+The right face. Nobody in this city can put a name to it.
+
+“And then I walk off a boat,” Jonah said.
+
+“And then you walk off a boat.” She laughed, without anything in it. “Eleven coppers and a jaw like a shovel and no one in Veranesse who’d know you from a lamp-post. You were *perfect*, Jonah. I knew it the second I grabbed your coat. That’s why I didn’t let you go.”
+
+The candle hissed. Below them, somewhere in the yards, a coupling banged — *KLANG* — and the whole loft shivered on its stilts.
+
+“You set me up.”
+
+“I *found* you.” Sharp. “That’s different. I found you, and I fed you to Marks one piece at a time, and I watched him like what he saw, and then I spent four days hearing him talk about faces and clerks and witnesses and I —” She stopped. Breathed. Picked the knife back up and turned it over in her fingers without looking at it. “I didn’t think I’d care. All right? That’s the truth. When I picked you off the docks you were a coat with a body in it. I didn’t plan on the tent. I didn’t plan on any of it.”
+
+“The guards at the station.”
+
+“Not me.”
+
+“Mary —”
+
+“*Not me.*” The knife stopped turning. “I was in that bracken next to you. You think I’d sell a job I’m lying in? Somebody wanted to know if you’d run or fight or squeal when it went bad. Somebody wanted to see what you were made of before they trusted you with forty thousand marks.” Her mouth twisted. “Marks tests things. Hammers. Knives. People.”
+
+From the beam, quiet as dust settling, Sable said: “She’s telling the truth.”
+
+Mary’s head snapped around.
+
+“About the guards,” Sable said. “Her heart’s steady. It wasn’t steady at the gin house when the big man said *face*. It’s steady now.” She tilted her head. “It went funny a minute ago, when she said *tent*. But that’s a different thing.”
+
+The silence after that could have been cut and sold by the pound.
+
+“I’m going to throw something at her,” Mary said, very calmly.
+
+“She’ll catch it,” Jonah said.
+
+“I’ll catch it,” Sable agreed.
+
+Mary looked at the cat-girl on the beam for a long moment. At the shirt Sable was wearing — *Jonah’s* shirt, belted with twine. At the bite mark showing purple at the edge of the collar, just under one copper ear. Mary’s nostrils flared, and she didn’t have a Felinara nose, but she didn’t need one. Her jaw went tight enough to crack a walnut.
+
+Then she turned back to Jonah, and whatever she’d felt she’d already nailed to a wall somewhere inside and left there with the timetables.
+
+“What do you want,” she said.
+
+“The truth about Marks. All of it. What he’s holding over you.”
+
+“No.”
+
+“Mary.”
+
+“*No.*” She stood up. She was a full head shorter than him and the ceiling was low enough that he had to stoop and somehow she still managed to look down at him. “You want to know about the job, fine. I’ll tell you about the job. You want to know about me, you can go to the Burnt Rose and pay Lina to dress up and *tell* you.”
+
+That landed. She meant it to.
+
+He took it. Stood there under the eaves with coal dust on his hands and took it, because she’d earned the right to throw it.
+
+“Marks has paper on somebody,” she said, quieter. “Somebody I love. Indenture. Old-style, from before the Communion — the kind they said they abolished and didn’t. As long as he holds it, I work for him. When the Meridian’s done, he burns it. That’s the deal. That’s all you get.”
+
+“And me?”
+
+She held his eyes.
+
+“When the Meridian’s done,” she said, “Marks gets forty thousand marks and the Authority gets a face to hang. You were supposed to be a long way gone before anyone came asking. Or you weren’t. Marks didn’t much care which.” Something moved in her throat. “I was going to tell you. After. Get you on a boat. I had it worked out.”
+
+“Did you.”
+
+“I’ve got *everything* worked out, Jonah. Look at the fucking walls.”
+
+He looked at the walls.
+
+Months of charcoal. Months of counting buttons on a guard’s coat. Months of a woman sitting up here alone in a coal loft above the rail yards with a candle stub and a tin cup, drawing the same building over and over until she could walk it blind. Not for Marks. Marks hadn’t wanted it.
+
+For whoever was on that paper.
+
+“I’m still in,” he said.
+
+Mary blinked.
+
+“The job. I’m still in.”
+
+“Did you hear a single word I —”
+
+“I heard all of them. Marks wants a face to hang. Fine. Then we make sure there isn’t one to find.” He jerked his chin at the vault door drawing. “You know that building better than he does. Better than anyone. You don’t need his plan. You need a crew that isn’t planning to sell you out at the end.”
+
+She stared at him. Behind her eyes he could see it — the machinery spinning up, odds running, the quick ugly arithmetic of a woman who’d lived her whole life calculating what she could survive.
+
+“And the cat?” she said finally.
+
+“The cat fits in your shaft,” said Sable.
+
+Mary turned slowly to look at her.
+
+“The east wing ventilation,” Sable said. “It’s too narrow for him. It isn’t too narrow for me. I heard you at the Kettle.” Her tail unwound from the beam and swung, once. “I want something in that building too. It isn’t gold. You can have the gold.”
+
+“What, then?”
+
+“Paper,” said Sable. “Same as you.”
+
+---
+
+They came back down Bent Street a little after ten, the three of them, not talking.
+
+Mary hadn’t agreed to anything. She’d said *I need to think*, which in Mary’s language meant *I’ve already decided and I need to find out whether I like what I decided*. She’d walked out of the coal loft with them anyway, and she was walking beside him now with her hands jammed in her trouser pockets and her eyes on the cobbles, and every so often her shoulder brushed his arm and neither of them moved away.
+
+Sable walked ahead. Ears up under the headscarf. Tail swishing.
+
+At the foot of the chandler’s stairs she stopped dead.
+
+Her nose went up. *Sff. Sff.* Her whole body went rigid, then low, the way a cat drops when something bigger has come into the yard. The fur along her tail stood up in a ridge.
+
+“Someone’s in your room,” she whispered.
+
+Jonah’s hand went to the knife at his belt. Mary’s went to her boot.
+
+“How many?”
+
+“One.” *Sff.* “Cedar oil. Orange peel.” Sable’s lips peeled back from her teeth. “Rich-house soap.”
+
+Mary looked at Jonah.
+
+Jonah was already climbing.
+
+---
+
+The door was unlocked. He hadn’t left it unlocked.
+
+He pushed it open with two fingers and the hinges groaned — *rrrrrnnn* — and the candle on the windowsill was lit, which he also hadn’t done, and sitting on the end of his straw mattress, with her ankles crossed and her gloved hands folded in her lap and the slaughterhouse breathing in through the cracked window behind her, was Jessamine Ashburn.
+
+No emerald silk tonight. A plain wool cloak the color of wet slate, hood pushed back. Under it a dark riding habit buttoned to the throat — expensive, severe, the kind of thing a woman wore when she wanted to be taken for somebody’s governess at a distance and nobody’s governess up close. No diamonds. Her mahogany hair pinned low and simple at the nape. She’d done something to her face, too, washed it of everything, so that the freckles stood out across her nose like a scatter of cinnamon. She looked younger like this. She looked, if anything, more dangerous.
+
+She looked at the knife in his hand. Then at his face.
+
+“Mr. Wren,” she said. “Your landlord is a deeply unpleasant man. He let me up for a silver and then tried to sell me a candle for another.” She glanced at the candle on the sill. “I bought it. It seemed rude not to.”
+
+Behind him, Mary came through the door like a thrown blade and stopped so short Sable nearly walked into her back.
+
+Jessamine’s navy eyes moved past him. Took Mary in — head to boots, the oversized shirt, the patched corset, the knife half drawn from the boot-sheath — in about a second and a half. Took Sable in, too: the headscarf, the bare dirty feet, the tail now bristled to twice its size and lashing. Nothing moved on Jessamine’s face. Not a flicker.
+
+“Miss Grieve,” she said. “And — I’m sorry, I don’t know your name.”
+
+Sable hissed. Actually hissed — *HHHAAAHHH* — a long ragged sound from the back of her throat, ears flat, teeth out.
+
+“Sable,” Jonah said. “Her name’s Sable.”
+
+“Sable.” Jessamine inclined her head. A small, exact courtesy, the same she’d have given a duchess. “I’m sorry. I gather my family has given you very good reason to dislike the smell of me.”
+
+The hiss cut off. Sable stared at her.
+
+Mary found her voice. “How the *fuck* do you know my name?”
+
+“The same way I knew where Mr. Wren lives.” Jessamine reached into her cloak — slowly, with a glance at Mary’s knife that said she understood exactly how slowly she ought to do it — and drew out a folded square of paper. She held it up between two gloved fingers. “I bought it.”
+
+Jonah’s stomach turned over.
+
+“There is a woman at an establishment called the Burnt Rose,” Jessamine said, “who has been receiving visits from Captain Aldric Thorne. Captain Thorne has been offering twenty silvers for the true name and lodging of the man who attended the Concord as Lord Ashmore Vell.” She set the folded paper down on the mattress beside her. “I offered forty. And a promise that I would find out if she sold it twice.”
+
+*Not yet. Price goes up if you wait.*
+
+Lina had waited. And then she’d sold it to the highest bidder.
+
+“So Thorne doesn’t have it,” Jonah said.
+
+“Thorne doesn’t have it. Thorne has a wire from the eastern provinces confirming that the real Lord Vell has not left Harrowgate in two years, a coatroom full of furious guests, and a hole in his evening where your name should be.” She smoothed her glove over her knee. “He’s a patient man and a vindictive one, and he will keep digging. But for now, Mr. Wren, the only person in Veranesse who can hang you is sitting on your mattress.”
+
+The room was very quiet.
+
+Mary said, low and flat: “What do you want.”
+
+Jessamine looked at her. Something passed over the noble’s face then — not warmth, nothing like it, but a kind of recognition. One calculator acknowledging another.
+
+“I want to hire you,” she said. “All three of you, as it happens, though I only came for one.” She turned the navy eyes back to Jonah. “You’re going into the Meridian Exchange on the seventeenth.”
+
+Mary’s knife came the rest of the way out of her boot.
+
+“Put that away, Miss Grieve. If I wanted you arrested you would already be in the Greystone and I would be at home in a bath.” Jessamine didn’t look at the blade. “My father sits on the board of the Rail Authority. I have read every security report on that building for two years because nobody in my house thinks a daughter can read a balance sheet, so nobody locks them up. Captain Thorne commands the Meridian guard on payroll nights. He has been asking his men about the coal loft at the edge of the yards, because someone has been burning a candle up there at odd hours since spring.” A beat. “You should move your drawings.”
+
+Mary went white.
+
+“And a man called Markus Delaine,” Jessamine went on, unhurried, “has been buying uniforms. Militia issue. Six of them, through a tailor on Chandler’s Row who also, I believe, made Mr. Wren’s suit.” She glanced at Jonah. “It is a very good suit. Ferris should charge more.”
+
+“You’ve been following us,” Jonah said.
+
+“I’ve been following *money*. It led to you.” She stood. In the small room, in the plain cloak, she was still taller than Mary and nearly as tall as him, and she stood the way she had on the balcony: spine straight, chin level, the line between them held. “I don’t care about the payroll. Take every coin. Give it to the poor, drink it, pave the Lowers with it. In the basement of the Meridian, beside the vault, there is a records room. Freight manifests. Every cargo that has moved on the northern rail for eleven years.”
+
+From the doorway Sable made a small sound. Not a hiss. Something that caught in her throat on the way out.
+
+Jessamine heard it. She didn’t turn. “Some of those manifests,” she said, more quietly, “list cargo shipped under my family’s seal. I want them. The originals, not copies. That is my price for your name.”
+
+“Why?” Jonah said.
+
+She looked at him for a long moment. The candle threw her shadow tall across the plaster behind her and the crack in the ceiling that looked like a coastline.
+
+“Because I’m getting married in the spring, Mr. Wren,” she said, “to Captain Aldric Thorne. And I would very much prefer not to.”
+
+She pulled her hood up. Took a card from inside her glove — heavy cream stock, no name, just an address on the fourth tier and a time, written in a clean, sharp, unhurried hand — and held it out to him.
+
+He took it. Her gloved fingers didn’t touch his.
+
+“Tomorrow,” she said. “Bring Miss Grieve. Bring her drawings. Burn the candle somewhere else.” She stepped toward the door, and Mary didn’t move out of her way, and for a moment the two of them stood a foot apart in the doorway — slate wool and patched leather, mahogany and dark auburn, the Crescent and the Lowers — and neither one blinked.
+
+Then Mary stepped aside.
+
+“Miss Grieve,” Jessamine said, passing her.
+
+“Lady Ashburn,” said Mary, and made it sound like a curse.
+
+Jessamine paused on the top step. She looked down at Sable, who had pressed herself flat against the railing, tail wrapped around her own leg, those enormous amber eyes fixed on the noblewoman’s face.
+
+“If what you’re looking for is in that room,” Jessamine said, “you’ll find it under *A*.”
+
+Then she went down the stairs — *tk, tk, tk*, riding boots on old wood — and out into Bent Street, and a moment later Jonah heard a carriage door close somewhere out of sight and the sound of good horses walking away.
+
+Nobody said anything.
+
+Mary looked at the folded paper on the mattress. Jonah's name. Jonah's room. Bought for forty silvers and left behind like a calling card, because a woman like that didn't need to keep a thing to own it.
+
+She picked it up. Unfolded it. Read it. Then she held the corner to the candle on the sill and watched it catch, and turn black, and curl, and she dropped it on the floorboards and ground the ash under her boot until there was nothing left.
+
+“I hate her,” Mary said.
+
+“I know.”
+
+“I hate her so much I can taste it.” She turned around. Her eyes were very bright and very hard. “Get your coat. We’re moving my drawings tonight.”
+
+Sable was already on the stairs.

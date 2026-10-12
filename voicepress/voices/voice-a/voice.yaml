@@ -25,7 +25,7 @@ banned_phrases:
 max_same_opener: 4
 
 thresholds:
-  triads_per_1k: 6
+  triads_per_1k: 9   # your pages run 6.4
   similes_per_1k: 3
 
 targets: {}

@@ -1,26 +1,26 @@
 # Chapter Seven: Salt
 
-Brine stung the split skin across Hugh's knuckles. He flexed his hand, felt the scabs crack and weep, and squinted out over the salt market of Vel Dornas.
+Brine stung the split skin across Hugh's knuckles. He flexed his hand until the scabs cracked. Squinted out over the salt market of Vel Dornas.
 
-It sprawled across the tidal flats beneath the city wall, hundreds of stalls with canvas bleached the color of old bone, white pyramids of salt heaped on every trestle, gulls wheeling and shrieking overhead. Salt-wives in black aprons hacked at grey blocks with hatchets. Porters staggered beneath dripping sacks. The whole place stank of fish and tar and the low green rot of the flats at ebb tide.
+It ran the length of the tidal flats beneath the city wall, row on row of trestles under canvas bleached to the color of old bone, white pyramids of salt heaped on each, gulls screaming over the lot. Salt-wives in black aprons hacked at grey blocks with hatchets. The whole place stank of fish and of the low green rot the flats gave off at ebb tide, a smell that got into the back of the throat and stayed there for hours.
 
-In Vel Dornas you never haggled with a salt-wife before the noon bell. Haggle before noon and she'd take your price, smile, and weigh your sack with a thumb on the scale so heavy you'd pay double and thank her for the privilege. Only the Tidesworn bargained in the mornings. No salt-wife alive would cheat a man who could ask the sea to take her stall.
+In Vel Dornas you never haggled with a salt-wife before the noon bell. Haggle before noon and she'd take your price with a smile, then weigh your sack with her thumb on the scale. Only the Tidesworn bargained in the mornings. No salt-wife alive would cheat a man who could ask the sea to take her stall.
 
 Hugh had no intention of haggling.
 
-"You're brooding," said Morwyn.
+"You're brooding," said Morwyn, who had been watching him instead of the market.
 
 "I'm watching."
 
-"You're brooding while watching. It's a talent." She leaned against the piling beside him, arms crossed, hood drawn low over her cropped black hair. Her blade was strapped across her back and wrapped in sacking, so it might pass for a fishing pole to anyone stupid enough to believe it. Nobody here was that stupid. "Which one?"
+"You're brooding while watching. It's a talent." She leaned against the piling beside him with her arms crossed and her hood drawn low over her cropped black hair. Her blade was strapped across her back and wrapped in sacking, so it might pass for a fishing pole to anyone stupid enough to believe it. "Which one?"
 
-"Third row. Green awning."
+"Green awning. Third row."
 
-She looked, and said nothing for a long breath. Then: "The fat one?"
+She looked for a long breath before she answered. "The fat one?"
 
 "The fat one."
 
-The man sat beneath his awning with a ledger open across his knees, rings glinting on every finger, a clay cup of something steaming at his elbow. Bartoss. The Mink had given up the name easily enough, toward the end. Had given up a great many things, sweating and gray-faced, cradling the ruin of his arm.
+He sat beneath his awning with a ledger across his knees and a cup of something steaming at his elbow, rings on every finger. Bartoss. The Mink had given up the name easily enough toward the end, gray-faced and sweating, cradling the ruin of his arm and offering names the way a drowning man offers coin.
 
 "He doesn't look like much," said Morwyn.
 
@@ -30,112 +30,102 @@ The man sat beneath his awning with a ledger open across his knees, rings glinti
 
 Hugh considered. Rubbed his thumb across the scabs. "Quietly."
 
-Morwyn laughed, a short bark that turned two porters' heads. "You? Quietly? By the Drowned Mother's barnacled cunt, Hugh, you've never done a quiet thing in your life. You fart and the Watch comes running."
+Morwyn laughed, a short bark that turned two porters' heads. "You? By the Drowned Mother's barnacled cunt, Hugh, you've never done a quiet thing in your life. You fart and the Watch comes running."
 
 "There's a first time for everything."
 
-"There is. And it usually ends with me stitching you back together, and you whining, and... well. You know how it ends."
+"There is. It usually ends with me stitching you back together while you whine about the needle, and then... well. You know how it ends."
 
-He couldn't argue with that, so he didn't try.
+He did. He'd woken in her bed twice now with fresh stitches and no memory of asking for either. Neither of them had mentioned it since, which suited him fine and her, he suspected, less so.
 
-Gut the toad and be done with it, came Dragoslav's rumble, low and close, the big man's breath all but warm on Hugh's neck. Why talk? Talk is for priests.
+Gut the toad, came Dragoslav's rumble from just behind his left ear. Talk is for priests.
 
-Hugh's skin prickled. Not now. He hadn't called them. Hadn't so much as thought of -
+Hugh's skin prickled. He hadn't called them. Hadn't so much as thought of -
 
-No. Not now. And yet there they were, just past the edge of his sight, a shifting of shadows that weren't there when he turned his head.
+A flash of memory: Jacinia's study, the crossbow dismantled across her desk, her finger resting on her upper lip. *The moment your friends are safe, Hugh. Swear it.*
+
+He'd sworn. Would have sworn to anything, lying in his own blood.
 
 He set his jaw and stepped down onto the flats.
 
 * * *
 
-The mud sucked at his boots. Salt crunched underfoot where it had spilled from the stalls. Somewhere a salt-wife was singing, a tuneless dirge about a drowned husband who'd owed her money. Hugh threaded between the trestles with Morwyn a pace behind and to his left, where she always walked. Where she could draw without fouling his sword arm.
+The mud sucked at his boots. Salt crunched underfoot where it had spilled from the stalls, and a salt-wife two rows over was singing a tuneless dirge about a drowned husband who'd owed her money. Hugh threaded between the trestles with Morwyn a pace behind and to his left, where she could draw without fouling his sword arm.
 
 Bartoss didn't look up until their shadows fell across his ledger.
 
 "We're closed," he said.
 
-"It's not noon," said Hugh.
+"It's not noon."
 
-"Then we're not yet... no. We're not yet open." Bartoss turned a page, dipped his quill and made a small neat mark. "Either way, friend, I've nothing to sell you."
+"Then we're not yet... no. We're not yet open." He dipped his quill and made a small neat mark. "Either way, I've nothing to sell you."
 
 "I'm not buying."
 
-"Ah." Another mark. "Then you're wasting both our mornings."
+"Then you're wasting both our mornings."
 
-Hugh pulled the Mink's signet ring from his pocket and set it on the open ledger, right across the column of figures. Iron, heavy, a weasel rampant worn almost smooth.
+Hugh dug in his coat. Pulled out the Mink's signet ring and set it on the open ledger, right across the column of figures. Iron, worn almost smooth, a weasel rampant.
 
-Bartoss went still.
-
-It was a small thing. A man who didn't know to look for it would have missed it. The quill stopped and the breath held, and the rings on those fat fingers, so restless a moment ago, went quiet as stones.
+The quill stopped. It was a small thing. A man who didn't know to look for it would have missed the way the rings on those fat fingers, so restless a moment ago, settled against the page.
 
 "The Mink," said Hugh. "You knew him."
 
-"I... well. I knew of a Mink. Once." Bartoss set the quill down with great care. Raised his eyes, small and black and wet in that broad face. "Knew. You say it like a man who's been to a funeral."
+"I knew of a Mink. Once." Bartoss set the quill down with great care. Wiped his fingers on his sleeve. "Knew. You say it like a man coming from a funeral."
 
-"I say it like a man who caused one."
+"I say it like the man who dug the grave."
 
-"He's not dead," said Morwyn from behind him. "Not yet. Just a lot shorter on one side."
+"He's not dead," said Morwyn. "Just a lot shorter on one side."
 
-Bartoss smiled. It was not a pleasant smile. "And now you've come to make me shorter too."
+Bartoss smiled at her, broad and wet, and Hugh found himself liking him even less. "And now you've come to make me shorter too."
 
-"I've come for a name," said Hugh. "Whoever paid the Mink to be on that beach. Whoever paid you to pay him. Give it to me, and you can go back to your ledger and your little marks."
+"I've come for a name. Whoever paid the Mink to be on that beach, and whoever paid you to pay him. Give it to me and you can go back to your little marks."
 
-"And if I don't?"
+He'd expected a lie, or a haggle, or for the fat man to call for help. Instead Bartoss closed the ledger, folded his hands on top of it and gave Hugh the name without the slightest hesitation.
 
-Hugh said nothing. Let the silence answer. He'd learned that from Jacinia, the way she'd let a question hang until the man asking it heard how foolish it sounded.
+"Birandillo."
 
-But Bartoss didn't wilt. He leaned back in his chair, folded his hands over his belly, and looked past Hugh's shoulder.
+The flats tilted under Hugh's boots.
 
-"Do you know," he said mildly, "what the salt-wives do, Sir Hugh, when the noon bell rings?"
+No. Not tilted. He was standing perfectly still, salt in his boots and the gulls overhead, but for a moment he was back on his knees before the old man's chair, swearing an oath he'd had no business swearing, the words thick in a mouth full of blood.
 
-Sir Hugh.
+"You're lying," he said.
 
-Nobody in Vel Dornas knew that name. Nobody should have -
+"I've no reason to." Bartoss reached for his cup and took a long, slow sip. "He pays very well, Sir Hugh. He pays for you alive, which I gather is unusual, and he pays for her," a nod at Morwyn, "considerably less. Dead or otherwise. I don't think he much minds."
 
-"Hugh," said Morwyn, very quietly.
+Sir Hugh. Nobody in Vel Dornas knew that name.
 
-He heard it then. Or rather, didn't hear it. The hatchets had stopped. All down the row, the steady *chock, chock* of iron biting salt had fallen away into nothing, and the dirge had ended mid-verse, and even the gulls had drifted higher, wheeling in silence above the flats. They'd seen this before. Knew better.
+Morwyn had gone very quiet behind him. Shifted her weight, too, onto the balls of her feet. Not the quiet of a woman listening, but of a woman working out exactly how far it was to the nearest exit.
 
-Hugh turned his head.
+"Hugh," she said. "The singing's stopped."
 
-The salt-wives were standing. Every one of them. Black aprons and grey faces, hatchets hanging loose at their sides. And not just hatchets. Something long and wrapped in oilcloth leaned against the nearest trestle. Something that, when the woman beside it let the cloth slide free, gleamed with a fresh-honed edge.
+It had. So had the hatchets. All down the rows the *chock* of iron biting salt had died away, and the salt-wives were standing at their trestles in their black aprons, looking his way. Something long leaned against the nearest stall, wrapped in oilcloth. Its owner let the cloth slide to the mud and it was a boar spear, fresh-honed, the crossbar lashed on with new rope.
 
-"They sell salt," said Bartoss behind him, sounding almost apologetic. "Until noon."
+"They sell salt until noon," said Bartoss. "After that, they sell whatever I've paid for."
 
-Up on the city wall, the bell began to toll.
+On the wall above the flats, a row of heads appeared along the parapet, and below each head a crossbow. Hugh counted eleven before he made himself stop counting. Every one of them was leveled not at him, but past him.
 
-*Bong.*
+At Morwyn.
 
-The first salt-wife came at him on the second stroke.
+"Here's my offer," said Bartoss, quite reasonably. "You walk to the water gate, where some gentlemen are waiting with a boat. The lady walks out the land gate. Nobody bleeds before lunch."
 
-She was fast. Faster than her bulk suggested, hatchet swinging overhand for his skull with all the economy of a woman who'd split ten thousand blocks of salt and seen no reason a head should be different. Hugh stepped inside it. Caught her wrist and turned it until something popped and she screamed and the hatchet fell. Drove his elbow into her throat.
+Up on the wall, the bell began to toll.
 
-She went down.
+The first stroke rolled out over the flats and Hugh felt the dead stir, pressing close and eager, Chavaun laughing low in his ear. Take him up on it, came Kevanir's voice, cold as it ever was. Get in the boat. Save her. Then you're free to keep your oath.
 
-Two more behind her. A third vaulting the trestle with a boning knife. Morwyn's blade sang free of its sacking and the knife-woman's hand went spinning off into the salt, still clutching the hilt.
+That was the trap, he realized. Not the spears, and not the crossbows. That.
 
-Hugh drew.
+Second stroke.
 
-And the dead came with it, unbidden, unwelcome, roaring up through his arm before he'd so much as reached for them, Dragoslav's strength and Chavaun's speed and Kevanir's cold, clean hatred all pouring into him at once, so that the world slowed and sharpened and the salt-wives seemed to wade toward him through honey, their mouths open on screams he could hear each separate syllable of, the hatchets rising so slowly he could have counted the nicks along their edges.
+"Morwyn," he said, without turning. "When I move, get under the trestle."
 
-Too much. Too soon. He hadn't called them.
+"Hugh, don't you fucking dare -"
 
-They didn't care.
+He drew, and called them.
 
-Now, brother, laughed Chavaun in his ear. Now we dance.
+Not a trickle this time, the way he'd learned to ration them over three years of fear. He opened the door all the way and they came roaring through it, Dragoslav's strength and Chavaun's speed and then the others, crowding in behind, heavier and colder, men he hadn't let himself name in years. The world went sharp as broken glass. He could see the bolts beginning to leave the crossbows, each one turning lazily on its way down, and he knew with total certainty that he could reach every one of them in time.
 
-Hugh's sword took the nearest woman across the belly and spilled her into the salt. He spun past her with his blade already rising. The next lost her arm at the shoulder. A third, a fourth. He didn't count. Couldn't. There were too many black aprons, too many hatchets, and the mud sucked at his boots and the salt crunched and somewhere behind him Morwyn was cursing in a steady, furious stream, her blade ringing, ringing, ringing.
+He also knew, the way you know a debt has come due, that the door would be harder to close this time.
 
-"Hugh!" Her voice, sharp with something he'd never heard in it before. "The wall, look at the -"
+Third stroke.
 
-He looked up.
-
-Crossbows. A dozen at least, lining the parapet, every one leveled down at the flats. At him and Morwyn. At the salt-wives too, he realized, and the porters, and the screaming gulls, and anything else unlucky enough to be standing in the mud when the bell finished tolling.
-
-Bartoss hadn't moved from his chair. Sat there with his hands folded over his closed ledger and watched Hugh with the patient interest of a man reading the final page of a book whose ending he already knew.
-
-"Noon," he said.
-
-The bell struck twelve.
-
-Hugh opened himself to the dead, all of them, every last one, and let them in.
+Hugh moved.

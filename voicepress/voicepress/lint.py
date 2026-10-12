@@ -50,6 +50,20 @@ PHRASES: list[tuple[str, str]] = [
     ("cliche", r"\bpadded (across|over|into|to)\b"),
     ("cliche", r"\b(a )?flicker of\b"),
     ("cliche", r"\bwhisper of\b"),
+    # Stock fiction moves (reader reports + the stock phrasing a detector flagged in our own example chapter)
+    ("cliche", r"\b(the )?(world|time|everything) (slowed|narrowed|tilted|fell away|stood still|stopped)\b"),
+    ("cliche", r"\blet(ting)? the silence\b"),
+    ("cliche", r"\b(smiled|smile|laughed|laugh)\. (it|this) was (not|no) a\b"),
+    ("cliche", r"\b(her|his|their) voice,? (sharp|soft|low|thick|rough|tight|heavy) with\b"),
+    ("cliche", r"\bvoice like\b"),
+    ("cliche", r"\b(and )?somewhere (behind|above|below|beyond|in the distance|nearby)\b"),
+    ("cliche", r"\b(sounding|sounded|looked|looking) almost (apologetic|amused|sad|bored)\b"),
+    ("cliche", r"\bwith the (patient|quiet|idle|mild) (interest|amusement|curiosity) of\b"),
+    ("cliche", r"\b(a|the) (quiet|soft) (certainty|resolve|strength|intensity|menace)\b"),
+    ("cliche", r"\b(eyes|gaze) (that held|holding) (something|a promise|secrets)\b"),
+    ("cliche", r"\bsmelled of ozone|tasted of copper|scent of rain\b"),
+    ("cliche", r"\bor rather\b"),
+    ("cliche", r"\bevery last one\b"),
     # Construction tells
     ("construction", r"\bthe kind of \w+ (that|who|where)\b"),
     ("construction", r"\b(it|this|that) (wasn['’]?t|isn['’]?t|was not|is not) [^.;:!?]{1,40}[.;,—-]+\s*(it|this|that) (was|is)\b"),
@@ -67,6 +81,18 @@ EM_DASH = re.compile(r"—|(?<!-)--(?!-)| – ")
 TRIAD = re.compile(r"\b[\w'-]+(?: [\w'-]+){0,3}, [\w'-]+(?: [\w'-]+){0,3},? and [\w'-]+", re.I)
 # Two or more consecutive short fragment sentences: "Fast. Professional."
 FRAGMENT_RUN = re.compile(r"(?:(?<=[.!?] )|^)(?:[A-Z][\w'-]*(?: [\w'-]+){0,2}[.!](?: +|$)){2,}", re.M)
+STOCK_BEAT = re.compile(
+    r"^(?:(?:He|She|They|It|[A-Z][a-z]+) (?:looked up|went down|didn['’]t care|froze|went still|didn['’]t move|"
+    r"swallowed|exhaled|nodded slowly|said nothing)|Too (?:much|soon|late)\. Too (?:much|soon|late)|"
+    r"(?:And then|Then) (?:silence|nothing)|Silence fell|Nothing happened|Time stopped)\.?$"
+)
+def _opener(sentence: str) -> str:
+    """First word, ignoring articles/conjunctions, which repeat on purpose in anaphora."""
+    toks = re.findall(r"[\w'’]+", sentence)
+    w = toks[0].lower() if toks else ""
+    return "" if w in {"the", "a", "an", "and", "but", "or", "so", "then", "no", "not"} else w
+
+
 SENT_SPLIT = re.compile(r"(?<=[.!?])[\"”’)]*\s+(?=[\"“‘(]?[A-Z*])")
 
 
@@ -183,6 +209,23 @@ def lint(text: str, style: dict | None = None) -> Report:
                                             f"{run}+ paragraphs in a row open with “{openers[i][0]}”"))
         else:
             run = 1
+
+    # Stock short beats: one-line paragraphs that carry no information, just drama.
+    if "stock_beats" not in disabled:
+        for p in paras:
+            if STOCK_BEAT.match(_strip_markup(p).strip()):
+                rep.findings.append(Finding("stock-beat", p, _line_of(text, text.find(p)),
+                                            "dramatic filler beat; make it carry a concrete fact or cut it"))
+
+    # Narration opening the same way over and over ("He drew. He turned. He looked up. He ...").
+    narr = [x for x in sentences(text) if not re.match(r"^[\"“‘']", x)]
+    run = 1
+    for i in range(1, len(narr)):
+        same = _opener(narr[i]) and _opener(narr[i]) == _opener(narr[i - 1])
+        run = run + 1 if same else 1
+        if run == 4:
+            rep.findings.append(Finding("rhythm", " / ".join(narr[i - 3:i + 1])[:90], _line_of(text, text.find(narr[i][:30])),
+                                        f"4 narration sentences in a row open with “{_opener(narr[i])}”"))
 
     for m in FRAGMENT_RUN.finditer(text) if "fragments" not in disabled else ():
         rep.findings.append(Finding("fragments", m.group(0).strip(), _line_of(text, m.start()), "stacked fragments"))

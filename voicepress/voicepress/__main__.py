@@ -40,6 +40,7 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--book", default=str(HERE / "book"), help="book folder: chapters/ and ledger.md")
     p.add_argument("--words", type=int, help="target length (default from voice.yaml)")
     p.add_argument("--passes", type=int, default=2, help="max polish passes")
+    p.add_argument("--no-story-pass", action="store_true", help="skip the developmental edit")
 
     p = sub.add_parser("refine", help="run an outside draft through the layers")
     p.add_argument("file")
@@ -101,7 +102,10 @@ def main(argv: list[str] | None = None) -> None:
     out = book / "runs" / f"ch{number:02d}-{run_dir(Path('.')).name}"
     eng = Engine(voice, llm, out, a.chunk_words, log)
     log(f"chapter {number} → working files in {out}")
-    text = eng.write_chapter(_brief(a.brief), ledger, previous, number, words)
+    brief = _brief(a.brief)
+    text = eng.write_chapter(brief, ledger, previous, number, words)
+    if not a.no_story_pass:
+        text = eng.story_pass(text, ledger, brief)
     text = eng.polish(text, a.passes)
 
     final = chapters / f"ch{number:02d}.md"

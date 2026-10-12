@@ -11,6 +11,7 @@ import re
 import statistics
 
 from .lint import sentences
+from .threes import rates as three_rates
 
 WORD = re.compile(r"\b[\w'’-]+\b")
 CONTRACTION = re.compile(r"\b\w+['’](?:s|t|d|ll|re|ve|m)\b", re.I)
@@ -58,6 +59,7 @@ def measure(text: str) -> dict[str, float]:
         "short_sentence_share": sum(n <= 6 for n in lens) / len(lens),
         "long_sentence_share": sum(n >= 30 for n in lens) / len(lens),
         "paragraph_mean": statistics.mean(plens),
+        **three_rates(text),
     }
 
 
@@ -75,12 +77,16 @@ ADVICE = {
     "sentence_sd": ("Rhythm is too even. Push both gears: stacks of short declaratives, and long comma-chained participial sentences of 30+ words.", "Rhythm is erratic; settle some mid-length lines."),
     "short_sentence_share": ("More short beats (6 words or fewer).", "Too many short beats; join some."),
     "long_sentence_share": ("Add long comma-chained sentences (30+ words) in action, sex, or emotional surges.", "Fewer runaway sentences."),
+    "threes_per_1k": ("", "Too many groups of three. Break most into pairs, fours, or lopsided groups (two short items and a long trailing one); let some lists trail off. Keep only the threes that earn it."),
+    "polysyndeton3_per_1k": ("", "Too many 'X and Y and Z' chains. Keep one for a real surge; recast the rest."),
+    "triple_beats_per_1k": ("", "Too many three-short-sentence drumbeats. Fold one of the three into its neighbour, or let the beat run to two or four."),
+    "stair_paragraphs_per_1k": ("", "Too many runs of exactly three one-line paragraphs. Merge one into the paragraph next to it."),
     "paragraph_mean": ("Paragraphs are too short; let some breathe.", "Paragraphs are too long; break them. The short paragraph is the unit of rhythm."),
 }
 
 
 # Rhythm stats are tight identity markers; punctuation counts swing more chapter to chapter.
-SLACK = {"sentence_sd": 0.22, "sentence_mean": 0.25, "short_sentence_share": 0.2, "paragraph_mean": 0.35}
+SLACK = {"threes_per_1k": 0.15, "polysyndeton3_per_1k": 0.5, "triple_beats_per_1k": 0.25, "stair_paragraphs_per_1k": 0.6, "sentence_sd": 0.22, "sentence_mean": 0.25, "short_sentence_share": 0.2, "paragraph_mean": 0.35}
 
 
 def derive_targets(sample_text: str, slack: float = 0.45) -> dict[str, list[float]]:

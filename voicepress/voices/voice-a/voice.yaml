@@ -10,7 +10,7 @@ effort: high
 forbidden_strings: ["—", "–"]
 
 # Generic AI-ism checks that misfire on this author. They use fragment stacks and one-line paragraphs on purpose.
-disabled_checks: [fragments, one_line_paragraphs, em]
+disabled_checks: [fragments, one_line_paragraphs, em, triads]   # threes are checked by the fingerprint instead
 
 # Your own phrases that the generic list would flag. Phrases found in samples/ are allowed automatically too.
 allowed_phrases: []
@@ -25,7 +25,6 @@ banned_phrases:
 max_same_opener: 4
 
 thresholds:
-  triads_per_1k: 9   # your pages run 6.4
   similes_per_1k: 3
 
 targets: {}

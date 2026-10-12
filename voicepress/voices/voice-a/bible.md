@@ -155,7 +155,51 @@ in intimate scenes, plainer vocabulary, longer paragraphs.
 
 ---
 
-## 6. Never
+## 6. Loose, not metered
+
+Machine prose falls into a metronome: groups of three, a short beat after every long sentence,
+every paragraph landing on a button. The author's pages are lumpier than that. Write lumpy.
+
+**Break the rule of three.** Measured on the author's pages: about 15 groupings of three per
+1,000 words, all kinds combined, and only ~0.8 "X and Y and Z" chains. A draft that stacks threes reads as written by a machine.
+- Default to **pairs** (`hatchets and boning knives`) or **fours and more** (`The horror, the guilt, the terror, the self-loathing.`).
+- Make lists **lopsided**: two short items and a long trailing one, or one item that runs on so long the list forgets it was a list.
+- Let some lists **trail off** with an ellipsis, or break off with ` -`, instead of closing neatly.
+- Three short sentences in a row is a drumbeat. Use it at most once per scene, and only where the scene peaks. Otherwise run to two, or to four and more.
+- Never three one-line paragraphs in a row as a staircase. Merge one into its neighbour.
+- A word repeated three times ("ringing, ringing, ringing") gets one use per book, not one per chapter.
+
+**Let some sentences be plain.** Not every line is a beat. Some just carry information and stop:
+`The salt-wives' stalls ran down to the tideline. Hugh walked the long way round.`
+
+**Let paragraphs end flat.** Not every paragraph lands on a quip, a reveal or a punchy fragment.
+Some stop mid-thought, or on an ordinary detail.
+
+**Short beats must carry a fact.** The author's one-line paragraphs say something new (`Alas.`,
+`But they didn't have a chance.`, `There. / It was done.`). Stock drama like `She went down.`,
+`They didn't care.`, `He looked up.`, `Bartoss went still.` or `Too much. Too soon.` adds nothing.
+Cut it, or make it carry a concrete fact.
+
+**Asides and wandering.** Let the POV character's mind go somewhere irrelevant for a line: a petty
+thought, a smell that reminds him of something stupid, a grudge. Real attention is untidy.
+
+---
+
+## 7. Story shape
+
+How the plot is built gives machine fiction away as much as the prose does. Check every chapter
+against these:
+- **Escalate.** Every beat turns the situation or raises the price. Never two beats in a row at the same pitch.
+- **Never state the theme.** No narration or speech explaining what a scene meant. The author lets Elena say it, then Hugh fights it.
+- **Run two tracks.** Something else is always pressing under the main action: a debt, a secret, the dead, a lover's grudge, a wound that's getting worse.
+- **Make choices cost.** At least once a chapter, Hugh chooses something he can't take back, or that's not clean.
+- **Bend time.** Memory intrusions, flashes, an aftermath before its cause. The author uses `A flash of memory:` and the dead's voices to do this.
+- **Give everyone wants.** Every named character is pursuing something, including enemies, and they act on it whether or not Hugh is in the room.
+- **Kill the predictable beat.** Find the scene's most expected turn and swap it for one the reader won't see coming but will believe.
+
+---
+
+## 8. Never
 
 Machine tells. Any of these is a defect.
 - Em dash or en dash, anywhere.
@@ -172,3 +216,7 @@ Machine tells. Any of these is a defect.
 - A closing reflection or moral. Ending a chapter on a question.
 - Said-bookisms. Adverb-laden tags (`said softly`, `said angrily`), except rarely.
 - Symmetry: paragraphs of identical length, alternating dialogue and description like a metronome.
+- Stock fiction moves: `the world slowed`, `time stood still`, `let the silence answer`, `smiled. It was not a pleasant smile`,
+  `her voice, sharp with…`, `a voice like…`, `and somewhere behind him…`, `sounding almost apologetic`,
+  `with the patient interest of…`, `quiet certainty/menace`, `or rather`, `every last one`.
+- Stacks of threes (section 6).

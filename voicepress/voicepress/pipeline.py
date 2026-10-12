@@ -22,6 +22,7 @@ import yaml
 
 from .fingerprint import compare, derive_targets
 from .lint import PHRASES, lint, paragraphs
+from .threes import find_threes
 from .llm import LLM, extract_prose
 
 # --------------------------------------------------------------------------- voice
@@ -80,8 +81,10 @@ explicitly as the author does. All characters in sexual content are adults.
 
 Before you write, plan the chapter's beats privately. While drafting, keep the bible's mechanics in
 your hands, not your head: drop inherited subjects, shift hard between the clipped and surge gears,
-use ' -' for cut-offs and '...' for trailing off, and never use an em dash. Before you finish, reread
-your draft against the bible's "Never" list and fix anything on it.
+use ' -' for cut-offs and '...' for trailing off, and never use an em dash. Break the rule of three:
+pairs, fours and lopsided lists, never stacked threes. Let some sentences be plain and some paragraphs
+end flat. Build the plot per the bible's "Story shape". Before you finish, reread your draft against
+sections 6 to 8 of the bible and fix anything that fails them.
 
 Return only the chapter inside <prose></prose>. Start with the chapter heading. No notes and no
 commentary."""
@@ -91,6 +94,26 @@ leave everything else exactly as written: plot, events, dialogue meaning, names,
 violence and profanity stay as they are. Every fix must land in the author's voice per the style bible.
 Do not add beats, summaries or morals. Do not soften. Return the full passage inside <prose></prose>
 and nothing else."""
+
+STORY_EDITOR = """You are a developmental editor. You read a draft chapter for story shape, not sentences.
+Machine-written fiction gives itself away in its plot shape: themes spelled out, tidy single-track
+plots, flat escalation, linear time, protagonists whose choices cost nothing, and antagonists who exist
+only to be beaten. Check the draft for each of these:
+
+1. ESCALATION: does each scene beat raise the stakes or turn the situation? Name any beat that only repeats the previous one's tension.
+2. THEME: is any meaning, lesson or feeling stated outright, in narration or a speech, when the action already showed it? Quote it.
+3. TRACKS: is there a second pressure running under the main one (a relationship strain, a secret, a debt, a body problem)? If the chapter is single-track, propose one, drawn from the ledger.
+4. COST: does the protagonist make at least one choice that is morally grey or costs him something he can't get back? If not, propose where.
+5. TIME: is there texture beyond straight chronology, like a memory intrusion, a jump, or an aftermath shown before its cause? Propose one if it would earn its place.
+6. OTHERS' WANTS: does every named character want something of their own and act on it, rather than reacting to the protagonist?
+7. SURPRISE: name the most predictable beat and an alternative the reader won't see coming but will believe.
+
+Return 3 to 7 numbered revision notes, the most important first. Each note gives the exact passage
+and a concrete fix. Skip any check the draft already passes. Do not rewrite the chapter."""
+
+STORY_REVISE = """Apply the editor's notes to the chapter. Change what the notes require, keep everything else.
+Every new or changed line must be in the author's voice per the style bible. Return the full revised
+chapter inside <prose></prose>, starting with the chapter heading. No commentary."""
 
 LEDGER = """You maintain the story ledger for a novel in progress: a compact, factual reference the
 author's ghostwriter reads before every chapter. Update it with what the new chapter establishes or
@@ -129,7 +152,13 @@ def chunk(text: str, words: int) -> list[str]:
 def issues(text: str, voice: dict) -> tuple[str, list[str]]:
     """Flagged spans (for the prompt) and whole-text fingerprint deviations."""
     rep = lint(text, voice)
-    return (rep.for_prompt() if rep.findings or rep.flags else ""), compare(text, voice["_targets"])
+    flagged = rep.for_prompt() if rep.findings or rep.flags else ""
+    dev = compare(text, voice["_targets"])
+    if any(d.startswith(("threes", "polysyndeton3", "triple_beats", "stair_paragraphs")) for d in dev):
+        found = find_threes(text)
+        flagged += "\n\nGroups of three in this passage (break most of them; keep only the one or two that earn it):\n"
+        flagged += "\n".join(f"- [{t.kind}] “{t.text.strip()}”" for t in found)
+    return flagged.strip(), dev
 
 
 def tail(text: str, words: int) -> str:
@@ -200,6 +229,18 @@ class Engine:
         )
         text = extract_prose(self.llm.complete(voice_system(self.voice, WRITER), user))
         self._save("draft", text)
+        return text
+
+    def story_pass(self, text: str, ledger: str, brief: str) -> str:
+        """Developmental edit: critique the plot shape, then revise against the notes."""
+        notes = self.llm.complete(
+            [{"type": "text", "text": STORY_EDITOR}],
+            f"<story_ledger>\n{ledger or '(none)'}\n</story_ledger>\n\n<brief>\n{brief}\n</brief>\n\n<chapter>\n{text}\n</chapter>",
+        )
+        (self.out / f"{self.step + 1:02d}_story-notes.md").write_text(notes)
+        user = f"<editor_notes>\n{notes}\n</editor_notes>\n\n<chapter>\n{text}\n</chapter>"
+        text = extract_prose(self.llm.complete(voice_system(self.voice, STORY_REVISE), user))
+        self._save("story", text)
         return text
 
     def update_ledger(self, ledger: str, chapter: str, number: int) -> str:

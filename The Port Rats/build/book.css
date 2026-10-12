@@ -1,0 +1,87 @@
+/* THE PORT RATS — book stylesheet (EPUB + print share this) */
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: "Garamond", "EB Garamond", Georgia, serif;
+  line-height: 1.42;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+  -webkit-hyphens: auto; hyphens: auto;
+  widows: 2; orphans: 2;
+}
+img { max-width: 100%; }
+
+/* ---------- body text: justified, 1.2em indent, no space between paragraphs ---------- */
+p {
+  margin: 0;
+  text-indent: 1.2em;
+  text-align: justify;
+  -webkit-hyphens: auto; hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  widows: 2; orphans: 2;
+}
+p.flush, p.opener { text-indent: 0; }      /* first paragraph after a heading or a break sits flush left */
+
+/* ---------- chapter opener ---------- */
+.chap-head { margin: 3.2em 0 1.6em; text-align: center; page-break-inside: avoid; break-inside: avoid; page-break-after: avoid; break-after: avoid; }
+.chap-num {
+  font-family: "FellItalic", "Garamond", serif; font-size: 1.05em;
+  text-indent: 0; text-align: center; letter-spacing: 0.06em; color: #6b5641; margin: 0 0 0.35em;
+}
+h1.chap-title {
+  font-family: "FellSC", "Garamond", serif; font-weight: normal;
+  font-size: 2.1em; line-height: 1.1; letter-spacing: 0.05em; margin: 0 0 0.45em;
+  -webkit-hyphens: none; hyphens: none;
+}
+.chap-orn { margin: 0 auto; width: 62%; max-width: 15em; }
+.chap-orn img { width: 100%; height: auto; display: block; }
+
+/* raised initial (safe in every reader) + small-caps lead-in */
+.dropcap {
+  font-family: "FellSC", "Garamond", serif;
+  font-size: 2.7em; line-height: 0.8; color: #3a2a1c;
+  margin-right: 0.02em;
+}
+.hangq { font-size: 1.4em; line-height: 0.8; color: #3a2a1c; }
+.lead { font-variant: small-caps; letter-spacing: 0.06em; font-size: 1.04em; }
+.lead em { font-variant: small-caps; }
+
+/* ---------- scene break: the Mooring fleuron ---------- */
+.scene { text-align: center; margin: 1.1em auto 1.1em; height: auto; page-break-inside: avoid; break-inside: avoid; page-break-after: avoid; break-after: avoid; }
+.scene img { width: 7.5em; height: auto; }
+
+/* ---------- end of book ---------- */
+.tailpiece { text-align: center; margin: 2.4em auto 0.6em; }
+.tailpiece img { width: 5em; }
+p.endnote { text-align: center; text-indent: 0; font-family: "FellItalic", serif; color: #6b5641; font-size: 0.95em; }
+
+/* ---------- title page ---------- */
+.titlepage { text-align: center; padding-top: 12%; }
+.tp-emblem img { width: 82%; max-width: 20em; }
+.tp-the { font-family: "FellSC", serif; text-align: center; text-indent: 0; letter-spacing: 0.6em; font-size: 1.3em; color: #6b5641; margin: 1.6em 0 0 0.6em; }
+h1.tp-title { font-family: "FellSC", serif; font-weight: normal; font-size: 3.4em; line-height: 1; letter-spacing: 0.08em; margin: 0.1em 0 0.25em; }
+.tp-sub { font-family: "FellItalic", serif; text-align: center; text-indent: 0; font-size: 1.15em; color: #6b5641; }
+.tp-leaf { margin: 1.4em auto; } .tp-leaf img { width: 4.5em; }
+.tp-author { font-family: "FellSC", serif; text-align: center; text-indent: 0; letter-spacing: 0.35em; font-size: 1.45em; margin-top: 3em; }
+
+/* ---------- copyright ---------- */
+.copyright { padding-top: 40%; font-size: 0.82em; }
+.copyright p { text-indent: 0; text-align: left; margin: 0 0 0.9em; -webkit-hyphens: none; hyphens: none; }
+.cp-orn { margin-top: 1.5em; } .cp-orn img { width: 6em; }
+
+/* ---------- contents ---------- */
+.contents { padding-top: 8%; }
+h2.toc-head { font-family: "FellSC", serif; font-weight: normal; text-align: center; font-size: 1.8em; letter-spacing: 0.12em; margin: 0 0 0.3em; }
+.toc-orn { text-align: center; margin-bottom: 1.6em; } .toc-orn img { width: 3.6em; }
+ol.toc { list-style: none; padding: 0; margin: 0 auto; max-width: 20em; }
+ol.toc li { margin: 0 0 0.55em; text-align: left; }
+ol.toc a { text-decoration: none; color: inherit; }
+.toc-n { font-family: "FellItalic", serif; color: #6b5641; display: inline-block; min-width: 4.2em; }
+.toc-t { font-family: "FellSC", serif; letter-spacing: 0.04em; }
+
+/* ---------- cover ---------- */
+.coverbody { margin: 0; padding: 0; text-align: center; }
+.cover img { height: 100%; max-height: 100vh; width: auto; }
+
+em { font-style: italic; }
+strong { font-weight: 600; }

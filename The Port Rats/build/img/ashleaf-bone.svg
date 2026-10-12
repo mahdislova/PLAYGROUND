@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 52" width="120" height="52">
+<g transform="translate(60,28) rotate(0) scale(0.85)">
+<path d="M 0 22 L 0 -12" stroke="#e9dfcc" stroke-width="1.1" stroke-linecap="round"/>
+<path d="M 0 0 C 4 -3.2, 12 -3.4, 17 0 C 12 3.4, 4 3.2, 0 0 Z" transform="translate(0,12) rotate(-22) scale(1.0)" fill="#e9dfcc"/>
+<path d="M 0 0 C 4 -3.2, 12 -3.4, 17 0 C 12 3.4, 4 3.2, 0 0 Z" transform="translate(0,12) rotate(-158) scale(1.0)" fill="#e9dfcc"/>
+<path d="M 0 0 C 4 -3.2, 12 -3.4, 17 0 C 12 3.4, 4 3.2, 0 0 Z" transform="translate(0,2) rotate(-22) scale(0.94)" fill="#e9dfcc"/>
+<path d="M 0 0 C 4 -3.2, 12 -3.4, 17 0 C 12 3.4, 4 3.2, 0 0 Z" transform="translate(0,2) rotate(-158) scale(0.94)" fill="#e9dfcc"/>
+<path d="M 0 0 C 4 -3.2, 12 -3.4, 17 0 C 12 3.4, 4 3.2, 0 0 Z" transform="translate(0,-8) rotate(-22) scale(0.88)" fill="#e9dfcc"/>
+<path d="M 0 0 C 4 -3.2, 12 -3.4, 17 0 C 12 3.4, 4 3.2, 0 0 Z" transform="translate(0,-8) rotate(-158) scale(0.88)" fill="#e9dfcc"/>
+<path d="M 0 0 C 4 -3.2, 12 -3.4, 17 0 C 12 3.4, 4 3.2, 0 0 Z" transform="translate(0,-11) rotate(-90) scale(0.95)" fill="#e9dfcc"/>
+</g><path d="M 4 26 L 40 26" stroke="#e9dfcc" stroke-width="0.9"/><path d="M 80 26 L 116 26" stroke="#e9dfcc" stroke-width="0.9"/><path d="M 40 26 l 4 -2.5 l 0 5 z" fill="#e9dfcc"/><path d="M 80 26 l -4 -2.5 l 0 5 z" fill="#e9dfcc"/>
+</svg>

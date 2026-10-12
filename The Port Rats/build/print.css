@@ -1,0 +1,44 @@
+/* 6 x 9 in trade paperback. Mirror margins: wider gutter on the spine side. */
+@page {
+  size: 6in 9in;
+  margin: 0.72in 0.62in 0.8in 0.62in;
+  @bottom-center { content: counter(page); font-family: "Garamond", serif; font-size: 9.5pt; color: #3a2a1c; }
+}
+@page :right { margin-left: 0.86in; margin-right: 0.6in; }
+@page :left  { margin-left: 0.6in;  margin-right: 0.86in; }
+@page front { @bottom-center { content: none; } }
+
+body.print { font-size: 11pt; line-height: 14.6pt; color: #1d1a17; }
+.front { page: front; }
+.titlepage, .copyright, .contents { break-after: page; height: 7.3in; box-sizing: border-box; }
+.contents { break-after: right; }
+.copyright { padding-top: 4.1in; }
+
+/* every chapter opens on a fresh page, sunk about a third down */
+section.chapter { break-before: page; }
+.chap-head { margin: 1.25in 0 0.32in; }
+h1.chap-title { font-size: 22pt; }
+.chap-orn { width: 2.35in; }
+
+/* true three-line drop cap in print */
+p.opener .dropcap {
+  float: left; font-size: 47pt; line-height: 38pt; height: 40pt;
+  padding: 3.5pt 3pt 0 0; margin: 0; color: #3a2a1c;
+}
+p.opener .hangq { float: left; font-size: 20pt; line-height: 20pt; margin: 1pt 1pt 0 -7pt; }
+
+/* scene break: ornament keeps with the text below it, never stranded at page foot */
+.scene { margin: 9pt auto 8pt; }
+.scene img { width: 1.05in; }
+
+/* typographic polish: shorter last lines are pulled back, ragged runts avoided */
+p { text-wrap: pretty; }
+.tp-emblem img { width: 3.6in; }
+
+/* hand "squeezing": a hair of tracking to save or add a line and kill a widow */
+p.tight { letter-spacing: -0.012em; word-spacing: -0.06em; }
+p.loose { letter-spacing: 0.014em; word-spacing: 0.06em; }
+p.tight2 { letter-spacing: -0.02em; word-spacing: -0.1em; }
+p.loose2 { letter-spacing: 0.025em; word-spacing: 0.1em; }
+/* short opening paragraphs: next paragraph clears the three-line initial */
+p.opener + p, p.opener + div { clear: left; }

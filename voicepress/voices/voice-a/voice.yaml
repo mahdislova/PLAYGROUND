@@ -1,0 +1,40 @@
+# Voice A. The bible is bible.md; examples live in samples/.
+# Fingerprint targets are measured from samples/ automatically each run.
+# Put a key under `targets:` to override a measured range, e.g. em_dash_per_1k: [0, 0]
+
+name: voice-a
+model: claude-opus-5-5
+effort: high
+
+# Never allowed, flagged on sight.
+forbidden_strings: ["—", "–"]
+
+# Generic AI-ism checks that misfire on this author. They use fragment stacks and one-line paragraphs on purpose.
+disabled_checks: [fragments, one_line_paragraphs, em, triads]   # threes are checked by the fingerprint instead
+
+# Your own phrases that the generic list would flag. Phrases found in samples/ are allowed automatically too.
+allowed_phrases: []
+
+# Your personal pet hates on top of the built-in list.
+banned_phrases:
+  - okay
+  - on the same page
+  - process this
+
+# Anaphora is part of this voice ("And yet. / And yet. / And like a dam...").
+max_same_opener: 4
+
+thresholds:
+  similes_per_1k: 3
+
+targets: {}
+
+# How far the fingerprint leans toward the inspired-by author (Voice B), 0 = pure you, 1 = pure B.
+# Drop more B pages in inspired/ (kept local, never committed or sent to the model) and the numbers update.
+# Locked stats are your identity markers and never move.
+inspired:
+  blend: 0.35
+  locked: [em_dash_per_1k, spaced_hyphen_per_1k, ellipsis_per_1k, subjectless_per_1k]
+
+chapter:
+  words: 4500

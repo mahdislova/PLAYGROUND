@@ -1,0 +1,174 @@
+# Style Bible — Voice A
+
+Distilled from the six OWN samples (≈5,000 words) and the analysis of the full two-novel corpus,
+with selected techniques imported from Voice B. The samples are ground truth. Where this bible and
+the samples disagree, the samples win.
+
+---
+
+## 1. The voice in one paragraph
+
+Close third person, locked to one POV character per scene, told from inside his body. Heroic-erotic
+fantasy that is unembarrassed about every one of those words. The prose has two speeds: a clipped
+drumbeat of short declaratives for talk, thought and pressure, and long, breathless comma-chains
+for violence, sex and emotional floods. The subject of a sentence is often left off. Interior thought
+arrives unmarked, in the character's own idiom. The world, its gods, its titles and its species are
+assumed rather than explained, and its gods are sworn by, crudely. Under the swagger runs guilt,
+tenderness and a dry sense of humour that punctures its own heroics with a three-word paragraph.
+
+---
+
+## 2. Mechanics. These are hard rules.
+
+**Punctuation dialect**
+- **Never an em dash (—) or en dash (–).** Not once. This is the fastest way to break the voice.
+- **Spaced hyphen ` - ` for a hard cut-off**: speech interrupted, thought slammed shut, a memory
+  that's refused. It ends the line: `"That's not -" began Hugh, but she cut him off.` /
+  `including the captain herself -` / `the strength flowing from him, his bones collapsing -`.
+  Also used mid-sentence for a sudden swerve: `a bottle of fortified wine here at the estate - oh. Right.`
+- **Ellipsis `…` for trailing off and for revising a sentence while saying it.** The fingerprint is
+  ellipsis → short filler → restart: `"And realized... realized that..."` / `"I'm… relieved."` /
+  `"I… when I have need, I can… I can summon…"`
+- Semicolons are rare (about one per 2,000 words). Use a period.
+- Roughly one cut-off and one ellipsis per 500–1,000 words. Don't sprinkle them; place them where a
+  voice actually breaks.
+
+**The subjectless sentence: the voice's core habit**
+When the subject carries over from the previous sentence, drop it. Do this several times per
+thousand words, in every kind of scene.
+- `Hugh bit his lower lip as he considered. Focused on himself.`
+- `Zarja turned to Hugh and placed both hands on his chest. Looked up at him with her wide, honey-colored eyes.`
+- `Stepped inside, picked up his scabbard, belted it to his waist.`
+- `Turned to stare at where the Mink stood, paralyzed.`
+- `Gripped the edge of the counter with both hands, and head bowed, forced them out.`
+
+**Two gears, no middle**
+- *Clipped gear* (dialogue, interior, dread): stacks of 2–9-word sentences. Uniformly short, like a drumbeat.
+  `Hugh lost count. Hours bled into each other, became days, became weeks. The demarcations between wakings broke down. Collapsed into each other.`
+- *Surge gear* (combat, sex, emotional release): 30–60-word sentences built from comma-chained
+  participial phrases, piling physical detail until the breath runs out.
+  `Hugh dropped into a crouch and threw himself into a backward roll, hilt held tight to his chest, blade extending out to the side like the speared spoke of a chariot wheel.`
+- Shift gears abruptly. A long surge followed by a 2–4-word paragraph is the voice's signature
+  punctuation of action: `Or try.` / `But not good enough.` / `A magnificent blow.`
+- Avoid a steady run of medium 12–18-word sentences. That even middle register is the single
+  most machine-sounding thing a draft can do in this voice.
+
+**Paragraphs**
+- Short. Averaging about 28 words. One-line and one-word paragraphs are load-bearing beats:
+  `Silence.` / `There.` / `It was done.` / `Klang!`
+- Dialogue-dense: a bit over half of all paragraphs contain speech.
+
+**Dialogue**
+- Tags: `said`, `asked`, and plain verbs of sound (`growled`, `hissed`, `rasped`, `laughed`, `demanded`)
+  used sparingly. Tags often come *before* the name: `said Zarja`, `asked Hugh`, `allowed Morwyn`.
+- More often no tag at all, just an action beat or the speaker's name as a fragment:
+  `"Hugh?" Elena. Voice soft. Cajoling.`
+- Characters banter, deflect, flirt and needle. They don't make speeches about their feelings unless
+  the scene has earned the speech, and then the listener resists it.
+- Never "exclaimed", "retorted", "opined", "intoned".
+
+**Register**
+- Contractions in moderation (≈28 per 1,000 words). Dialogue is idiomatic, and narration slightly more formal.
+- A light archaic tilt in narration and older characters' speech: `Almost he could hear…` /
+  `He'd no idea` / `near ached` / `amongst` / `therein` / `I tell this to you true` / `yet raised`.
+- -ly adverbs lean (≈9 per 1,000). Similes rare (≈1.5 per 1,000) and physical, never decorative.
+
+---
+
+## 3. Signature moves
+
+**Free indirect thought, unmarked.** No italics, no "he thought". The narration simply becomes his mind,
+including questions he asks himself:
+`She was drunk, he realized. How was that possible? She'd only had four or five ales…`
+`Why not tell them? … Why not? Shame? / Yes. Shame. Soul-eating guilt. / Horror.`
+
+**Repetition as pressure.** Repeat the frame instead of varying the words.
+`Again. And again. And again.` / `And yet. / And yet.` (as two separate paragraphs) /
+`He was them and they were him and none could stand before his blade.` /
+`Making her pant. Making her sweat.`
+
+**Lists that escalate.** Nouns stacked in fours, getting darker: `The horror, the guilt, the terror, the self-loathing.`
+Prefer four or two over a tidy three.
+
+**Voices of the dead intrude** as plain narration with a speech-act tag, no quotes or italics:
+`Enough of this shit, came Black Evec's growl.` / `Fox fucker, he heard the snarl. Traitor.`
+
+**Oaths by the world's gods and things, crude and specific**: `By Fortuna's perfectly globular tits` /
+`By the Oak and Stars` / `The Fate Maker take you`. Invent new ones in the same pattern for new cultures.
+
+**Proper nouns dropped in without apology.** `lisica`, `disciplus`, `Exemplar of the Hanged God`,
+`Thavma`, `the Goat's Wood`, `the Mandroga falls`. The reader catches up. Never stop to define.
+
+**The deflating beat.** After heroics or heat, a dry short line that undercuts it:
+`"Fuck me," groaned Hugh. / "We're working on it," laughed Zarja.` / `Or try.`
+
+**Onomatopoeia as its own paragraph**, rarely and at impact: `Klang!`
+
+**Flashbacks as intrusions**, a colon then a fragment that cuts off:
+`A flash of memory: Dragoslav roaring in defiance as he staggered backward, … -`
+
+**Scene breaks** with `* * *`. Scenes end on a turn or an action, or on a short defiant beat
+(`Hugh raised his face, jaw set, and stared defiantly at the others.`). They never end on a lesson or a question.
+
+---
+
+## 4. Scene types
+
+**Combat.** Physics and anatomy. Momentum, footwork, the specific bone that breaks
+(`The elbow snapped, bending inward as bone shattered and tendon tore.`). Gore is itemised and
+unflinching. Acrobatic and fast. Surge sentences alternate with one-line beats. *From Voice B:* in the
+thick of a melee, tighten individual clauses: one action, one consequence, next. Then let the
+voice's long surge return for the turning point.
+
+**Sex.** The same voice with the vocabulary opened up; do not change register. Direct anatomical
+words (cock, pussy, ass, balls, nipple), no euphemism and no purple. Long surge sentences for the act,
+clipped beats for thought (`It was heaven. Sweet ambrosia.`). Interior commentary runs *inside* the act
+(`I'm fucking a lisica, he told himself, half in wonder.`). Partners talk: teasing, laughing, checking
+in in character (`tell us if you don't like this`). Ensemble scenes are choreographed clearly, with
+who is where always trackable. Often ends in tenderness that does character work. All participants are adults.
+
+**Quiet interior.** Clipped gear dominates. Questions to himself, one-word paragraphs, memory
+intrusions with ` -` cut-offs. Another character pushes. He resists, then breaks, and the release
+is one long sentence (`And like a dam bursting, the tension, the anger, the desire to break free all flowed out of him…`).
+
+**Character introductions.** Not a head-to-toe inventory. Place them in their space, mid-gesture,
+with one or two telling objects and their reputation in the POV character's mind:
+`Jacinia, captain of the Lost Reavers, leaning back, one finger across her upper lip, regarding him with that fierce, terrifying gaze of hers.`
+Then the POV character's history with them, in fragments.
+
+---
+
+## 5. Imported from Voice B (technique only)
+
+Use these three, written in Voice A's punctuation and rhythm:
+
+1. **Body-first anchor for a new location.** Open on one character, one body part, one unpleasant
+   physical fact, then widen. *Example (original, not from either corpus):*
+   `Salt crusted the cuts on his knuckles. Hugh flexed his hand and looked up at the harbor wall, black with weed and older than the city it guarded.`
+2. **Rule → reason → exception for worldbuilding.** When the reader needs to know how a culture works,
+   give it as a law of the streets, why it holds, and who breaks it. *Example (original):*
+   `In Ustrava you never paid a ferryman before the far bank. Pay first and he'd discover a leak midstream, and a new price. Only the priests of the Hanged God paid up front. No ferryman alive would drown one of those.`
+3. **Economy in the melee.** Short clause per blow when there are many enemies. Save the surge sentence for the decisive stroke.
+
+Do **not** import from Voice B: em dashes, essay-style explanation as default interiority, restraint
+in intimate scenes, plainer vocabulary, longer paragraphs.
+
+---
+
+## 6. Never
+
+Machine tells. Any of these is a defect.
+- Em dash or en dash, anywhere.
+- `It wasn't X. It was Y.` / `Not X. Not Y. Just Z.` / `not because…, but because…`
+- `the kind of [noun] that…`, `something shifted`, `a testament to`, `the weight of the world`,
+  `let out a breath he didn't know he was holding`, `a beat`, `the silence stretched`, `hung in the air`,
+  `air thick with`, `ozone`, `copper tang`, `ghost of a smile`, `barely above a whisper`, `delve`, `tapestry`.
+- Sensory lists of three as a paragraph opener (`The smell of X, Y, and Z filled the room.`).
+- Every paragraph ending on a quip or punchline. Some paragraphs should just stop.
+- Characters narrating their own feelings in therapy language (`I need to process this`, `boundaries`, `I hear you`, `valid`).
+- Modern idioms that break the world: `okay`, `deal with it`, `on the same page`.
+- Explaining a world noun the first time it appears.
+- Summarising, in narration, what a line of dialogue just showed.
+- A closing reflection or moral. Ending a chapter on a question.
+- Said-bookisms. Adverb-laden tags (`said softly`, `said angrily`), except rarely.
+- Symmetry: paragraphs of identical length, alternating dialogue and description like a metronome.

@@ -30,7 +30,7 @@ PHRASES: list[tuple[str, str]] = [
     ("diction", r"\b(coppery|copper) (tang|taste)\b"),
     ("diction", r"\bmingl(ed|ing) with\b"),
     # Stock body language / interiority
-    ("cliche", r"\bbreath (he|she|they|I) didn'?t know\b"),
+    ("cliche", r"\bbreath (he|she|they|I) didn['’]?t know\b"),
     ("cliche", r"\b(jaw|jaws) (tightened|clenched|set)\b"),
     ("cliche", r"\beyes (darkened|softened|narrowed)\b"),
     ("cliche", r"\bghost of a (smile|grin)\b"),
@@ -45,14 +45,14 @@ PHRASES: list[tuple[str, str]] = [
     ("cliche", r"\bfor a long moment\b"),
     ("cliche", r"\ba beat\b"),
     ("cliche", r"\bin that moment\b"),
-    ("cliche", r"\bcouldn'?t help but\b"),
+    ("cliche", r"\bcouldn['’]?t help but\b"),
     ("cliche", r"\b(smirk|smirked|smirking)\b"),
     ("cliche", r"\bpadded (across|over|into|to)\b"),
     ("cliche", r"\b(a )?flicker of\b"),
     ("cliche", r"\bwhisper of\b"),
     # Construction tells
     ("construction", r"\bthe kind of \w+ (that|who|where)\b"),
-    ("construction", r"\b(it|this|that) (wasn'?t|isn'?t|was not|is not) [^.;:!?]{1,40}[.;,—-]+\s*(it|this|that) (was|is)\b"),
+    ("construction", r"\b(it|this|that) (wasn['’]?t|isn['’]?t|was not|is not) [^.;:!?]{1,40}[.;,—-]+\s*(it|this|that) (was|is)\b"),
     ("construction", r"\bnot because\b[^.]{1,60}\bbut because\b"),
     ("construction", r"\bNot (a|an|the) [^.!?\n]{1,30}\. (A|An|The|Just) "),
     ("construction", r"\bmaybe,? just maybe\b"),
@@ -146,7 +146,10 @@ def lint(text: str, style: dict | None = None) -> Report:
         "max_one_line_paragraph_ratio": 0.35, **(style.get("thresholds") or {}),
     }
     allowed = [a.lower() for a in style.get("allowed_phrases") or []]
-    patterns = PHRASES + [("banned", re.escape(p)) for p in style.get("banned_phrases") or []]
+    disabled = set(style.get("disabled_checks") or [])
+    patterns = [(c, p) for c, p in PHRASES if c not in disabled]
+    patterns += [("banned", rf"\b{re.escape(p)}\b") for p in style.get("banned_phrases") or []]
+    patterns += [("forbidden", re.escape(p)) for p in style.get("forbidden_strings") or []]
 
     words = len(re.findall(r"\b[\w'’-]+\b", text))
     k = max(words, 1) / 1000
@@ -174,14 +177,14 @@ def lint(text: str, style: dict | None = None) -> Report:
     for i in range(1, len(openers)):
         if openers[i] and openers[i] == openers[i - 1]:
             run += 1
-            if run == 3:
+            if run == int(style.get("max_same_opener", 3)):
                 idx = text.find(paras[i])
                 rep.findings.append(Finding("rhythm", paras[i][:60], _line_of(text, idx),
-                                            f"3+ paragraphs in a row open with “{openers[i][0]}”"))
+                                            f"{run}+ paragraphs in a row open with “{openers[i][0]}”"))
         else:
             run = 1
 
-    for m in FRAGMENT_RUN.finditer(text):
+    for m in FRAGMENT_RUN.finditer(text) if "fragments" not in disabled else ():
         rep.findings.append(Finding("fragments", m.group(0).strip(), _line_of(text, m.start()), "stacked fragments"))
 
     sents = sentences(text)
@@ -201,11 +204,13 @@ def lint(text: str, style: dict | None = None) -> Report:
     }
     s = rep.stats
     for key in ("em_dashes_per_1k", "similes_per_1k", "triads_per_1k", "fragment_runs_per_1k"):
+        if key.split("_")[0] in disabled or key.replace("_per_1k", "") in disabled:
+            continue
         if s[key] > th[key]:
             rep.flags.append(f"{key} = {s[key]:.1f} (limit {th[key]})")
     if s["sentence_length_cv"] < th["min_sentence_length_cv"]:
         rep.flags.append(f"sentence lengths too uniform: cv {cv:.2f} (want ≥ {th['min_sentence_length_cv']})")
-    if one_liners > th["max_one_line_paragraph_ratio"]:
+    if one_liners > th["max_one_line_paragraph_ratio"] and "one_line_paragraphs" not in disabled:
         rep.flags.append(f"one-line paragraphs {one_liners:.0%} (limit {th['max_one_line_paragraph_ratio']:.0%})")
 
     rep.findings.sort(key=lambda f: f.line)

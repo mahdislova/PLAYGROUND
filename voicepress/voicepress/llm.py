@@ -11,7 +11,7 @@ class LLM:
         self.model = model
         self.effort = effort
 
-    def complete(self, system: str, user: str) -> str:
+    def complete(self, system: str | list[dict], user: str) -> str:
         with self.client.beta.messages.stream(
             model=self.model,
             max_tokens=64000,

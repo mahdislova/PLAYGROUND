@@ -2,7 +2,7 @@
 
 The Kettle stank of boiled cabbage and juniper, and under that of the harbor, which got into everything in the Lowers sooner or later. Jonah ducked beneath a sign that had been a copper kettle once, before thirty winters of salt air turned it into a green lump that was more growth than pot by now. Shouldered the door open.
 
-Light the color of weak tea leaked through windows nobody had washed since the Reclamation. A dozen drinkers hunched over a dozen cups, and not one of them looked up. In the Lowers you never looked up when a gin house door opened. Look up and you'd seen who came in, and a man who'd seen who came in could be asked about it later, by the Watch or by someone worse. The only ones who looked were the ones paid to. There were two of those by the bar, one cleaning his nails with a gutting knife, and they watched Jonah all the way to the back.
+Light the color of weak tea leaked through windows nobody had washed since the Reclamation. Somebody had once spent real money on this place, Jonah noted: the bar was a single slab of black oak, and the brass rail along it had been good brass before the salt got to it. Then they'd stopped spending, all at once, on everything except the two men by the door. A house that had been sold, then. Probably to a man who didn't drink. A dozen drinkers hunched over a dozen cups, and not one of them looked up. In the Lowers you never looked up when a gin house door opened. Look up and you'd seen who came in, and a man who'd seen who came in could be asked about it later, by the Watch or by someone worse. The only ones who looked were the ones paid to. There were two of those by the bar, one cleaning his nails with a gutting knife, and they watched Jonah all the way to the back.
 
 Mary had the corner table. Of course she did. Back to the wall, both doors and the bar in plain view, the sort of table she'd have paid the landlord to keep empty.
 
@@ -10,7 +10,7 @@ She wasn't alone.
 
 Marks the Big filled the booth across from her the way a dropped anchor fills a rowboat. Six and a half feet of man going comfortably soft over a frame that had been built for breaking things, head shaved to stubble so the scars showed: a knife-line above one ear, a pink rumple of old burn at the back of the skull, and on the right temple a neat crescent that could only be human teeth. Jonah decided not to wonder. Gold rings, two to a hand, heavy enough to count as weapons in any Communion court. An ebony walking stick leaned against the booth with a silver head that had been weighted by somebody who knew exactly what they were about.
 
-Markus Delaine, technically. Nobody called him that twice. He ran the south docks. Smuggling, mostly, with fencing on the side, and a loan book with interest rates Mary had once described as theological. He wasn't the biggest fish in Veranesse, and nowhere near the most dangerous. Just the one you could find.
+Markus Delaine, technically, though nobody called him that twice. He ran the south docks. Smuggling, mostly, with fencing on the side, and a loan book with interest rates Mary had once described as theological. He wasn't the biggest fish in Veranesse, and nowhere near the most dangerous. Just the one you could find.
 
 Mary had brought Jonah to him on day four. Marks had looked him over the way a man looks over a new hammer, weighing it, and must have liked the heft, because the cargo intercept had been a Marks job. The intercept, and then the storm. And then the tent.
 
@@ -48,6 +48,12 @@ Marks grunted, which in a smaller man might have been a laugh, and looked from o
 
 Jonah looked. Three storeys, several wings, a rail platform down the east side. In the basement, a square marked in heavy charcoal, with two doors and a guard station drawn in front of it.
 
+Two doors. A man could get through one door with a key and a good story. Through the second, he'd need the key and the story and a reason the guard at the first hadn't already shouted. Unless the guard at the first was bought. Unless the guard was the story.
+
+He glanced up and found Mary watching him over the map, for half a heartbeat, before she looked away.
+
+So she'd seen it too.
+
 "Payroll for the whole northern network comes through once a month," Marks went on. "Gold. Not paper, not promissory notes. Coin. Forty thousand marks, give or take. It sits in that vault seventy-two hours before it goes out to the regional stations."
 
 "You want to rob a government vault," said Jonah.
@@ -56,7 +62,7 @@ Jonah looked. Three storeys, several wings, a rail platform down the east side. 
 
 "When?"
 
-"The seventeenth. Three weeks." He glanced at Mary. Without looking up, she held up four fingers. "Your cut's four thousand."
+"The seventeenth, three weeks from now." He glanced at Mary. Without looking up, she held up four fingers. "Your cut's four thousand."
 
 Four thousand marks.
 
@@ -78,13 +84,13 @@ Her charcoal was tracing a thin line from the ground floor down into the basemen
 
 "Mary."
 
-"The east wing vent's too narrow for you," she said, still not looking at him. Her voice was flat and perfectly pleasant, the voice she used on landlords. "We'll want somebody smaller for the interior. Marks, the Calleni kid? The one who did the Fenwick job last spring?"
+"The east wing vent's too narrow for you," she said, still not looking at him. Her voice was flat and perfectly pleasant, the voice she used on landlords. "We'll want somebody smaller for the interior. Marks, the Calleni kid? The one who did the... Fenwick job, that was it. Last spring."
 
 "Mary, five minutes."
 
 "The Calleni's good," Marks rumbled, managing to ignore Jonah entirely from three feet away, which took real skill. "But he talks. On a vault job, talking is dying."
 
-"So we gag him. Five coppers and a rag. Problem solved."
+"So we gag him. Five coppers and a rag, and the problem's solved."
 
 "*Mary.*"
 
@@ -104,7 +110,7 @@ When it was done, Marks rolled the map and slid it inside his coat, where it van
 
 "Whatever's broken between you two," he said to nobody in particular, "it stays broken till the eighteenth. After that you can bleed on each other all you like. Before that, you bleed on my time, I take it out of your cut." He considered. "Both your cuts."
 
-*Tap. Tap. Tap.* The stick carried him through the room, and the drinkers made room for it without once looking up.
+*Tap. Tap.* The stick carried him through the room, and the drinkers made room for it without once looking up.
 
 The door shut behind him. Somebody coughed. The barman went back to smearing a glass with a rag that had been grey since the Revolution.
 
@@ -132,7 +138,7 @@ He caught up and fell in beside her. She didn't speed up. Didn't slow down eithe
 
 "What storm?"
 
-"The tent, Mary. You and me. Last night."
+"The tent, Mary. You and me, last night."
 
 "Last night I got caught in bad weather on a job that went sideways. I was cold. Body heat was exchanged." Every word clipped and sealed, read off to him as flat as a manifest. "Operational necessity. It happens."
 
@@ -208,7 +214,7 @@ Six minutes, outside his door, before she'd walked into the Kettle and looked at
 
 "Then be quiet."
 
-"Physiologically impossible. I'm part cat. We're crepuscular. Dusk is when we're *most* awake."
+"Physiologically impossible. I'm part cat, and we're crepuscular. Dusk is when we're *most* awake."
 
 He put the pillow over his face. It smelled of straw and tallow and, very faintly, of cedar, which was Mary, because she'd lain right here the night she planned the ball job and the pillow had never let go of her.
 

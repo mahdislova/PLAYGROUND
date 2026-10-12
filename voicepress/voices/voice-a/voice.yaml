@@ -29,5 +29,12 @@ thresholds:
 
 targets: {}
 
+# How far the fingerprint leans toward the inspired-by author (Voice B), 0 = pure you, 1 = pure B.
+# Drop more B pages in inspired/ (kept local, never committed or sent to the model) and the numbers update.
+# Locked stats are your identity markers and never move.
+inspired:
+  blend: 0.35
+  locked: [em_dash_per_1k, spaced_hyphen_per_1k, ellipsis_per_1k, subjectless_per_1k]
+
 chapter:
   words: 4500

@@ -42,14 +42,43 @@ def load_voice(path: str | Path) -> dict:
     voice["_sample_list"] = [(p.stem, p.read_text()) for p in samples]
     voice["_samples"] = "\n\n".join(t for _, t in voice["_sample_list"])
 
+    techniques = sorted((vdir / "techniques").glob("*.md")) if (vdir / "techniques").exists() else []
+    voice["_techniques"] = [(p.stem, p.read_text()) for p in techniques]
+
     if voice["_samples"]:
         # Anything the generic AI-ism list flags that the author actually writes is their voice, not a tell.
         evidenced = {m.group(0).lower() for _, pat in PHRASES for m in re.finditer(pat, voice["_samples"], re.I)}
         voice["allowed_phrases"] = sorted(set(voice.get("allowed_phrases") or []) | evidenced)
-        voice["_targets"] = {**derive_targets(voice["_samples"]), **(voice.get("targets") or {})}
+        insp = voice.get("inspired") or {}
+        voice["_inspired_stats"] = inspired_stats(vdir) if insp else None
+        voice["_targets"] = {
+            **derive_targets(voice["_samples"], inspired=voice["_inspired_stats"],
+                             blend=float(insp.get("blend", 0)), locked=tuple(insp.get("locked") or ())),
+            **(voice.get("targets") or {}),
+        }
     else:
         voice["_targets"] = voice.get("targets") or {}
     return voice
+
+
+def inspired_stats(vdir: Path) -> dict | None:
+    """Measure the inspired-by author from inspired/*.md (kept local, never sent to the model).
+
+    Only the numbers are saved, to inspired_fingerprint.json, which is what gets committed.
+    """
+    import json
+
+    from .fingerprint import measure
+
+    files = sorted((vdir / "inspired").glob("*.md")) if (vdir / "inspired").exists() else []
+    cache = vdir / "inspired_fingerprint.json"
+    if files:
+        stats = measure("\n\n".join(f.read_text() for f in files))
+        stats.pop("words", None)
+        stats = {k: round(v, 3) for k, v in stats.items()}
+        cache.write_text(json.dumps(stats, indent=1) + "\n")
+        return stats
+    return json.loads(cache.read_text()) if cache.exists() else None
 
 
 def fingerprint_block(voice: dict) -> str:
@@ -67,7 +96,15 @@ def voice_system(voice: dict, role: str) -> list[dict]:
         f"{role}\n\n<style_bible>\n{voice['_bible']}\n</style_bible>\n\n"
         f"<author_samples>\nThe author's own published pages. This is what correct sounds like. "
         f"Imitate the habits, never reuse the sentences, names or events.\n{samples}\n</author_samples>\n\n"
-        f"{fingerprint_block(voice)}"
+        + (
+            "<technique_studies>\nOriginal passages written to show the inspired-by author's moves (style bible "
+            "section 5) carried out in this author's mechanics. Study how the moves are done; never reuse "
+            "their sentences, names or situations.\n"
+            + "\n\n".join(f'<study id="{sid}">\n{text}\n</study>' for sid, text in voice["_techniques"])
+            + "\n</technique_studies>\n\n"
+            if voice.get("_techniques") else ""
+        )
+        + f"{fingerprint_block(voice)}"
     )
     return [{"type": "text", "text": text, "cache_control": {"type": "ephemeral"}}]
 
@@ -85,6 +122,11 @@ use ' -' for cut-offs and '...' for trailing off, and never use an em dash. Brea
 pairs, fours and lopsided lists, never stacked threes. Let some sentences be plain and some paragraphs
 end flat. Build the plot per the bible's "Story shape". Before you finish, reread your draft against
 sections 6 to 8 of the bible and fix anything that fails them.
+
+Don't caricature the voice. Imitators overdo an author's signatures: too much subject-dropping, every
+sentence clipped, fragments everywhere. Match the rates in the voice fingerprint, not your impression
+of them. Most sentences in the samples are ordinary, complete and unshowy; the signatures are seasoning.
+Work in the inspired-by moves from bible section 5 (moves 4 to 11) the way the technique studies do.
 
 Return only the chapter inside <prose></prose>. Start with the chapter heading. No notes and no
 commentary."""

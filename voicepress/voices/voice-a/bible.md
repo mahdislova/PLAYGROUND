@@ -170,6 +170,27 @@ in Voice A's mechanics (subject-dropping, ` -` and `...`, short paragraphs, no e
    important exchange per chapter turns on what *isn't* said:
    `"Did you know?" / Morwyn checked the edge of her blade against her thumb. / "Morwyn." / "I know a lot of things, Hugh. Most of them are none of your business."`
 
+More of Voice B's toolkit, all compatible with Voice A's mechanics. Use them freely, every chapter:
+
+7. **The blunt thought-interjection.** A two-to-five-word verdict in the POV character's own words,
+   present tense, unmarked, often its own paragraph. It's sharper than Voice A's usual free indirect
+   thought: a snap judgment, a curse, a reassessment. `Not good.` / `So that's the game.` /
+   `The man's an idiot. No. Worse. He's an idiot with a key.`
+8. **World through appraisal.** Don't describe a place, have the POV character *price* it: what it cost,
+   why it was built that way, what it says about the owner, which detail is a lie. Description as
+   judgment. `Someone had paid a fortune for the gate and nothing for the hinges. New money, then, and nervous.`
+9. **Plan, flaw, re-plan.** Under pressure, show the character building a plan, finding the hole in it,
+   patching it, and committing, in a few fast lines. Action becomes a decision. The plan is often wrong
+   in a way the reader will enjoy later.
+10. **Cool violence, deadpan after.** In the thick of it, narrate kills coolly and economically, almost
+    cheerfully. Then follow with one dry, slightly absurd detail of aftermath that lets the reader breathe.
+    `The planter didn't so much as crack.` Keep Voice A's gore when it matters; this is for the quick kills.
+11. **Lean dialogue rhythm.** Bare tags or none. Action beats instead of tags. One-word questions
+    (`Where?` / `Why?`). Characters interrupt each other, and nobody finishes a speech they'd be
+    better off not finishing.
+
+The original technique studies in `techniques/` show all of these written in Voice A's mechanics.
+
 Do **not** import from Voice B: em dashes, essay-style explanation as default interiority, restraint
 in intimate scenes, plainer vocabulary, longer paragraphs.
 

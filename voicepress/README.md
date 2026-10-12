@@ -23,11 +23,17 @@ voices/voice-a/                     book/
 |---|---|
 | `bible.md` | The distilled style bible: mechanics, signature moves, scene-type playbooks, the three techniques borrowed from Voice B, and the Never list. Edit it freely; the writer reads it every chapter. |
 | `samples/` | Your own pages (OWN-01…06). The writer studies them as examples and the fingerprint is measured from them. Add more of your pages here and everything recalibrates. |
+| `techniques/` | Original passages showing the inspired-by author's moves (banter, scheming, withholding, appraisal, cool violence) done in your mechanics. The writer studies them next to your samples. |
+| `inspired/` | Drop the inspired-by author's pages here. **Kept local**: gitignored, never sent to the model. Only their measured numbers (`inspired_fingerprint.json`) are used. |
 | `voice.yaml` | Forbidden strings (em/en dash), linter checks switched off because they misfire on your style, your pet hates, chapter length. |
 
 **Fingerprint.** Each run measures your samples (punctuation dialect, subject-dropping rate,
 sentence-length gears, paragraph size, contractions, adverbs, similes) and turns them into target
 ranges. Every draft is checked against them. `python -m voicepress fingerprint` shows the ranges.
+
+**Blend.** `inspired.blend` in `voice.yaml` (default 0.35) leans every fingerprint target part-way
+toward the inspired-by author, except the `locked` identity stats (your dash dialect and subject-dropping),
+which stay pure you.
 
 **Auto-allow.** If a phrase on the generic AI-ism list appears in your own samples ("jaw set",
 "couldn't help but", "And yet."), it's your voice, so it isn't flagged.

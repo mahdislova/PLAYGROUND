@@ -30,6 +30,7 @@ NOT_VERBS = {"Red", "Bed", "Shed", "Sped", "Fred", "Ned", "Wed", "Need", "Speed"
 
 
 def _body(text: str) -> str:
+    text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
     text = re.sub(r"^\s*(#.*|\*Words:.*|---|\* \* \*|\*\*\*)\s*$", "", text, flags=re.M)
     return re.sub(r"[*_`>]", "", text)
 
@@ -89,13 +90,20 @@ ADVICE = {
 SLACK = {"threes_per_1k": 0.15, "polysyndeton3_per_1k": 0.5, "triple_beats_per_1k": 0.25, "stair_paragraphs_per_1k": 0.6, "sentence_sd": 0.22, "sentence_mean": 0.25, "short_sentence_share": 0.2, "paragraph_mean": 0.35}
 
 
-def derive_targets(sample_text: str, slack: float = 0.45) -> dict[str, list[float]]:
-    """Target ranges from the voice's own samples, with slack because a chapter isn't the whole corpus."""
+def derive_targets(sample_text: str, slack: float = 0.45, inspired: dict | None = None,
+                   blend: float = 0.0, locked: tuple[str, ...] = ()) -> dict[str, list[float]]:
+    """Target ranges from the voice's own samples, with slack because a chapter isn't the whole corpus.
+
+    With `inspired` stats and a `blend` weight, every stat not in `locked` is centred part-way
+    toward the inspired-by author. Locked stats (the author's identity markers) stay pure.
+    """
     m = measure(sample_text)
     targets = {}
     for key, v in m.items():
         if key == "words":
             continue
+        if inspired and key in inspired and key not in locked:
+            v = (1 - blend) * v + blend * inspired[key]
         slack_k = SLACK.get(key, slack)
         if v == 0:
             targets[key] = [0.0, 0.0]

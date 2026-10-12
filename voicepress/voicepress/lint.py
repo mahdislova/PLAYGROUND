@@ -166,6 +166,7 @@ def paragraphs(text: str) -> list[str]:
 
 def lint(text: str, style: dict | None = None) -> Report:
     style = style or {}
+    text = re.sub(r"<!--.*?-->", lambda m: "\n" * m.group(0).count("\n"), text, flags=re.S)
     th = {
         "em_dashes_per_1k": 6, "similes_per_1k": 8, "triads_per_1k": 4,
         "fragment_runs_per_1k": 3, "min_sentence_length_cv": 0.55,

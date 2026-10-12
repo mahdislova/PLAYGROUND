@@ -107,6 +107,10 @@ only to be beaten. Check the draft for each of these:
 5. TIME: is there texture beyond straight chronology, like a memory intrusion, a jump, or an aftermath shown before its cause? Propose one if it would earn its place.
 6. OTHERS' WANTS: does every named character want something of their own and act on it, rather than reacting to the protagonist?
 7. SURPRISE: name the most predictable beat and an alternative the reader won't see coming but will believe.
+8. INSPIRED-BY MOVES: the style bible (section 5, moves 4-6) requires in every chapter at least one
+   needling banter exchange closed by a wry one-line verdict, one passage of scheming interiority
+   (odds, distances, costs, fallbacks), and one important exchange that turns on what isn't said.
+   For each one missing or weak, say where it belongs and sketch it.
 
 Return 3 to 7 numbered revision notes, the most important first. Each note gives the exact passage
 and a concrete fix. Skip any check the draft already passes. Do not rewrite the chapter."""
@@ -234,7 +238,7 @@ class Engine:
     def story_pass(self, text: str, ledger: str, brief: str) -> str:
         """Developmental edit: critique the plot shape, then revise against the notes."""
         notes = self.llm.complete(
-            [{"type": "text", "text": STORY_EDITOR}],
+            voice_system(self.voice, STORY_EDITOR),
             f"<story_ledger>\n{ledger or '(none)'}\n</story_ledger>\n\n<brief>\n{brief}\n</brief>\n\n<chapter>\n{text}\n</chapter>",
         )
         (self.out / f"{self.step + 1:02d}_story-notes.md").write_text(notes)

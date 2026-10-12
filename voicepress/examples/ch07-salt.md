@@ -46,11 +46,19 @@ A flash of memory: Jacinia's study, the crossbow dismantled across her desk, her
 
 He'd sworn. Would have sworn to anything, lying in his own blood.
 
-He set his jaw and stepped down onto the flats.
+"Why did you come?" he asked.
+
+Morwyn tugged the sacking straighter over her blade. "Somebody has to hold the needle."
+
+"That's not an answer."
+
+"No," she agreed, and went down the steps to the flats ahead of him.
+
+He watched her go. Then set his jaw and followed.
 
 * * *
 
-The mud sucked at his boots. Salt crunched underfoot where it had spilled from the stalls, and a salt-wife two rows over was singing a tuneless dirge about a drowned husband who'd owed her money. Hugh threaded between the trestles with Morwyn a pace behind and to his left, where she could draw without fouling his sword arm.
+The mud sucked at his boots. Salt crunched underfoot where it had spilled from the stalls, and a salt-wife two rows over was singing a tuneless dirge about a drowned husband who'd owed her money. Hugh caught her up between the trestles and she dropped back a pace, to his left, where she could draw without fouling his sword arm.
 
 Bartoss didn't look up until their shadows fell across his ledger.
 
@@ -58,11 +66,15 @@ Bartoss didn't look up until their shadows fell across his ledger.
 
 "It's not noon."
 
-"Then we're not yet... no. We're not yet open." He dipped his quill and made a small neat mark. "Either way, I've nothing to sell you."
+"Then we're not yet... no. We're not yet open." He dipped his quill and made a small neat mark. "Either way, I've nothing to sell a man who smells like the bottom of a boat."
+
+"I came in on one. You should meet the other passengers."
+
+"I'd rather not. I can smell them from here." Another mark. "If you're not buying, you're wasting both our mornings."
 
 "I'm not buying."
 
-"Then you're wasting both our mornings."
+Bartoss sighed and turned a page, entirely unbothered by the sword or the woman behind it. Hugh revised his opinion of the toad. Toads, at least, knew when to be frightened.
 
 Hugh dug in his coat. Pulled out the Mink's signet ring and set it on the open ledger, right across the column of figures. Iron, worn almost smooth, a weasel rampant.
 
@@ -86,7 +98,7 @@ He'd expected a lie, or a haggle, or for the fat man to call for help. Instead B
 
 The flats tilted under Hugh's boots.
 
-No. Not tilted. He was standing perfectly still, salt in his boots and the gulls overhead, but for a moment he was back on his knees before the old man's chair, swearing an oath he'd had no business swearing, the words thick in a mouth full of blood.
+No. Not tilted. He was standing perfectly still, salt in his boots and the gulls overhead, but for a moment he was back on his knees before the old man's chair with the torchlight guttering and the smell of his own burnt skin still in his nose, swearing an oath he'd had no business swearing, the words thick and slurred in a mouth full of blood while Birandillo nodded along as though he were hearing a child recite his letters.
 
 "You're lying," he said.
 
@@ -102,9 +114,11 @@ It had. So had the hatchets. All down the rows the *chock* of iron biting salt h
 
 "They sell salt until noon," said Bartoss. "After that, they sell whatever I've paid for."
 
-On the wall above the flats, a row of heads appeared along the parapet, and below each head a crossbow. Hugh counted eleven before he made himself stop counting. Every one of them was leveled not at him, but past him.
+On the wall above the flats, a row of heads appeared along the parapet, and below each head a crossbow. Every one of them was leveled not at him, but past him.
 
 At Morwyn.
+
+Eleven crossbows. Say four of the men behind them could actually shoot. Six paces to the nearest trestle, solid oak and stacked with salt, enough to stop a bolt if she got under it. Thirty to the wall, and the mud would cost him a second at every step. If he went for the wall, Bartoss's spears would be at Morwyn's back before he'd made ten paces. If he stayed, she'd have to - no. She'd get under the trestle. She'd hate him for asking, but she'd do it.
 
 "Here's my offer," said Bartoss, quite reasonably. "You walk to the water gate, where some gentlemen are waiting with a boat. The lady walks out the land gate. Nobody bleeds before lunch."
 
@@ -124,7 +138,7 @@ He drew, and called them.
 
 Not a trickle this time, the way he'd learned to ration them over three years of fear. He opened the door all the way and they came roaring through it, Dragoslav's strength and Chavaun's speed and then the others, crowding in behind, heavier and colder, men he hadn't let himself name in years. The world went sharp as broken glass. He could see the bolts beginning to leave the crossbows, each one turning lazily on its way down, and he knew with total certainty that he could reach every one of them in time.
 
-He also knew, the way you know a debt has come due, that the door would be harder to close this time.
+He also knew, the way a man knows a debt has come due when the collector's boots stop outside his door, that it would be harder to close this time, and harder again the time after that, until one day he'd reach for the handle and find there was no door left at all, only Jacinia on the other side of it, smiling her lazy smile and holding out her hand.
 
 Third stroke.
 

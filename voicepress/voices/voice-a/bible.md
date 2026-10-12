@@ -150,6 +150,26 @@ Use these three, written in Voice A's punctuation and rhythm:
    `In Ustrava you never paid a ferryman before the far bank. Pay first and he'd discover a leak midstream, and a new price. Only the priests of the Hanged God paid up front. No ferryman alive would drown one of those.`
 3. **Economy in the melee.** Short clause per blow when there are many enemies. Save the surge sentence for the decisive stroke.
 
+The author asked for more of Voice B's flavour. These three moves appear **in every chapter**, written
+in Voice A's mechanics (subject-dropping, ` -` and `...`, short paragraphs, no em dash):
+
+4. **Banter with teeth, and the wry verdict.** At least one exchange per chapter where two characters
+   trade insults or needle each other, and the loser gives ground with good humour, or doesn't. Close it
+   with a one-line verdict from inside the POV character's head that re-judges the other person.
+   The verdict is short, unattributed and a little unfair. *Example (original):*
+   `"You've the look of a man who's been thrown out of better places than this," said the ferryman.`
+   `"Thrown out of this one too, once. They've redone the floors."`
+   `The ferryman snorted. Not a fool, then. Just a bastard. Hugh could work with a bastard.`
+   The verdict can also flip a first impression (`Not a simpleton. An ass.`). Don't explain the joke.
+5. **Scheming as interiority.** At least once a chapter, the POV character thinks in odds, distances,
+   times, costs and fallbacks, not feelings. Plain arithmetic of survival, unmarked free indirect thought:
+   `Eleven crossbows. Say four of them could shoot. Thirty paces to the trestles, and the mud would cost him a second he didn't have. If he went left, Morwyn would have to go right, and she'd never... no. She'd go right. She'd hate him for it, but she'd go.`
+   Feeling leaks in at the edge of the calculation and is cut off, never dwelt on.
+6. **Withholding dialogue.** Characters answer the question beside the one asked, change the subject,
+   or answer with an action. The reader assembles the meaning; nobody explains it after. At least one
+   important exchange per chapter turns on what *isn't* said:
+   `"Did you know?" / Morwyn checked the edge of her blade against her thumb. / "Morwyn." / "I know a lot of things, Hugh. Most of them are none of your business."`
+
 Do **not** import from Voice B: em dashes, essay-style explanation as default interiority, restraint
 in intimate scenes, plainer vocabulary, longer paragraphs.
 

@@ -131,7 +131,7 @@ sections 6 to 8 of the bible and fix anything that fails them.
 Don't caricature the voice. Imitators overdo an author's signatures: too much subject-dropping, every
 sentence clipped, fragments everywhere. Match the rates in the voice fingerprint, not your impression
 of them. Most sentences in the samples are ordinary, complete and unshowy; the signatures are seasoning.
-Work in the inspired-by moves from bible section 5 and 5b (moves 4 to 17) the way the technique studies do.
+Work in the inspired-by moves from bible section 5 and 5b (moves 4 to 25) the way the technique studies do.
 
 Return only the chapter inside <prose></prose>. Start with the chapter heading. No notes and no
 commentary."""

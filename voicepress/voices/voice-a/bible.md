@@ -191,6 +191,32 @@ More of Voice B's toolkit, all compatible with Voice A's mechanics. Use them fre
 
 The original technique studies in `techniques/` show all of these written in Voice A's mechanics.
 
+More from Voice B (a second of his novels), same rules: his moves, your mechanics.
+
+18. **Self-talk that mocks its owner.** Under pressure the POV character talks to himself in second
+    person or by nickname, and it's funny at his own expense. `Some run, Porky.` /
+    `Play it like you don't want to throw up.` / `More like waddle in there.` Unmarked, short, often its
+    own paragraph. It's a variant of move 7 that's turned inward.
+19. **The world's machinery as a trap.** Explain how a piece of the world works (its coinage, its
+    seals, its laws) precisely and briefly, *because the character is about to be hurt by it*.
+    The exposition is the fuse. Kip learns exactly what a stick of silver is worth at the exact moment
+    he's pulled one out in front of thieves.
+20. **Reading the room as threat assessment.** The character works out what the people watching
+    really want, step by step, and the chain ends in a cold rule: `If he was a victim, he was a mark.`
+    Then he chooses an action that answers the rule, not the insult.
+21. **Problem, failed fix, clever fix.** Competence on the page: the obvious solution and why it fails,
+    then the character's better one, in plain, technical, confident prose. Let him enjoy it a little.
+22. **The ticking clock that tightens, then breaks.** Count down in shrinking units (`One day. One hour.
+    Four minutes.`), let the hero get within a breath of winning, then take it away with one blow of bad
+    luck, and end the chapter on the loss.
+23. **Prayer as haggling.** When the character talks to the gods, he bargains, complains or needles
+    them, irreverent and desperate at once: `would you please get off your holy ass and help me?`
+24. **Rumour inflation.** After a big event, report what people say about it, growing with each
+    retelling, as a dry joke: `five men, or ten or twenty, or five women too, depending on who told it.`
+25. **The comic overrun.** Very rarely (once a book), a list that runs deliberately too long, then stops
+    dead: `The smell was rich, savory, mouthwatering, astounding, debilitating.` This is the one sanctioned
+    break of the rule of three, and it only works because nothing else is listed like that.
+
 ### 5b. From The Barrow (second inspired-by source, light touch)
 
 The fingerprint leans slightly toward this author's longer sentences and fuller paragraphs (blend 0.15).

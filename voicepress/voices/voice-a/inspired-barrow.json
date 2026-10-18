@@ -15,5 +15,10 @@
  "threes_per_1k": 11.256,
  "polysyndeton3_per_1k": 2.776,
  "triple_beats_per_1k": 0.51,
- "stair_paragraphs_per_1k": 0.048
+ "stair_paragraphs_per_1k": 0.048,
+ "the_way_similes_per_1k": 0.005,
+ "reversals_per_1k": 0.209,
+ "aphorisms_per_1k": 0.054,
+ "image_paragraph_share": 0.14,
+ "plain_dialogue_share": 0.189
 }

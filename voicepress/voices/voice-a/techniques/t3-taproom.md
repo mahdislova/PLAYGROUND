@@ -8,7 +8,7 @@ The glass held. They didn't.
 
 After that it was quiet in the taproom, apart from the fire popping and somebody's dog barking two streets over. The fifth man stood alone in the middle of the floor with a knife in his hand and the expression of someone doing sums and not liking the total.
 
-"Well?" said Brennic.
+"Well?" said Brennic. "I haven't got all night, or I have, but I'd rather not spend it on you."
 
 The man looked at his friends in the street, then at the knife, as though it had let him down personally.
 

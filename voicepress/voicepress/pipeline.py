@@ -22,6 +22,7 @@ import yaml
 
 from .fingerprint import compare, derive_targets
 from .lint import PHRASES, lint, paragraphs
+from .polish import find_polish
 from .threes import find_threes
 from .llm import LLM, extract_prose
 
@@ -129,6 +130,15 @@ pairs, fours and lopsided lists, never stacked threes. Let some sentences be pla
 end flat. Build the plot per the bible's "Story shape". Before you finish, reread your draft against
 sections 6 to 8 of the bible and fix anything that fails them.
 
+Write plain by default. This matters more than anything else in the bible. Most sentences in the
+author's pages are functional: someone stands up, crosses a room, answers a question. Images are rare
+(about one long paragraph in eight carries one), and the author never writes "the way a man does X"
+comparisons. Don't make every paragraph memorable. Don't reverse and qualify ("not X, nothing so Y,
+but Z"). Don't give characters maxims. Let dialogue be ordinary: people hedge, answer literally,
+repeat themselves, say "well" and "aye" and "I don't know", and some exchanges just end without a
+punchline. If a line sounds quotable, ask whether the author would really have written it; usually
+the plainer version is theirs.
+
 Don't caricature the voice. Imitators overdo an author's signatures: too much subject-dropping, every
 sentence clipped, fragments everywhere. Match the rates in the voice fingerprint, not your impression
 of them. Most sentences in the samples are ordinary, complete and unshowy; the signatures are seasoning.
@@ -213,6 +223,11 @@ def issues(text: str, voice: dict) -> tuple[str, list[str]]:
         found = find_threes(text)
         flagged += "\n\nGroups of three in this passage (break most of them; keep only the one or two that earn it):\n"
         flagged += "\n".join(f"- [{t.kind}] “{t.text.strip()}”" for t in found)
+    if any(d.startswith(("the_way", "reversals", "aphorisms", "image_paragraph", "plain_dialogue")) for d in dev):
+        found = find_polish(text)
+        flagged += ("\n\nOver-polished lines. Flatten most of them: say the thing plainly, cut the comparison, "
+                    "let the beat land soft. Make lines plainer, never cleverer. Keep at most the one or two best images:\n")
+        flagged += "\n".join(f"- [{x.kind}] “{x.text.strip()[:160]}”" for x in found)
     return flagged.strip(), dev
 
 

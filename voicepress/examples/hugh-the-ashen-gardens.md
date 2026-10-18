@@ -8,7 +8,7 @@ Everything was gray: a lawn of soft gray ash beneath trees that had burned long 
 
 The Ashen Gardens.
 
-He'd heard the priests describe them often enough, back when he'd still sat through sermons: orchards heavy with golden fruit, fountains of honeyed wine, the honored dead of the empire taking their ease in eternal summer. Whoever had told the priests that had never been here. Or had, and been paid handsomely to lie about it.
+He'd heard the priests describe them often enough, back when he'd still sat through sermons: orchards heavy with golden fruit, fountains of honeyed wine, the honored dead of the empire taking their ease in eternal summer. Whoever had told the priests that had never been here.
 
 "He wakes," said Akilina.
 
@@ -22,41 +22,41 @@ All.
 
 Hugh got to his knees, ash sliding from his shoulders, and saw them.
 
-They stood among the dead trees in a loose half circle, the way they'd stood in the yard of the Reavers' Tower on muster days, when the captain walked the line and every one of them found something fascinating to look at over her shoulder. Dragoslav, vast and bearded, arms folded across a chest like a barrel of nails. Chavaun, lean and restless, rocking on his heels. Kevanir with his cold, clean stare, which had never once in life warmed for anyone but his horse. Black Evec squatting on his haunches at the end of the line, chin on his fists, more wolf than man and never more so than now. Foughtash and Evassier shoulder to shoulder, as they'd been in life ever since the night at Marrow Ford when each had pulled the other out of the river and neither would admit to having needed it. And Acipa, a little apart from the rest, hands clasped behind her back, studying him with that dreadful patience of hers.
+They stood among the dead trees in a loose half circle, the way they'd stood in the yard of the Reavers' Tower on muster days, when the captain walked the line and every one of them found something fascinating to look at over her shoulder. Dragoslav, vast and bearded, with his arms folded and his chin sunk in his beard the way he'd stood through every briefing he'd ever found tedious, which was all of them. Chavaun, lean and restless, rocking on his heels. Kevanir with his cold, clean stare, which had never once in life warmed for anyone but his horse. Black Evec squatting on his haunches at the end of the line, chin on his fists, more wolf than man and never more so than now. Foughtash and Evassier shoulder to shoulder, as they'd been in life ever since the night at Marrow Ford when each had pulled the other out of the river and neither would admit to having needed it. And Acipa, a little apart from the rest, hands clasped behind her back, studying him with that dreadful patience of hers.
 
-He counted them out of old habit. Thirty-one, and every hand of the thirty-one resting on a hilt, casually, the way a man rests his hand on a dog he isn't sure of.
+He counted them out of old habit. Thirty-one, and every one of them had a hand resting on a hilt.
 
 Jacinia was not among them, and that frightened him more than the hands.
 
-"Where's the captain?" he asked.
+"Where's the captain?" he asked. "Is she... is she coming?"
 
-"Busy," said Akilina.
+"Busy," said Akilina, and went back to her nails.
 
 "Doing what? There's nothing here to be busy with."
 
 "You'd be surprised what the dead find to fill their days." She slid off the stump and stretched, unhurried, every joint in her back cracking. "Let's not waste what little time you have. We've a question for you, Hugh, and the company wants it answered."
 
-"Then ask."
+"Then ask, if you're going to."
 
 "You swore to the captain." Akilina began to walk toward him, ash puffing up around her boots and settling again without a sound. "Down in that cellar, with the brute's fire under your chair and your own blood in your mouth, you swore that the moment your friends were safe you'd open your own throat and set us free. We were there, every one of us, and we heard it."
 
-"I remember."
+"I know. I remember. I was there too."
 
 "Good, because tonight you swore something else." Stopped an arm's length away and looked down at him. "You told the goat girl you'd live long enough to remake the empire. You told the fox, the scholar and the captain with the sour mouth that you'd burn so bright the sun would envy you. Months, you said, maybe a year. So which is it, my lord?" Her lip curled. "Because you can't keep both, however much you'd like to."
 
-Hugh didn't answer. He was reading them, the way he'd been taught to read a room full of men who might be about to kill him. The way the line had shifted, without anybody seeming to move, so that Dragoslav now stood between him and the nearest gap in the trees. The way Black Evec's ears, which were very nearly wolf's ears in this place, had swiveled toward Akilina rather than toward him. The way Kevanir was watching not Hugh at all, but Acipa.
+Hugh didn't answer. He was reading them, the way he'd been taught to read a room full of men who might be about to kill him. The way the line had shifted, without anybody seeming to move, so that Dragoslav now stood between him and the nearest gap in the trees. The way Black Evec's ears, which were very nearly wolf's ears in this place, had swiveled toward Akilina rather than toward him. Kevanir was watching Acipa.
 
 They hadn't brought him here to hear an answer. They'd brought him here to see whether he would flinch.
 
 "Well?" said Dragoslav, voice a slow rockfall. "Speak up, boy, you were happy enough to talk an hour ago."
 
-"I was drunk an hour ago."
+"Well, I was drunk an hour ago."
 
 "You're always drunk," said Chavaun, and grinned. "It's never stopped you before."
 
-"Fair enough," said Hugh, and climbed to his feet. In the waking world he would have reached for them then, for Foughtash's strength or Evassier's eye, and felt them pour into his arms. Here there was nothing to reach for. They were all standing in front of him. It was a strange, naked feeling, like reaching for a sword and closing your hand on an empty scabbard. Reached for them anyway, out of three years' habit, and found nothing there. "Then here's your answer, for what it's worth. The oath stands."
+"Fair enough," said Hugh, and climbed to his feet. In the waking world he would have reached for them then, for Foughtash's strength or Evassier's eye, and felt them pour into his arms. Here there was nothing to reach for. They were all standing in front of him. Reached for them anyway, out of three years' habit, and found nothing there. "Then here's your answer, for what it's worth. The oath stands."
 
-A murmur ran down the line.
+A murmur ran down the line, and somebody near the end swore under his breath.
 
 "I swore to Jacinia I'd die when my friends were safe," Hugh went on, "and I will. I've never broken an oath to her. Not one, not even when -" He stopped. "Not one."
 
@@ -78,13 +78,13 @@ He went down on his back in the ash with the point of her dagger resting in the 
 
 "Second blade at your neck tonight," she observed. "You're developing a taste."
 
-Somewhere down the line, Black Evec let out a single bark of laughter. Nobody else moved.
+Somewhere down the line Black Evec let out a single bark of laughter, and nobody else moved.
 
 Hugh lay still in the ash, which was soft beneath him, and the dagger was very cold. He found, distantly, that he wasn't afraid. Tired, perhaps, and sore in every joint, but not afraid.
 
 "Do it, then," he said.
 
-Akilina's eyes narrowed.
+Akilina's eyes narrowed, but she didn't move the blade.
 
 "Go on, press and pull. You know how better than anyone." He held her gaze. "Only I don't think you can, because I don't think any of you can take my life without the captain's leave, or you'd have done it three years ago, the first night I woke up screaming. Which is why she isn't here, isn't it?"
 
@@ -94,9 +94,9 @@ The point of the dagger did not move.
 
 "And you," said a new voice, "were always a terrible judge of when to stop talking."
 
-The line parted.
+The line parted to let somebody through.
 
-Jacinia walked through it the way she'd walked through every room she'd ever entered, as though it had been built for her and only recently. Small, square-shouldered, iron-gray hair pinned up off a lean neck, the captain's chain lying on her chest. She carried the little gold-edged book from her study, one finger marking her place, and she didn't so much as glance at the dagger at his throat.
+Jacinia walked through it, small and square-shouldered, with her iron-gray hair pinned up off a lean neck and the captain's chain lying on her chest. She carried the little gold-edged book from her study, one finger marking her place, and she didn't so much as glance at the dagger at his throat.
 
 "Akilina," she said. "Get off him."
 
@@ -110,17 +110,17 @@ He got up, ash sliding from his shoulders in soft gray sheets.
 
 "So," she said, and opened the book, glanced at whatever was written there, and closed it again. "My lieutenant has called a muster without my leave, and accused you of planning to break your oath. A serious charge, and she's not entirely wrong, either. What do you have to say?"
 
-"That she's wrong."
+"I don't know. That she's wrong, I suppose."
 
 "Is she?" asked Jacinia, tilting her head. "You swore to take your life the moment your friends are safe. And then, tonight, you swore to make war upon the Fate Makers and the Disciplus Academy, and every baron in the empire besides. On behalf of the fae." One corner of her mouth twitched. "Tell me, Hugh. When the whole of Mendev is hunting your fox and your scholar, when will they be safe?"
 
 Hugh opened his mouth, then closed it again without a sound.
 
-"Never," said Jacinia. "That's the answer you're looking for. You've found a hole in your oath large enough to march an army through, and you didn't even know you were digging it." She turned to the company. "Did you hear that, all of you? He didn't know it. He meant every word he said up there, about dying gladly with a smile on his bloody lips, and all the while he was building himself a door he'll never have to walk through."
+"Never," said Jacinia. "That's the answer you're looking for. There's a hole in your oath, and you didn't even know you'd made it." She turned to the company. "Did you hear that, all of you? He didn't know it. He meant every word he said up there, about dying gladly with a smile on his bloody lips, and it never once occurred to him that it gets him out of dying."
 
 "So he breaks it," growled Dragoslav.
 
-"So he keeps it," said Jacinia. "To the letter, which is all I ever asked of him, and more than most of you ever managed." She looked back at Hugh, and for a moment there was something in her face he'd never seen there in life, and couldn't put a name to. "It's clever. Cleverer than you ever were when you were mine."
+"So he keeps it," said Jacinia. "To the letter, which is all I ever asked of him, and more than most of you ever managed." She looked back at Hugh, and for a moment there was something in her face he'd never seen there in life, and couldn't put a name to. "It's clever. I'll give you that."
 
 "I didn't plan it," said Hugh.
 
@@ -150,29 +150,29 @@ Acipa held his gaze for a long time.
 
 "He does," she said at last, and turned away, and that was all.
 
-But it was enough. Hugh felt it go through the line like wind through standing wheat: not forgiveness, nothing so warm as that, but a shift in weight. Foughtash's hand came away from his hilt. Evassier glanced at Foughtash, saw, and let his own fall too. Kevanir's cold eyes moved from Acipa to Hugh and stayed there, assessing, a merchant weighing a coin he'd been certain was false.
+But it was enough. Hugh felt it go down the line: nobody forgave him, but something eased. Foughtash's hand came away from his hilt, and when Evassier saw it he let his own fall too. Kevanir looked from Acipa to Hugh and kept looking, and didn't say anything, which for Kevanir was nearly a compliment.
 
 Akilina, on her stump, looked at the ground.
 
 "Here is my ruling," said Jacinia. "The oath stands, as sworn. When your friends are safe, you'll keep it. If that day never comes, then it never comes, and we wait, as the dead must." Tucked the book under her arm. "But you'll not make your war on our strength for nothing, Hugh. Not any longer, and not for free. Every time you call us, from this night on, we take our wages."
 
-"Wages," he repeated.
+"Wages," he repeated. "Right."
 
-"A little of you each time. Nothing you'll miss, at first." Her smile was lazy, terrible, very nearly kind. "The dead have no use for gold. But we do miss things."
+"A little of you each time. Nothing you'll miss, at first." Her smile was lazy, terrible, very nearly kind. "We don't want gold. We'll take other things."
 
-"What things?"
+"What sort of things? I mean, what will you take?"
 
 "You'll find out," said Jacinia. "Go on, your women are worried."
 
 "Wait -"
 
-She snapped the book shut.
+She snapped the book shut on whatever he'd been about to say.
 
 * * *
 
 "- Hugh. Hugh. Fortuna's tits, Hugh, open your fucking eyes."
 
-He opened them on the kitchen ceiling. Smoke-darkened beams, a string of dried onions, the guttering yellow light of a candle somebody had set down on the floor beside his head. Morwyn was kneeling over him with both hands fisted in his tunic, as if she'd been about to haul him up bodily and shake him. Behind her, Anastasia stood with a cup of tea held in both hands, forgotten, her knuckles white around it.
+He opened them on the kitchen ceiling. Smoke-darkened beams and a string of dried onions in the guttering yellow light of a candle somebody had set down on the floor beside his head. Morwyn was kneeling over him with both hands fisted in his tunic, and behind her Anastasia stood with a cup of tea held in both hands, forgotten, her knuckles white around it.
 
 "There," said Morwyn, and let go of his tunic with a shove that drove him back against the flagstones. "He lives again, against all reason."
 
@@ -180,15 +180,15 @@ He opened them on the kitchen ceiling. Smoke-darkened beams, a string of dried o
 
 "Long enough to... well. Long enough to make an idiot of me," said Morwyn, voice tight. "You went down like a felled ox. Took half the crockery with you."
 
-"Zarja's with the girl," said Anastasia. "We didn't want to... we didn't know if we should call her, or what it was, or if it was something the fae had done to you, or -" She stopped, set the tea down on the counter with great care, and pressed the back of her wrist to her mouth. "What was it?"
+"Zarja's with the girl. She's fine, I think," said Anastasia. "We didn't want to... we didn't know if we should call her, or what it was, or if it was something the fae had done to you, or -" She stopped, set the tea down on the counter with great care, and pressed the back of her wrist to her mouth. "What was it?"
 
-Hugh sat up slowly, and his throat stung where the dagger had rested. Touched it, and his fingers came away with a single small bead of blood on them, bright as a berry.
+Hugh sat up slowly, and his throat stung where the dagger had rested. Touched it, and his fingers came away with a little blood on them.
 
 Morwyn saw it, and her face went very still.
 
 "Old friends," said Hugh, "wanting a word."
 
-"About what?"
+"About what? Hugh, you're bleeding, you know that?"
 
 "Wages."
 
@@ -198,7 +198,7 @@ He drank.
 
 Nothing.
 
-Not the sour bite of cheap red, not the warmth at the back of the throat, not the faint taste of the cork. It went down like water, or like less than water.
+Not the sour bite of cheap red, not the warmth at the back of the throat, not the faint taste of the cork. He couldn't taste it at all.
 
 Drank again, longer, and waited.
 
@@ -206,4 +206,4 @@ Nothing at all.
 
 "Hugh?" Anastasia, softly. "What's wrong?"
 
-Hugh looked at the bottle in his hand. Then he set it down on the flagstones beside him, very carefully, upright, the way a man sets down something he doesn't intend to pick up again, and leaned back against the cold stone wall to wait for the shaking to start.
+Hugh looked at the bottle in his hand. Then he set it down on the flagstones beside him, upright, and leaned back against the wall, and after a while his hands started to shake.

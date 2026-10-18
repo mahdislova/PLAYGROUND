@@ -6,7 +6,7 @@ Somebody had paid a fortune for that gatehouse. Dressed stone, fresh tar on the 
 
 Interesting.
 
-The guard on the gate was perhaps twenty, all elbows inside a coat of borrowed mail, and he held his halberd the way a boy holds a girl at his first dance.
+The guard on the gate was perhaps twenty, all elbows inside a coat of borrowed mail, and he held his halberd too tight, with both hands, like he'd been told it might run off.
 
 "Toll's a silver," he said.
 

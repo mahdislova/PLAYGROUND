@@ -34,6 +34,8 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--top", type=int, default=40, help="flagged spans to print (0 = all)")
 
     sub.add_parser("fingerprint", help="print the voice's measured target ranges")
+    p = sub.add_parser("author-pass", help="worksheet of over-polished lines for you to rewrite by hand")
+    p.add_argument("file")
 
     p = sub.add_parser("chapter", help="write the next chapter")
     p.add_argument("brief", help="what happens in this chapter, or @path/to/brief.md")
@@ -57,6 +59,11 @@ def main(argv: list[str] | None = None) -> None:
     if a.cmd == "fingerprint":
         for k, (lo, hi) in voice["_targets"].items():
             print(f"{k:24} {lo:>7g} – {hi:g}")
+        return
+
+    if a.cmd == "author-pass":
+        from .polish import author_pass
+        print(author_pass(Path(a.file).read_text(), Path(a.file).stem))
         return
 
     if a.cmd == "lint":
@@ -110,6 +117,10 @@ def main(argv: list[str] | None = None) -> None:
 
     final = chapters / f"ch{number:02d}.md"
     final.write_text(text + "\n")
+    from .polish import author_pass
+    worksheet = chapters / f"ch{number:02d}.author-pass.md"
+    worksheet.write_text(author_pass(text, f"chapter {number}"))
+    log(f"  author pass → {worksheet}  (do this before anything else)")
     log("  updating ledger")
     ledger_path.write_text(eng.update_ledger(ledger, text, number) + "\n")
     m = measure(text)

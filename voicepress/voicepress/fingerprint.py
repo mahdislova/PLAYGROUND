@@ -11,6 +11,7 @@ import re
 import statistics
 
 from .lint import sentences
+from .polish import rates as polish_rates
 from .threes import rates as three_rates
 
 WORD = re.compile(r"\b[\w'’-]+\b")
@@ -61,6 +62,7 @@ def measure(text: str) -> dict[str, float]:
         "long_sentence_share": sum(n >= 30 for n in lens) / len(lens),
         "paragraph_mean": statistics.mean(plens),
         **three_rates(text),
+        **polish_rates(text),
     }
 
 
@@ -82,12 +84,17 @@ ADVICE = {
     "polysyndeton3_per_1k": ("", "Too many 'X and Y and Z' chains. Keep one for a real surge; recast the rest."),
     "triple_beats_per_1k": ("", "Too many three-short-sentence drumbeats. Fold one of the three into its neighbour, or let the beat run to two or four."),
     "stair_paragraphs_per_1k": ("", "Too many runs of exactly three one-line paragraphs. Merge one into the paragraph next to it."),
+    "the_way_similes_per_1k": ("", "The author never writes 'the way a man does X' comparisons. Cut them or say the thing plainly."),
+    "reversals_per_1k": ("", "Too many reverse-and-qualify moves ('not X, nothing so Y, but Z'). State it once, plainly."),
+    "aphorisms_per_1k": ("", "Too many quotable general truths. Let characters say particular things, not maxims."),
+    "image_paragraph_share": ("", "Too many paragraphs carry an image. Most paragraphs should be plain and functional; keep the best image, flatten the rest."),
+    "plain_dialogue_share": ("Dialogue is too efficient. Let people hedge, ramble, answer literally, mishear, say 'well' and 'aye' and 'I don't know'. Not every line should land.", ""),
     "paragraph_mean": ("Paragraphs are too short; let some breathe.", "Paragraphs are too long; break them. The short paragraph is the unit of rhythm."),
 }
 
 
 # Rhythm stats are tight identity markers; punctuation counts swing more chapter to chapter.
-SLACK = {"threes_per_1k": 0.15, "polysyndeton3_per_1k": 0.5, "triple_beats_per_1k": 0.25, "stair_paragraphs_per_1k": 0.6, "sentence_sd": 0.22, "sentence_mean": 0.25, "short_sentence_share": 0.2, "paragraph_mean": 0.35}
+SLACK = {"image_paragraph_share": 0.4, "plain_dialogue_share": 0.4, "reversals_per_1k": 0.6, "aphorisms_per_1k": 0.8, "threes_per_1k": 0.15, "polysyndeton3_per_1k": 0.5, "triple_beats_per_1k": 0.25, "stair_paragraphs_per_1k": 0.6, "sentence_sd": 0.22, "sentence_mean": 0.25, "short_sentence_share": 0.2, "paragraph_mean": 0.35}
 
 
 def derive_targets(sample_text: str, slack: float = 0.45, sources: list[dict] | None = None,

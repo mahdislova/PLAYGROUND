@@ -12,7 +12,7 @@ The crypt was older than the chapel above it by a few hundred years, and whoever
 
 "Means somebody's been *in*," said Ilse, and nobody laughed.
 
-The priest knelt by the nearest niche and held his hand over the cut seal without touching it. Vasko watched the old man's lips move. Watched him stand, too, and take a slow step back from the iron, then another, until he was standing a good deal closer to the stair than anyone else. Ilse saw it as well. Her crossbow drifted, not at the priest exactly, but not away from him either.
+The priest knelt by the nearest niche and held his hand over the cut seal without touching it. Vasko watched the old man's lips move. Watched him stand, too, and take a slow step back from the iron, then another, until he was standing a good deal closer to the stair than anyone else. Ilse saw it as well. Her crossbow drifted a little toward him.
 
 "Something you'd like to share, Father?" Vasko said mildly.
 

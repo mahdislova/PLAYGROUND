@@ -4,7 +4,7 @@ The sluice gate at Morrow Weir had been built to be opened by twelve men on a wi
 
 On paper the answer was the windlass, and the windlass was no answer at all. Three men could turn it, slowly, but the chain had rusted into the gear teeth somewhere around the reign of the last king, and every quarter-turn the whole frame shrieked and bucked like it wanted to throw them into the race. Another half hour of that and they might have the gate a foot open. A foot wouldn't drain a bathtub.
 
-Tobin stood on the walkway with the spray in his face and looked at the problem the way old Harrel had taught him at the mill. Not at the gate, but at what held the gate shut.
+Tobin stood on the walkway with the spray in his face and looked at the problem the way old Harrel had taught him at the mill. He looked at what held the gate shut.
 
 Two iron pins, each as thick as his forearm, through the hinges on the downstream side. The whole weight of the river was pressing on that gate. It wanted to open. It had been wanting to open for sixty years. The windlass wasn't there to lift it. It was there to stop it swinging wide all at once and tearing itself off its own hinges.
 

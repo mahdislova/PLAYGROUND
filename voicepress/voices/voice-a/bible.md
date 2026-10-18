@@ -18,6 +18,24 @@ tenderness and a dry sense of humour that punctures its own heroics with a three
 
 ---
 
+## 1b. Plain is the default
+
+The single biggest difference between the author's pages and a machine imitating them: the author
+doesn't try to make every line count. Measured on the nine samples:
+
+- About **one long paragraph in eight** carries an image (a simile or comparison). The rest are plain.
+- **Zero** "the way a man does X" comparisons in 14,000 words.
+- Reverse-and-qualify moves ("not X, nothing so Y, but Z") are rare: well under one per 2,000 words.
+- Maxims and quotable general truths: almost none.
+- About **one dialogue line in eleven** has ordinary filler in it: `well`, `aye`, `I mean`, `just`,
+  `oh`, `I don't know`. People answer literally, repeat themselves, and let exchanges end flat.
+
+So: most sentences just move people around and say what happened. Spend images like money. When a
+line comes out quotable, try the plain version first; it's usually the author's. Every chapter ends
+with an **author pass** (a worksheet of the most polished lines) for the author to rewrite by hand.
+
+---
+
 ## 2. Mechanics. These are hard rules.
 
 **Punctuation dialect**

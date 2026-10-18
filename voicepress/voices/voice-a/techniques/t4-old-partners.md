@@ -32,7 +32,7 @@ He watched her pour. Steady hands, not so much as a ripple in either cup, and he
 
 She knew. She had known before he came up the path, and had sat on that step mending a net nobody needed mended so she would have something to do with her hands when he arrived.
 
-"Milk?" she said.
+"Milk?" she said. "I've got goat's, if you'll have it, though you used to hate goat's."
 
 "Orsa -"
 

@@ -42,7 +42,7 @@ Jacinia was not among them, and that frightened him more than the hands.
 
 "I remember."
 
-"Good, because tonight you swore something else." Stopped an arm's length away and looked down at him. "You told the goat girl you'd live long enough to remake the empire. You told the fox, the scholar and the captain with the sour mouth that you'd burn so bright the sun would envy you. Months, you said, maybe a year." "So which is it, my lord?" Her lip curled. "Because you can't keep both, however much you'd like to."
+"Good, because tonight you swore something else." Stopped an arm's length away and looked down at him. "You told the goat girl you'd live long enough to remake the empire. You told the fox, the scholar and the captain with the sour mouth that you'd burn so bright the sun would envy you. Months, you said, maybe a year. So which is it, my lord?" Her lip curled. "Because you can't keep both, however much you'd like to."
 
 Hugh didn't answer. He was reading them, the way he'd been taught to read a room full of men who might be about to kill him. The way the line had shifted, without anybody seeming to move, so that Dragoslav now stood between him and the nearest gap in the trees. The way Black Evec's ears, which were very nearly wolf's ears in this place, had swiveled toward Akilina rather than toward him. The way Kevanir was watching not Hugh at all, but Acipa.
 
@@ -64,7 +64,7 @@ A murmur ran down the line.
 
 "Careful," said Hugh.
 
-"- blade," finished Akilina, unbothered. Ten years, twenty, and you'll die an old man in a feather bed and we'll still be here, eating ash."
+"- blade," finished Akilina, unbothered. "Ten years, twenty, and you'll die an old man in a feather bed and we'll still be here, eating ash."
 
 "Is that what this is about?"
 

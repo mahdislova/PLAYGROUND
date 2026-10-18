@@ -30,6 +30,11 @@ APHORISM_START = re.compile(r"^(The dead|Men|A man|Nobody|No one|People|Every ma
 FILLER = re.compile(
     r"\b(well|um|uh|I mean|I suppose|I think|maybe|sort of|you know|just|right|look|anyway|"
     r"I don't know|I guess|aye|yeah|hmm|oh)\b", re.I)
+# Narration that explains what an action already showed: "something eased", "which was her way of"
+EXPLAINED = re.compile(
+    r"\b(which meant|which was (?:his|her|their|\w+'s) way of|was (?:his|her|their|\w+'s) way of|which was not like|that was all|something eased|"
+    r"(?:he|she|they) realized|meant that|it was clear|nearly a compliment|didn't need to|without needing to)\b"
+    r"|They hadn't [^.]+\. They'd", re.I)
 UTTERANCE = re.compile(r"[\"“]([^\"”]{2,400})[\"”]")
 
 
@@ -57,6 +62,7 @@ def rates(text: str) -> dict[str, float]:
         "reversals_per_1k": len(REVERSAL.findall(t)) / k,
         "aphorisms_per_1k": len(_aphorisms(t)) / k,
         "image_paragraph_share": sum(1 for p in long_paras if IMAGE.search(p)) / max(len(long_paras), 1),
+        "explained_subtext_per_1k": len(EXPLAINED.findall(t)) / k,
         "plain_dialogue_share": sum(1 for u in utts if FILLER.search(u)) / max(len(utts), 1),
     }
 
@@ -71,6 +77,7 @@ class Polished:
 def find_polish(text: str) -> list[Polished]:
     """Every over-polished line, for the polish layer and the author-pass worksheet."""
     out = [Polished("the-way simile", m.group(0), _line_of(text, m.start())) for m in THE_WAY.finditer(text)]
+    out += [Polished("explains subtext", m.group(0), _line_of(text, m.start())) for m in EXPLAINED.finditer(text)]
     out += [Polished("reversal", m.group(0), _line_of(text, m.start())) for m in REVERSAL.finditer(text)]
     out += [Polished("aphorism", a, _line_of(text, text.find(a[:30]))) for a in _aphorisms(_body(text))]
     for p in paragraphs(text):
@@ -91,7 +98,7 @@ def author_pass(text: str, title: str = "") -> str:
     This is the step that makes the chapter the author's. The engine can't do it for them.
     """
     found = find_polish(text)
-    order = {"the-way simile": 0, "aphorism": 1, "reversal": 2, "image": 3}
+    order = {"the-way simile": 0, "explains subtext": 1, "aphorism": 2, "reversal": 3, "image": 4}
     found.sort(key=lambda x: (order.get(x.kind, 9), x.line))
     utts = [(m.group(1), _line_of(text, m.start())) for m in UTTERANCE.finditer(text)]
     zingers = [(u, ln) for u, ln in utts if len(u.split()) >= 8 and not FILLER.search(u)]

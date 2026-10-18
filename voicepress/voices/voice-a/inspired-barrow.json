@@ -20,5 +20,6 @@
  "reversals_per_1k": 0.209,
  "aphorisms_per_1k": 0.054,
  "image_paragraph_share": 0.14,
+ "explained_subtext_per_1k": 0.091,
  "plain_dialogue_share": 0.189
 }

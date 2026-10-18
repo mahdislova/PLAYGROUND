@@ -4,7 +4,7 @@ Nobody wanted to sleep, so they sat around the fire and argued about the dagger 
 
 "Thirteenth Dynasty," said the priest. "Court work. See the horns on the guard? They stopped making them like that after the Saltmarch wars, because the horns caught in mail and snapped off."
 
-"Or someone made it to look old," said Ilse. Didn't look up from the bolt she was fletching, either, which was Ilse's way of saying she'd been listening the whole time.
+"Or someone made it to look old," said Ilse. She didn't look up from the bolt she was fletching.
 
 "Someone could have," the priest agreed. "But they'd have had to know about the horns. And nobody does, except old men like me, and dealers, and -" He stopped.
 

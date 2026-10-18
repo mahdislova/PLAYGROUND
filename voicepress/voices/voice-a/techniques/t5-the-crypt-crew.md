@@ -2,7 +2,7 @@
 
 There were seven of them when they went down the stair into the crypt. Vasko counted them again at the bottom out of habit. Counted twice, because the light was bad and he was nervous, and he'd learned long ago that the night you didn't count was the night somebody was missing. Old Mabb with the lantern, muttering to it the way she always did, as though it were a dog that might wander off. The Pellow brothers, who had never once in Vasko's hearing agreed on anything except money. Thin Ilse with her crossbow wound and ready, which made everyone else walk a little to one side of her. The priest. Vasko himself.
 
-And Dorran, at the back, carrying the rope and saying nothing at all, which was not like Dorran. Dorran talked in his sleep. Dorran talked at funerals. Vasko filed it away and went on.
+And Dorran, at the back, carrying the rope and saying nothing at all. Dorran talked in his sleep. Dorran talked at funerals.
 
 The crypt was older than the chapel above it by a few hundred years, and whoever had built it had wanted the dead to stay put. Iron bands across every niche. Lead seals on the iron. Somebody had gone to the expense of having the seals stamped, and somebody else, much later, had gone to the trouble of cutting every one of them open.
 

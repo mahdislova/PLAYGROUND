@@ -139,6 +139,13 @@ repeat themselves, say "well" and "aye" and "I don't know", and some exchanges j
 punchline. If a line sounds quotable, ask whether the author would really have written it; usually
 the plainer version is theirs.
 
+Make people particular, not legible. Characters understand each other partly and wrongly, out of
+resentment, love or self-interest; let at least one misreading stand uncorrected and one argument stay
+unsettled. Don't explain a gesture after showing it. Give the POV character uneven attention: he loses
+count, misreads a face, gets ambushed by a useless memory. Plant the roots of any payoff early.
+But don't fix polish by chopping everything short: plain prose still has long sentences. It's just
+not ornamental.
+
 Don't caricature the voice. Imitators overdo an author's signatures: too much subject-dropping, every
 sentence clipped, fragments everywhere. Match the rates in the voice fingerprint, not your impression
 of them. Most sentences in the samples are ordinary, complete and unshowy; the signatures are seasoning.
@@ -172,6 +179,21 @@ only to be beaten. Check the draft for each of these:
 9. ENSEMBLE AND DREAD (bible 5b): when three or more characters share a scene, can the reader track
    who is where and what each wants? Is there a chance for dramatic irony, a threat the reader sees
    and the characters don't? Does lore arrive by argument rather than lecture?
+10. LEGIBILITY: are the characters too correct about each other? Every character should have an
+   incomplete or biased read of the others. At least one character must misread someone in a way the
+   scene doesn't correct, and at least one disagreement must stay unresolved at the end. Nobody
+   should neatly articulate "their part" of the theme.
+11. QUOTABLE BUDGET: list every line of dialogue or narration that would work as a pull-quote. Keep
+   the best two or three; for the rest (aim to flatten about a fifth of the scene's polished lines),
+   propose a plainer, more particular version, something this person would actually say.
+12. EXPLAINED SUBTEXT: find every place where narration interprets an action the reader already saw
+   (a gesture followed by what it meant). Quote it and propose cutting the interpretation.
+13. ATTENTION: does the POV character think in his own particular, uneven way? Look for at least one
+   moment where he loses his place, misreads something, is interrupted by an irrelevant memory, or
+   notices nothing useful. If missing, propose one tied to who he is.
+14. PAYOFF ROOTS: is the chapter's consequence or reveal rooted in something planted earlier, in this
+   chapter or the ledger, so that it feels inevitable rather than chosen for effect? If not, propose
+   the plant.
 
 Return 3 to 7 numbered revision notes, the most important first. Each note gives the exact passage
 and a concrete fix. Skip any check the draft already passes. Do not rewrite the chapter."""
@@ -223,7 +245,7 @@ def issues(text: str, voice: dict) -> tuple[str, list[str]]:
         found = find_threes(text)
         flagged += "\n\nGroups of three in this passage (break most of them; keep only the one or two that earn it):\n"
         flagged += "\n".join(f"- [{t.kind}] “{t.text.strip()}”" for t in found)
-    if any(d.startswith(("the_way", "reversals", "aphorisms", "image_paragraph", "plain_dialogue")) for d in dev):
+    if any(d.startswith(("the_way", "reversals", "aphorisms", "image_paragraph", "plain_dialogue", "explained_subtext")) for d in dev):
         found = find_polish(text)
         flagged += ("\n\nOver-polished lines. Flatten most of them: say the thing plainly, cut the comparison, "
                     "let the beat land soft. Make lines plainer, never cleverer. Keep at most the one or two best images:\n")

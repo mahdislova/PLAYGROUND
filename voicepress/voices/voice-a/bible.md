@@ -364,6 +364,19 @@ against these:
 - **Make choices cost.** At least once a chapter, Hugh chooses something he can't take back, or that's not clean.
 - **Bend time.** Memory intrusions, flashes, an aftermath before its cause. The author uses `A flash of memory:` and the dead's voices to do this.
 - **Give everyone wants.** Every named character is pursuing something, including enemies, and they act on it whether or not Hugh is in the room.
+- **Nobody is fully legible.** Characters read each other partly and wrongly, through resentment, love
+  or self-interest. Let one misreading stand uncorrected, and let one argument end unsettled. (Akilina
+  can be wrong about Hugh's intent and right about the consequence, and never concede it.) Nobody
+  articulates "their slice" of the chapter's theme.
+- **Uneven attention.** The POV character loses count, misreads a face, is ambushed by a useless memory
+  at the worst moment, or simply notices nothing helpful. Specific mental habits reveal feeling better
+  than a polished sentence about the feeling.
+- **Don't explain the gesture.** If a hand comes off a hilt, that's the moment. Don't follow it with
+  what it meant. (Measured: the author does this about once per 7,000 words.)
+- **A quotable-line budget.** Two or three lines a scene may land hard. The rest should be what this
+  particular person would say, which is usually plainer.
+- **Root the payoff.** A cost or reveal at the end should grow from something planted earlier, so it
+  feels inevitable rather than picked for effect.
 - **Kill the predictable beat.** Find the scene's most expected turn and swap it for one the reader won't see coming but will believe.
 
 ---

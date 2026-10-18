@@ -88,13 +88,14 @@ ADVICE = {
     "reversals_per_1k": ("", "Too many reverse-and-qualify moves ('not X, nothing so Y, but Z'). State it once, plainly."),
     "aphorisms_per_1k": ("", "Too many quotable general truths. Let characters say particular things, not maxims."),
     "image_paragraph_share": ("", "Too many paragraphs carry an image. Most paragraphs should be plain and functional; keep the best image, flatten the rest."),
-    "plain_dialogue_share": ("Dialogue is too efficient. Let people hedge, ramble, answer literally, mishear, say 'well' and 'aye' and 'I don't know'. Not every line should land.", ""),
+    "explained_subtext_per_1k": ("", "Narration keeps explaining what a gesture already showed. Cut the interpreting sentence and trust the action."),
+    "plain_dialogue_share": ("Dialogue is too efficient. Let people hedge, ramble, answer literally, mishear, say 'well' and 'aye' and 'I don't know'. Not every line should land.", "Too many hedges and fillers; it's turning into a tic. Let some lines be direct."),
     "paragraph_mean": ("Paragraphs are too short; let some breathe.", "Paragraphs are too long; break them. The short paragraph is the unit of rhythm."),
 }
 
 
 # Rhythm stats are tight identity markers; punctuation counts swing more chapter to chapter.
-SLACK = {"image_paragraph_share": 0.4, "plain_dialogue_share": 0.4, "reversals_per_1k": 0.6, "aphorisms_per_1k": 0.8, "threes_per_1k": 0.15, "polysyndeton3_per_1k": 0.5, "triple_beats_per_1k": 0.25, "stair_paragraphs_per_1k": 0.6, "sentence_sd": 0.22, "sentence_mean": 0.25, "short_sentence_share": 0.2, "paragraph_mean": 0.35}
+SLACK = {"explained_subtext_per_1k": 0.8, "image_paragraph_share": 0.4, "plain_dialogue_share": 0.4, "reversals_per_1k": 0.6, "aphorisms_per_1k": 0.8, "threes_per_1k": 0.15, "polysyndeton3_per_1k": 0.5, "triple_beats_per_1k": 0.25, "stair_paragraphs_per_1k": 0.6, "sentence_sd": 0.22, "sentence_mean": 0.25, "short_sentence_share": 0.2, "paragraph_mean": 0.35}
 
 
 def derive_targets(sample_text: str, slack: float = 0.45, sources: list[dict] | None = None,

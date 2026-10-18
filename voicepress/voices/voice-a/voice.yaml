@@ -36,7 +36,7 @@ targets: {}
 inspired:
   # Identity markers, plus the over-polish stats: how plain the prose is must match the author, not the inspirations.
   locked: [em_dash_per_1k, spaced_hyphen_per_1k, ellipsis_per_1k, subjectless_per_1k,
-           the_way_similes_per_1k, reversals_per_1k, aphorisms_per_1k, image_paragraph_share, plain_dialogue_share]
+           the_way_similes_per_1k, reversals_per_1k, aphorisms_per_1k, image_paragraph_share, plain_dialogue_share, explained_subtext_per_1k]
   sources:
     - name: voice-b
       blend: 0.35

@@ -22,7 +22,7 @@ Kessa considered the river, which was brown and fast, full of branches, and then
 
 "Tell me," she said. "Does the Margrave know you're charging a silver? Or does he think it's still a copper, and you've a very nice pair of boots on the way?"
 
-He went red to the ears. Glanced down at his boots before he could stop himself. They were very nice boots.
+He went red to the ears and glanced down at his boots before he could stop himself. They were very nice boots.
 
 "A silver," he said again, but quieter.
 

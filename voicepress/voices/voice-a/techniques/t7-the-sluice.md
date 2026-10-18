@@ -4,11 +4,11 @@ The sluice gate at Morrow Weir had been built to be opened by twelve men on a wi
 
 On paper the answer was the windlass, and the windlass was no answer at all. Three men could turn it, slowly, but the chain had rusted into the gear teeth somewhere around the reign of the last king, and every quarter-turn the whole frame shrieked and bucked like it wanted to throw them into the race. Another half hour of that and they might have the gate a foot open. A foot wouldn't drain a bathtub.
 
-Tobin stood on the walkway with the spray in his face and looked at the problem the way old Harrel had taught him at the mill. Not at the gate. At what held the gate.
+Tobin stood on the walkway with the spray in his face and looked at the problem the way old Harrel had taught him at the mill. Not at the gate, but at what held the gate shut.
 
 Two iron pins, each as thick as his forearm, through the hinges on the downstream side. The whole weight of the river was pressing on that gate. It wanted to open. It had been wanting to open for sixty years. The windlass wasn't there to lift it. It was there to stop it swinging wide all at once and tearing itself off its own hinges.
 
-So stop fighting the river. Let it.
+So stop fighting the river, and let it do the work.
 
 "Pull the pins," said Tobin.
 
@@ -18,7 +18,7 @@ The drunk one stared at him. "It'll go."
 
 "It'll go all at *once*, it'll take the walkway, it'll take *us* -"
 
-"Not if we're off the walkway first." Tobin was already fitting the long bar under the first pin. Clever, Tobin, very clever. Now be clever and... well. Fast would do.
+"Not if we're off the walkway first." Tobin was already fitting the long bar under the first pin. Clever, Tobin, very clever. Now be clever and fast.
 
 Upstream, the river had changed its voice, from a roar to something deeper that he felt in his teeth before he heard it.
 

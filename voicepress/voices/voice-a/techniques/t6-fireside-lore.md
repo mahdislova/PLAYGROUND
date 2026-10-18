@@ -18,7 +18,7 @@ The elder Pellow leaned in to look and his brother leaned with him, so that for 
 
 "Charming," said Mabb.
 
-"It was... well. It was a different time," said the priest.
+"It was a different time," said the priest.
 
 "It's the same time," said Mabb, poking the fire until it spat. "People just used to be more honest about it."
 

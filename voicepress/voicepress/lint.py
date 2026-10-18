@@ -173,6 +173,8 @@ def lint(text: str, style: dict | None = None) -> Report:
         "max_one_line_paragraph_ratio": 0.35, **(style.get("thresholds") or {}),
     }
     allowed = [a.lower() for a in style.get("allowed_phrases") or []]
+    rationed = [a.lower() for a in style.get("rationed_phrases") or []]
+    seen: Counter = Counter()
     disabled = set(style.get("disabled_checks") or [])
     patterns = [(c, p) for c, p in PHRASES if c not in disabled]
     patterns += [("banned", rf"\b{re.escape(p)}\b") for p in style.get("banned_phrases") or []]
@@ -184,7 +186,14 @@ def lint(text: str, style: dict | None = None) -> Report:
 
     for cat, pat in patterns:
         for m in re.finditer(pat, text, re.I):
-            if any(a in m.group(0).lower() for a in allowed):
+            hit = m.group(0).lower()
+            if any(a in hit for a in allowed):
+                continue
+            if any(a in hit for a in rationed):
+                seen[hit] += 1
+                if seen[hit] == 1:
+                    continue  # the author uses it, once; a second use is a tic
+                rep.findings.append(Finding(cat, m.group(0), _line_of(text, m.start()), "rationed: once per text"))
                 continue
             rep.findings.append(Finding(cat, m.group(0), _line_of(text, m.start())))
 

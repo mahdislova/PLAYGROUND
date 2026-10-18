@@ -13,7 +13,7 @@ forbidden_strings: ["—", "–"]
 disabled_checks: [fragments, one_line_paragraphs, em, triads]   # threes are checked by the fingerprint instead
 
 # Your own phrases that the generic list would flag. Phrases found in samples/ are allowed automatically too.
-allowed_phrases: []
+allowed_phrases: ["and yet"]   # your doubled "And yet. / And yet." beat
 
 # Your personal pet hates on top of the built-in list.
 banned_phrases:

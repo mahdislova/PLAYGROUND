@@ -64,7 +64,7 @@ thousand words, in every kind of scene.
 - More often no tag at all, just an action beat or the speaker's name as a fragment:
   `"Hugh?" Elena. Voice soft. Cajoling.`
 - Characters banter, deflect, flirt and needle. They don't make speeches about their feelings unless
-  the scene has earned the speech, and then the listener resists it.
+  the scene has earned the speech. When it has, see "The earned speech" in section 4b.
 - Never "exclaimed", "retorted", "opined", "intoned".
 
 **Register**
@@ -131,10 +131,67 @@ who is where always trackable. Often ends in tenderness that does character work
 intrusions with ` -` cut-offs. Another character pushes. He resists, then breaks, and the release
 is one long sentence (`And like a dam bursting, the tension, the anger, the desire to break free all flowed out of him…`).
 
-**Character introductions.** Not a head-to-toe inventory. Place them in their space, mid-gesture,
-with one or two telling objects and their reputation in the POV character's mind:
-`Jacinia, captain of the Lost Reavers, leaning back, one finger across her upper lip, regarding him with that fierce, terrifying gaze of hers.`
-Then the POV character's history with them, in fragments.
+**Character introductions.** Two kinds, and the author uses both.
+- *Someone with history:* place them in their space, mid-gesture, with one or two telling objects and
+  their reputation in the POV character's mind, then the history in fragments:
+  `Jacinia, captain of the Lost Reavers, leaning back, one finger across her upper lip, regarding him with that fierce, terrifying gaze of hers.`
+- *A significant stranger:* introduce them in **two passes**. First a combat glimpse, the one detail
+  that matters in the fight (`a woman with curling ram's horns`). Then, in the first still moment, a full
+  appraisal running roughly head to foot (horns, nose, ears, apparent age, eye paint, necklace, pulse,
+  hair, build), filtered through what Hugh notices and *feels* about it. If he lingers too long, he
+  catches himself, and so does she: `only then did he realize he was staring... and with an apologetic grimace Hugh looked away.`
+
+**Mercy beat.** At the peak of battle-joy, the enemy's fear lands, and the joy burns out:
+`And in the face of her fear his joy in the battle burned away, leaving ashes in his mouth.`
+Then a plain sentence re-seeing the enemy as a person. This is how the author turns a fight into a choice.
+
+---
+
+## 4b. More of the author's habits (from OWN-07 to OWN-09)
+
+The newer pages run calmer than the first six: longer sentences, fewer clipped runs, fewer threes, a few
+more semicolons. The fingerprint now reflects all nine. These habits showed up clearly:
+
+- **The relative-pronoun continuation.** A sentence opens on `Who` and carries on from the last
+  sentence's object, so the camera passes from one person to the next mid-motion:
+  `...hurled twin blades blurring toward Hugh's neck. / Who only laughed, a gladness, a madness...` /
+  `she extended a noose to Hugh. Who slipped it around the ram girl's neck...`
+  Use it once or twice a chapter, always on a handoff.
+- **Voice-and-tone tags.** Dialogue tagged with an appositive describing the voice, not an adverb:
+  `said Morwyn, voice flat.` / `said Morwyn, voice low, tone hard.` / `voice sepulchral` / `voice taut with panic`.
+  Roughly once per thousand words. Never `said flatly`.
+- **The earned speech.** At a turning point a character gets a real set-piece speech: exclamations,
+  rhetorical questions, a lot of anaphora (`Only then will you... Only then will you... Only when...`),
+  building in waves. Everyone else goes still (`Hugh finished his cup of wine, but the power of her words
+  stayed his hand.`). Then comes something unexpected: a concession (`You're right.`) or a dry deflation.
+  One per several chapters, never two in one scene unless one answers the other.
+- **The litany.** Ritual repetition of a full name or title with a growing list of deeds, for vows and
+  vouching: `I, Zarja Lythgraefen el-Abeian, who stood beside... I, Zarja Lythgraefen el-Abeian, who walked...`
+  Rare, and only for oaths that matter.
+- **The deflator.** One character (Morwyn) punctures every emotional high with one dry line:
+  `"Well, that seems to have gone well," said Morwyn.` / `"Be easier to just drink from the bottle."` /
+  `"Though it's probably the least effective start to an interrogation I've ever heard."`
+  After a speech, a vow, or a reckless gesture, someone deflates it.
+- **The Reaver roster.** Calling on power is an act of naming: each spirit summoned by name with their
+  gift and personality in a clause (`Akilina, her brash counterpart, forceful and inconstant, disdainful of
+  rules`), and later the gifts are used specifically (`Acipa, Akilina, and Evassier gave him speed.
+  Foughtash gave him might.`). Hugh also chooses *not* to call more, and says why.
+- **Battle-joy.** In combat Hugh laughs, quips, and wants to bleed: `"Ow," he said.` /
+  `"The only way out of here is through me."` / `he wanted to push himself, to bleed`.
+- **The long wait, then the false alarm.** Tension built over days, compressed into worry-questions;
+  then a false alarm (`No. ... Nothing.`) immediately before the real thing (`Wait. / There.`).
+- **The reckless trust gesture.** Hugh proves himself with an act that could kill him (the knife at his
+  own throat), against the objections of everyone who loves him, and orders them to stand down.
+- **Supernatural cliffhanger.** A chapter can end on the dead speaking and taking him:
+  `Wrong, whispered a voice in his ear.` ... `and the world went dark as it fell away.`
+- **More inversions:** `What use more words?` / `What Hugh wouldn't have given to understand fae.` /
+  `Almost Hugh expected to hear the clip clop of delicate hooves`.
+- **Drinking as punctuation.** Hugh refills, drains, refills; how he drinks tracks his state (goblet when
+  composed, bottle when shaken, finding the goblet empty for comedy).
+
+**Phrases the author uses but rations.** `tapestry`, `palpable`, `time slowed`, `whisper of`, `jaw set`,
+`flicker of`, `somehow`, `eyes narrowed`, `couldn't help but` all appear in the author's pages, once each.
+The linter allows one use per text and flags any repeat.
 
 ---
 

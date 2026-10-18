@@ -10,11 +10,11 @@ After that it was quiet in the taproom, apart from the fire popping and somebody
 
 "Well?" said Brennic.
 
-The man looked at his friends in the street. Looked at the knife, as though it had let him down personally.
+The man looked at his friends in the street, then at the knife, as though it had let him down personally.
 
 "Who sent you?"
 
-Nothing. The man's eyes went to the door and back, measuring it.
+Nothing. The man's eyes went to the door and back, measuring the distance and not liking that sum either.
 
 "Who?"
 

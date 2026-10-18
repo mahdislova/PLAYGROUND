@@ -48,7 +48,8 @@ def load_voice(path: str | Path) -> dict:
     if voice["_samples"]:
         # Anything the generic AI-ism list flags that the author actually writes is their voice, not a tell.
         evidenced = {m.group(0).lower() for _, pat in PHRASES for m in re.finditer(pat, voice["_samples"], re.I)}
-        voice["allowed_phrases"] = sorted(set(voice.get("allowed_phrases") or []) | evidenced)
+        # They're rationed rather than freed: one use per text, like the author, and repeats get flagged.
+        voice["rationed_phrases"] = sorted(evidenced - {a.lower() for a in voice.get("allowed_phrases") or []})
         insp = voice.get("inspired") or {}
         sources = []
         for src in insp.get("sources") or []:

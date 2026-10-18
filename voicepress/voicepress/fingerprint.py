@@ -90,20 +90,24 @@ ADVICE = {
 SLACK = {"threes_per_1k": 0.15, "polysyndeton3_per_1k": 0.5, "triple_beats_per_1k": 0.25, "stair_paragraphs_per_1k": 0.6, "sentence_sd": 0.22, "sentence_mean": 0.25, "short_sentence_share": 0.2, "paragraph_mean": 0.35}
 
 
-def derive_targets(sample_text: str, slack: float = 0.45, inspired: dict | None = None,
-                   blend: float = 0.0, locked: tuple[str, ...] = ()) -> dict[str, list[float]]:
+def derive_targets(sample_text: str, slack: float = 0.45, sources: list[dict] | None = None,
+                   locked: tuple[str, ...] = ()) -> dict[str, list[float]]:
     """Target ranges from the voice's own samples, with slack because a chapter isn't the whole corpus.
 
-    With `inspired` stats and a `blend` weight, every stat not in `locked` is centred part-way
-    toward the inspired-by author. Locked stats (the author's identity markers) stay pure.
+    `sources` are inspired-by authors: {"stats": {...}, "blend": w, "skip": [...]}. Each stat is
+    centred part-way toward every source that doesn't skip it, by that source's weight. Locked stats
+    (the author's identity markers) stay pure.
     """
     m = measure(sample_text)
     targets = {}
     for key, v in m.items():
         if key == "words":
             continue
-        if inspired and key in inspired and key not in locked:
-            v = (1 - blend) * v + blend * inspired[key]
+        if key not in locked:
+            pulls = [(float(s["blend"]), s["stats"][key]) for s in sources or []
+                     if key in s["stats"] and key not in (s.get("skip") or ())]
+            own = 1 - sum(w for w, _ in pulls)
+            v = own * v + sum(w * x for w, x in pulls)
         slack_k = SLACK.get(key, slack)
         if v == 0:
             targets[key] = [0.0, 0.0]

@@ -191,6 +191,33 @@ More of Voice B's toolkit, all compatible with Voice A's mechanics. Use them fre
 
 The original technique studies in `techniques/` show all of these written in Voice A's mechanics.
 
+### 5b. From The Barrow (second inspired-by source, light touch)
+
+The fingerprint leans slightly toward this author's longer sentences and fuller paragraphs (blend 0.15).
+Let a few more scenes breathe in long paragraphs, especially lore and dread. These moves are worth taking:
+
+12. **The crew as a cast.** When a group is on stage, every member has a handle (`Too Tall`, `Red-Hand`),
+    one want, and one tell. Track who is standing where and who is holding what. Give minor members one
+    line each that only they would say, so the reader never loses count.
+13. **Suspicion made physical.** Distrust shows in the body before the mouth: a half-step back, a hand
+    resting on a hilt, a man choosing where to sit by the fire. Let another character notice it and
+    name it out loud, coolly. The tension is that everyone saw it.
+14. **Dread by dramatic irony.** Show the reader the threat the characters don't see: a figure behind
+    someone, a footprint that doesn't match, a door that was shut. Then cut away without comment and
+    let the scene go on as if nothing happened.
+15. **Lore by argument.** History comes out around a fire, a table or a corpse, through people who
+    disagree, interrupt, get it half wrong and needle each other. The scholar is corrected; the
+    soldier is bored; someone asks the question the reader wants answered. Never a lecture.
+16. **The expert's appraisal of an object.** Date a sword by its quillons, a lock by its maker's
+    file-marks, a body by its burial goods. Specific, technical and confident, then turn it: the detail
+    that proves it's a fake.
+17. **Grim deadpan in the face of horror.** After the worst thing in the scene, someone says the
+    plain crude thing everyone is thinking (`Who puts a fucking well in a barrow?`). One line. Move on.
+
+Don't take from The Barrow: said-bookisms (`exclaimed`, `intoned`, `crowed`), adverb-led tags
+(`said drily`), doubled abstractions (`rage and fury`), "X and Y and Z" chains, and paragraph-long
+sentences of stacked clauses. The fingerprint skips his rates for these on purpose.
+
 Do **not** import from Voice B: em dashes, essay-style explanation as default interiority, restraint
 in intimate scenes, plainer vocabulary, longer paragraphs.
 

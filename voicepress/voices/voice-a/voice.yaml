@@ -29,12 +29,19 @@ thresholds:
 
 targets: {}
 
-# How far the fingerprint leans toward the inspired-by author (Voice B), 0 = pure you, 1 = pure B.
-# Drop more B pages in inspired/ (kept local, never committed or sent to the model) and the numbers update.
+# Inspired-by authors. Each source's pages live in inspired/<name>/ (kept local, never committed
+# or sent to the model); only their measured numbers (inspired-<name>.json) are used.
+# `blend` is how far the fingerprint leans toward that author. `skip` lists stats NOT to borrow from them.
 # Locked stats are your identity markers and never move.
 inspired:
-  blend: 0.35
   locked: [em_dash_per_1k, spaced_hyphen_per_1k, ellipsis_per_1k, subjectless_per_1k]
+  sources:
+    - name: voice-b
+      blend: 0.35
+    - name: barrow
+      blend: 0.15
+      # His "X and Y and Z" chains, -ly adverbs and threes are exactly what we cut. Don't borrow them.
+      skip: [polysyndeton3_per_1k, ly_adverbs_per_1k, threes_per_1k]
 
 chapter:
   words: 4500

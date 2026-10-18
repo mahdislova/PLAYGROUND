@@ -1,4 +1,4 @@
 runs/
 book/runs/
 __pycache__/
-voices/*/inspired/*.md
+voices/*/inspired/**/*.md

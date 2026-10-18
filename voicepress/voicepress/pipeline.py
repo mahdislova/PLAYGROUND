@@ -50,10 +50,14 @@ def load_voice(path: str | Path) -> dict:
         evidenced = {m.group(0).lower() for _, pat in PHRASES for m in re.finditer(pat, voice["_samples"], re.I)}
         voice["allowed_phrases"] = sorted(set(voice.get("allowed_phrases") or []) | evidenced)
         insp = voice.get("inspired") or {}
-        voice["_inspired_stats"] = inspired_stats(vdir) if insp else None
+        sources = []
+        for src in insp.get("sources") or []:
+            stats = inspired_stats(vdir, src["name"])
+            if stats:
+                sources.append({**src, "stats": stats})
+        voice["_inspired_sources"] = sources
         voice["_targets"] = {
-            **derive_targets(voice["_samples"], inspired=voice["_inspired_stats"],
-                             blend=float(insp.get("blend", 0)), locked=tuple(insp.get("locked") or ())),
+            **derive_targets(voice["_samples"], sources=sources, locked=tuple(insp.get("locked") or ())),
             **(voice.get("targets") or {}),
         }
     else:
@@ -61,17 +65,18 @@ def load_voice(path: str | Path) -> dict:
     return voice
 
 
-def inspired_stats(vdir: Path) -> dict | None:
-    """Measure the inspired-by author from inspired/*.md (kept local, never sent to the model).
+def inspired_stats(vdir: Path, name: str) -> dict | None:
+    """Measure one inspired-by author from inspired/<name>/*.md (kept local, never sent to the model).
 
-    Only the numbers are saved, to inspired_fingerprint.json, which is what gets committed.
+    Only the numbers are saved, to inspired-<name>.json, which is what gets committed.
     """
     import json
 
     from .fingerprint import measure
 
-    files = sorted((vdir / "inspired").glob("*.md")) if (vdir / "inspired").exists() else []
-    cache = vdir / "inspired_fingerprint.json"
+    src = vdir / "inspired" / name
+    files = sorted(src.glob("*.md")) if src.exists() else []
+    cache = vdir / f"inspired-{name}.json"
     if files:
         stats = measure("\n\n".join(f.read_text() for f in files))
         stats.pop("words", None)
@@ -126,7 +131,7 @@ sections 6 to 8 of the bible and fix anything that fails them.
 Don't caricature the voice. Imitators overdo an author's signatures: too much subject-dropping, every
 sentence clipped, fragments everywhere. Match the rates in the voice fingerprint, not your impression
 of them. Most sentences in the samples are ordinary, complete and unshowy; the signatures are seasoning.
-Work in the inspired-by moves from bible section 5 (moves 4 to 11) the way the technique studies do.
+Work in the inspired-by moves from bible section 5 and 5b (moves 4 to 17) the way the technique studies do.
 
 Return only the chapter inside <prose></prose>. Start with the chapter heading. No notes and no
 commentary."""
@@ -153,6 +158,9 @@ only to be beaten. Check the draft for each of these:
    needling banter exchange closed by a wry one-line verdict, one passage of scheming interiority
    (odds, distances, costs, fallbacks), and one important exchange that turns on what isn't said.
    For each one missing or weak, say where it belongs and sketch it.
+9. ENSEMBLE AND DREAD (bible 5b): when three or more characters share a scene, can the reader track
+   who is where and what each wants? Is there a chance for dramatic irony, a threat the reader sees
+   and the characters don't? Does lore arrive by argument rather than lecture?
 
 Return 3 to 7 numbered revision notes, the most important first. Each note gives the exact passage
 and a concrete fix. Skip any check the draft already passes. Do not rewrite the chapter."""

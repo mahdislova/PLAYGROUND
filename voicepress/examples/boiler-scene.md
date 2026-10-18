@@ -26,7 +26,7 @@ Mary hadn't moved. Hadn't wiped her fingers either, still wet with spilled liquo
 
 She studied him the way a fence studies a watch somebody swears is gold. Picked up the cup and drank what was left in it, then set it down very gently this time, square in its own wet ring.
 
-Not a fool, then. Or not only a fool. She could work with that, probably, and she hated that she was already working out how.
+She wasn't angry anymore. She was interested, which with Mary was a good deal more dangerous, and he could see her hating every second of it.
 
 "Two weeks?" she said.
 

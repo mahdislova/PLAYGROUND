@@ -18,6 +18,31 @@ tenderness and a dry sense of humour that punctures its own heroics with a three
 
 ---
 
+## 1a. Story engine first (the most important section)
+
+Sentence polish is the last 10%. What makes a scene work, measured against Voice B's best pages
+(the Kylar dock job):
+
+1. **Somebody wants something concrete, now.** Money, a person out of a cell, a boy up the stairs
+   before the constable arrives. Not a mood.
+2. **Show the plan.** Let a character lay it out in plain dialogue, with who pays, why, the timing,
+   and what could go wrong. Exposition is fine when it's a plan, because the reader is now holding
+   a promise the scene will break.
+3. **Break the plan in a specific, surprising way** that uses the setup: the knife goes into the
+   stomach, not the blood bladder. The reader should think "oh no" before the character does.
+4. **Pay the cost in physical, procedural detail,** and if a mind is failing, let it fail confusedly
+   (the catchpole he can't remember).
+5. **Let feeling come out sideways.** The character starts to say the true thing, swerves into a joke
+   or an order, and someone needles him back.
+6. **Be clear, not coy.** The POV character may say exactly what he works out: "Kylar could tell Jarl
+   was avoiding details because Uly was in the room." Ban only *redundant* interpretation, never clarity.
+7. **Button on the other side.** Sometimes cut to the antagonist for the last line, pleased with himself.
+
+Transparent prose is allowed to be ordinary, and even to use a stock phrase now and then. A chapter
+with a plan, a break and a cost in plain sentences beats a beautiful chapter where nothing is at stake.
+Watch for repeated tics the linter can't see: the same fact or number restated ("thirty-one years"
+six times), the same sentence opener, the same kind of beat.
+
 ## 1b. Plain is the default
 
 The single biggest difference between the author's pages and a machine imitating them: the author

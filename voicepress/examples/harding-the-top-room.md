@@ -2,106 +2,106 @@ Then he stopped listening.
 
 * * *
 
-At a quarter past eleven every chandelier in the Great Hall dimmed at once.
+At a quarter past eleven every chandelier in the Great Hall dimmed at once, and under the floor something screamed.
 
-It wasn't much. The green light sagged toward brown for the space of three breaths and the hum of the crystal lines dropped half a note, and two hundred people stopped talking in the middle of their sentences. Beyond the tall windows Byron watched Mayfair go dim with them, the river lamps too, all of London at the same moment. Then it came back, and somebody near the champagne laughed louder than he needed to and said, "Essex again," and the talk started up as if it had never stopped.
+Nobody else heard it. Byron could tell by their faces: two hundred people looking up at the lights, puzzled, and somebody by the champagne saying "Essex again" and getting a laugh. The lights came back and the talk came back, and across the hall Master Nathaniel had gone white and was asking the Assistant Secretary of Something whether he could hear that, and the Assistant Secretary was edging away from him.
 
-Under the floor, something screamed.
+Byron had heard it once before, as a young sergeant of Lanterns on the core watch at the Works. He had asked about it the next morning, and a week later he had been posted to the Liverpool line, and he had not asked about anything since.
 
-Byron had heard it once before, thirty-one years ago, when he'd been a sergeant of Lanterns on the core watch at the Works and hadn't yet learned which questions got a man moved to the Liverpool line. He felt it in his back teeth. Across the hall Master Nathaniel's head came up, and the boy went the color of the tablecloths.
+The footboy came in through the service door at twenty past, soaked to the knees, with a note. Byron knew Ada's handwriting from across the room. So did Lord Harding, who read it, put it in his waistcoat, and walked out of his own Exhibition in the middle of the Admiralty's toast without a word to anyone.
 
-"Can't you hear that?" Nathaniel said to the man beside him, who was an Assistant Secretary of something and plainly couldn't. "Can't any of you hear it?"
+Byron went after him. It was his job, and he wanted to know besides what could make Ada send a boy running through the rain at midnight. In nineteen years she had never once sent for anyone; she dealt with things.
 
-They couldn't. Nobody but Hardings ever did, and Byron, and Byron had spent thirty-one years making sure nobody knew that.
+In the carriage, Lord Harding said, "How many in the house tonight?"
 
-A footboy in Harding green came in through the service door soaked to the knees. Ran from the mews without a coat, then, and in this rain. He had a note, and Byron knew the hand from across the room: small and upright, the hand that kept the inventory of thirty keys and had never once in nineteen years misspelled *decanter*. Ada.
+"Ada, Cook, four maids, well, three, Sally's at her mother's. Two footmen and the boy, and Master James." Thought about it a moment longer. "Her ladyship came home at ten, sir. With a headache."
 
-Lord Harding read it, folded it in half and in half again, and put it in his waistcoat pocket. He didn't look round for his wife. Lady Josephine had gone home at ten with a headache. He walked out through the middle of the Exhibition, past the Admiralty men and his own name in green crystal letters six feet high, and Byron, who had been walking behind Hardings for fifty years, went after him.
-
-In the carriage his lordship said one word, which was "Faster," and nothing after that.
-
-Byron sat with his back to the horses and watched the green lamps of London go by, burning steady again, and did sums, because that was what he did when he was frightened. How many in the house tonight. Which doors were locked and who had the keys to them. How long since the core watch last changed its sergeant, and whether the new one was the sort who'd write things down. None of it came out to anything useful. He did it anyway, all the way to Grosvenor Square.
+His lordship didn't answer that, and Byron didn't ask why.
 
 * * *
 
-Ada was waiting at the study door with a lamp.
+Ada met them at the study door with a lamp and a face like a shut drawer.
 
-"I haven't touched anything, my lord," she said. "I... well, I sent the girls to bed. Nobody's been in but me."
+"I've not touched anything, my lord, and I sent the maids up." She hesitated, which Ada didn't do. "Thomas went for a constable before I could stop him. I'm sorry, my lord, he heard the glass go and he panicked."
 
-Byron went past her and knelt.
+"How long ago?"
 
-Master James lay on the carpet in a skin of frost. His eyes were open and his lips were blue. Ice had grown in the hollow of his throat in little white feathers, and it was still growing; Byron watched a new one form while he looked, down under the boy's collar. The window was out. Rain was coming in across the broken glass, and among the glass lay the pieces of the paperweight. Byron had dusted that paperweight every Thursday for sixteen years and never once been allowed to pick it up.
+"Twenty minutes, perhaps a little more."
 
-Pulled off a glove with his teeth and put two fingers to the boy's neck.
+The nearest station house was in Mount Street. Ten minutes there for a frightened footman, ten back for a constable who'd want his coat first. Byron did the sum and didn't like the answer.
 
-Cold as a step in January. He waited, and counted under his breath the way they'd counted on core watch between pulses of the line, and got as far as eleven and had started to think -
+He went past Ada and knelt.
+
+Master James lay on the carpet covered in frost. His eyes were open and his lips were blue, and the frost was still growing, little white feathers creeping down his throat and under his collar while Byron watched. The window had been smashed outward. Rain was blowing in over the broken glass, and in the glass were the pieces of the crystal paperweight from the desk. He had dusted that paperweight every Thursday since the boy was born, and had once been told off for picking it up.
+
+Pulled his glove off with his teeth and found the pulse in the boy's neck, and waited, and counted, and at eleven he was ready to say it, and then:
 
 *Thud.*
 
-"He's alive." It came out louder than he meant. "My lord, he's alive. Only just, I think."
+"He's alive, my lord, just."
 
-Lord Harding hadn't knelt. He'd gone past his son to the window and stood there with the rain on his face, looking out over the square at something Byron couldn't see.
+Lord Harding was at the window with the rain on his face. Didn't turn round.
 
-Footsteps in the hall, fast and light, and Lady Josephine came in.
+Lady Josephine came in fast, still in the black silk, her hair damp. She went down on her knees in the glass beside her son and took his face in both hands, and Byron saw that she wasn't wearing gloves. He saw the old white scars across her knuckles. He had seen them once before, a long time ago, by lantern light at the north gate of the Works, on a girl of nineteen holding a knife. He had never mentioned it to anyone, and he was not about to start now.
 
-She was still in the black silk, her hair coming down at the temples and damp. She went straight to her son and knelt in the glass without seeming to notice it, and took his face between her hands.
+"Send for Brodie," she said. "Eldgard, send for Brodie, he can -"
 
-Her hands were bare.
+"No." Lord Harding turned round. "Listen to me, Jo, both of you. We have about ten minutes, so I'll say this once." He said it the way he laid out a new rail line for the board: plainly, in order. "Jamie broke the seal. Whatever he saw when he did it, he'll talk about. If he wakes in a hospital, he'll talk about it to a doctor, and the doctor will talk to a newspaper, and by Friday someone will be digging under the Works to see what's down there. So Jamie doesn't wake in a hospital. Tonight, a burglar came in through that window and Jamie surprised him. There was a struggle, the window broke, and the cold got him before he was found. Whitlock will sign the certificate. We bury an empty coffin, closed, on Monday."
 
-Byron had been in this house thirty-one years. He had seen her without gloves twice. Once on her wedding night, carrying a basin past him on the back stair. Once before that, by lantern light at the north gate of the Works, with a knife in her hand, when she was nineteen and not yet anybody's lady. He'd never told a soul about the second time. He looked at the old white scars across her knuckles, and at the damp in her hair, and thought about a headache that had sent her home at ten.
+"And Jamie?" said Lady Josephine.
 
-"Oh, Jamie. Oh, my love." Then, without looking up: "Send for Brodie. Send for... anyone, Eldgard, send -"
+"Jamie goes in the top room until I know what he is." He looked at Byron. "You have the key, I believe."
 
-"No one." Lord Harding turned from the window. "He let it out, Jo. If he wakes up, the first thing out of his mouth will be what's under the Works."
+Byron did; it had been on his ring longer than he'd been butler, and nobody had ever told him what it opened. He had assumed it was a store room.
 
-"He's our son."
+"The constable, my lord," he said. "He'll want to see the body, surely."
 
-"As of tonight he's dead."
+"He'll see blood on the glass and a broken window, and he'll see me. I'll tell him the body's been taken upstairs out of respect, and that the family's doctor is with it. He's a constable, and he'll write down what I tell him and go home." Lord Harding paused. "That's if Jamie's upstairs before he walks in. If he isn't, it all falls apart."
 
-Nobody said anything, and the rain came in. "A burglar," his lordship went on, in the voice he used for the eastern lines and the price of crystal. "He came in by the window. Jamie disturbed him, there was a struggle, and the cold had him before he was found. The coffin will be closed. Whitlock will sign what I put in front of him." He looked at Byron. "The top room."
+"The servants' stair, then, all four flights."
 
-Byron had carried the key to the top room on his ring for thirty-one years and had never once been told what it was for. He supposed he was being told now.
+"Can you carry him?"
 
-"Ada," said Lord Harding.
+Byron was sixty-eight. James was sixteen and had grown four inches since Easter.
 
-"I didn't see anything, my lord."
+"Yes, my lord."
 
-He looked at her for a while. "No," he said. "I don't suppose you did."
+"Ada," said Lord Harding. "You saw nothing."
 
-Lady Josephine hadn't let go of her son's face. She was looking at Byron, not at her husband, and Byron couldn't tell what she wanted from him. Help, maybe. Or for him to keep his mouth shut about a gate and a lantern, which he'd done for thirty-one years without being asked. Or nothing, and he was an old fool reading things into a woman's face because he was frightened.
+"I never do, my lord," said Ada, and for a moment Byron thought his lordship might actually smile.
 
-He looked away first. Put his glove back on, finger by finger.
+Lady Josephine hadn't moved. She was still holding her son's face, and she looked up at Byron, and he didn't know what she wanted. For him to refuse, maybe, or to hurry. He gave her a nod that could have meant either, slid his arms under the boy, and lifted.
 
-"Yes, my lord," he said. "The top room."
+The cold went through his coat and shirt as if they weren't there, and by the first landing his forearms had gone past aching into burning, and by the second they'd stopped hurting at all, which he knew from his years on the watch was worse, much worse, a numb that meant you'd be losing skin in the morning if you were lucky and fingers if you weren't, and he kept climbing anyway, one step and then the next, the boy's head lolling against his shoulder. Below him, the front door knocker went: two heavy knocks, a constable's knock.
+
+On the third landing, James opened his mouth.
+
+"Byron."
+
+Nearly dropped him. The boy's voice was a whisper, cracked and dry, and his eyes had moved. They were looking right at him.
+
+"It's not under the Works anymore," James whispered. "Byron, it's not... I let it... it's in the -"
+
+Byron got his gloved hand over the boy's mouth. Downstairs he could hear Lord Harding's voice in the hall, calm and reasonable, and the constable saying something back, and then footsteps on the main stair. They'd be on the family floor in a minute.
+
+"Hush, Master James," Byron said into the boy's hair. "Hush now, not yet."
+
+James's lips moved against his glove. Byron felt the cold come through the leather, and kept his hand where it was, and went up the last flight with the boy's breath freezing on his fingers. He found the key on his ring without looking, and he opened the door, and he went in.
 
 * * *
 
 Nathaniel came home last.
 
-The Board of Trade had kept him an hour, and for once in his life he hadn't minded. Mr Hollis had brought over a Mr Fairweather and a Mr Coyne, and Mr Coyne had picked up the gauntlet, turned it in the light, and asked what load the wrist joint would bear. He'd asked, and then he'd listened to the answer, and then he'd written it down. Then he'd said *Admiralty*, and *contract*, and nobody had laughed, and nobody had said *toy*.
+The Board of Trade had kept him an hour, and he'd enjoyed every minute. A Mr Coyne had picked up the gauntlet, asked what load the wrist joint would bear, listened to the answer, written it down, and then said the words *Admiralty contract*. Four hundred units for trials. Nathaniel had tried to work out the money in the cab and lost count somewhere past the second nought. He came up the front steps grinning like an idiot and didn't care who saw.
 
-Four hundred units to begin with, if the trials went well. Nathaniel had done the sums on the back of a menu in the cab coming home and got a different answer three times, all of them large. Don't grin, he told himself on the front steps. You look about twelve when you grin. He grinned anyway, and went in with the case under his arm, working out how to tell his father without sounding pleased about it.
+The hall was full of the wrong people: maids on the stairs in their nightclothes, a constable by the door with his helmet under his arm and a notebook in his hand, and his father talking to the constable in a low, reasonable voice. His father, who should have been at the Exhibition for another two hours.
 
-The hall was full of the wrong people for one in the morning.
+"Father?"
 
-Servants on the stairs in their nightclothes. A constable by the door, turning his helmet round in his hands, looking at the floor. Two of the maids holding hands. Every lamp in the house was lit, every one of them green and steady.
+Lord Harding looked at him, and kept talking to the constable.
 
-Byron was on the great stair with one gloved hand held out, palm toward him.
+Nathaniel went for the stairs. Reached for the banister and snatched his hand back again, fast. It was cold enough to sting. Frost ran up the polished wood in little white ferns, all the way round the curve and up into the dark, and the print of his palm stayed in it and didn't melt.
 
-"Sir," Byron said. "Don't go up."
+"Where's Jamie?" he said. "I mean, is he all right? Is he upstairs?" Nobody answered. "Father, where's Jamie?"
 
-"Byron, what on earth's happened? Is it Father?"
-
-"Please don't go up, sir."
-
-Nathaniel put his hand on the banister to go up anyway, and took it off again.
-
-It was cold. Frost had grown on the polished mahogany in little white ferns, all the way up the curve of the stair and into the dark. Looked at his hand, then at the banister. The print of his palm was there in the frost. He waited for it to melt.
-
-It didn't.
-
-"Byron." His voice came out wrong, high, like it had when he was small. "Where's Jamie?"
-
-Byron didn't answer him.
-
-Two floors up, past the family floor and past the servants' floor, on a landing Nathaniel had never once been allowed to climb to, a door closed, and a key turned in it.
+Somewhere far above him, past the family floor, past the servants' floor, on a landing he'd never been allowed to climb to, a door shut, and a key turned in the lock.

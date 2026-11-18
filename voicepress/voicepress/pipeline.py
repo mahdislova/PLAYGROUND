@@ -130,7 +130,13 @@ pairs, fours and lopsided lists, never stacked threes. Let some sentences be pla
 end flat. Build the plot per the bible's "Story shape". Before you finish, reread your draft against
 sections 6 to 8 of the bible and fix anything that fails them.
 
-Write plain by default. This matters more than anything else in the bible. Most sentences in the
+Story engine first (bible section 1a). Before drafting, privately write the beat sheet: what each
+POV character concretely wants in each scene, the plan (shown on the page, ideally in dialogue),
+how it breaks in a specific way that uses the setup, and what it costs. A scene that is only mood
+is a failed scene, however good its sentences. Be clear, not coy: the POV character can state what
+he works out. Feeling comes out sideways, as a swerve into a joke or an order.
+
+Write plain by default. Most sentences in the
 author's pages are functional: someone stands up, crosses a room, answers a question. Images are rare
 (about one long paragraph in eight carries one), and the author never writes "the way a man does X"
 comparisons. Don't make every paragraph memorable. Don't reverse and qualify ("not X, nothing so Y,
@@ -165,6 +171,10 @@ Machine-written fiction gives itself away in its plot shape: themes spelled out,
 plots, flat escalation, linear time, protagonists whose choices cost nothing, and antagonists who exist
 only to be beaten. Check the draft for each of these:
 
+0. ENGINE: for each scene, name the POV character's concrete want, the plan the reader is shown, the
+   specific way it breaks, and the cost. If any is missing, the scene is mood without engine; propose
+   the want, plan, break and cost, using what's already on the page. This outranks every other note.
+   Also list any fact, number or phrase restated more than twice in the chapter.
 1. ESCALATION: does each scene beat raise the stakes or turn the situation? Name any beat that only repeats the previous one's tension.
 2. THEME: is any meaning, lesson or feeling stated outright, in narration or a speech, when the action already showed it? Quote it.
 3. TRACKS: is there a second pressure running under the main one (a relationship strain, a secret, a debt, a body problem)? If the chapter is single-track, propose one, drawn from the ledger.

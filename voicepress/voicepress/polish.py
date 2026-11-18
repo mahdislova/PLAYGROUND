@@ -80,7 +80,7 @@ def find_polish(text: str) -> list[Polished]:
     out += [Polished("explains subtext", m.group(0), _line_of(text, m.start())) for m in EXPLAINED.finditer(text)]
     out += [Polished("reversal", m.group(0), _line_of(text, m.start())) for m in REVERSAL.finditer(text)]
     out += [Polished("aphorism", a, _line_of(text, text.find(a[:30]))) for a in _aphorisms(_body(text))]
-    for p in paragraphs(text):
+    for p in paragraphs(re.sub(r"<!--.*?-->", "", text, flags=re.S)):
         for m in IMAGE.finditer(p):
             s = next((x for x in sentences(p) if m.group(0) in x), m.group(0))
             out.append(Polished("image", s, _line_of(text, text.find(p))))

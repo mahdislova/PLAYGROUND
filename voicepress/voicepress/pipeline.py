@@ -99,8 +99,9 @@ def fingerprint_block(voice: dict) -> str:
 def voice_system(voice: dict, role: str) -> list[dict]:
     """Stable system prompt (cached): role, bible, samples, fingerprint."""
     samples = "\n\n".join(f'<sample id="{sid}">\n{text}\n</sample>' for sid, text in voice["_sample_list"])
+    craft = (Path(__file__).resolve().parent / "craft.md").read_text()
     text = (
-        f"{role}\n\n<style_bible>\n{voice['_bible']}\n</style_bible>\n\n"
+        f"{role}\n\n<craft_library>\n{craft}\n</craft_library>\n\n<style_bible>\n{voice['_bible']}\n</style_bible>\n\n"
         f"<author_samples>\nThe author's own published pages. This is what correct sounds like. "
         f"Imitate the habits, never reuse the sentences, names or events.\n{samples}\n</author_samples>\n\n"
         + (
@@ -155,7 +156,7 @@ not ornamental.
 Don't caricature the voice. Imitators overdo an author's signatures: too much subject-dropping, every
 sentence clipped, fragments everywhere. Match the rates in the voice fingerprint, not your impression
 of them. Most sentences in the samples are ordinary, complete and unshowy; the signatures are seasoning.
-Work in the inspired-by moves from bible section 5 and 5b (moves 4 to 25) the way the technique studies do.
+Work in the inspired-by moves from bible section 5 and 5b (moves 4 to 31) the way the technique studies do.
 
 Return only the chapter inside <prose></prose>. Start with the chapter heading. No notes and no
 commentary."""
@@ -204,6 +205,16 @@ only to be beaten. Check the draft for each of these:
 14. PAYOFF ROOTS: is the chapter's consequence or reveal rooted in something planted earlier, in this
    chapter or the ledger, so that it feels inevitable rather than chosen for effect? If not, propose
    the plant.
+15. TRY-FAIL: is each scene's outcome "yes, but" or "no, and" (craft library 1)? Flag any clean
+   "yes" or flat "no" and propose the complication.
+16. SUSPENSE: is there at least one stretch where the reader knows something a character doesn't
+   (craft library 3)? If not, propose where a second POV, an overheard plan or a visible threat would
+   create it.
+17. CLARITY OF ACTION AND REACTION: flag any reaction written before its cause, or any action passage
+   where the reader can't tell who did what to whom (craft library 5 and 6).
+18. SCENE-TYPE PLAYBOOKS: if the chapter has a speech, a romantic or sexual scene, a comic scene or a
+   fight, check it against the matching playbook in the craft library (sections 6, 10, 11, 12) and
+   name the one move that would most improve it.
 
 Return 3 to 7 numbered revision notes, the most important first. Each note gives the exact passage
 and a concrete fix. Skip any check the draft already passes. Do not rewrite the chapter."""

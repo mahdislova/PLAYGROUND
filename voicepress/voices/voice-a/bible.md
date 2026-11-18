@@ -317,6 +317,27 @@ More from Voice B (a second of his novels), same rules: his moves, your mechanic
     dead: `The smell was rich, savory, mouthwatering, astounding, debilitating.` This is the one sanctioned
     break of the rule of three, and it only works because nothing else is listed like that.
 
+Still more from Voice B (*Shadow's Edge*: Jarl's rally, Elene's morning):
+
+26. **The speech as a con.** The speaker means it and is working the room at the same time, and the
+    POV shows both: `Jarl had them now.` / `It was a planted question.` Start from the enemy's contempt
+    for the audience, build call-and-response (`They want X? We'll Y.`), getting cruder as it climbs,
+    land it on one face, and close on an image from the speaker's own trade. (Craft library 12.)
+27. **Bathos at the peak.** Let a character's interior escalate (desire, courage, a decision) until
+    the reader is sure, then puncture it with the other person's mundane obliviousness
+    (`I've got to piss like a warhorse`). The reader knows what he doesn't; that's the joke and the ache.
+28. **Watching someone talk themselves into it.** Free indirect run-ons where a character argues with
+    her own rules and scripture, with small self-honest admissions (`Well, maybe her shift didn't
+    ride up all by itself`). The rationalising is the character.
+29. **Private silliness.** Couples and crews have their own songs, words and games (`good morning`
+    sung thirty-seven times, harmonised as `ass assing`). Silliness on the page makes the later grief land.
+30. **Lore in the middle of intimacy.** Drop a world fact casually at an unlikely moment (his breath
+    never smells, probably the ka'kari). The world feels lived in when nobody stops to explain it.
+31. **Rules bend for effect.** Weeks stacks threes (`beautiful and good... a lady... a princess`) and
+    ends a scene on a question (`What had she been thinking?`). Breaking a rule once, on purpose, at a
+    character's moment of shock or overflow, is craft. Breaking it by habit is the fault the
+    linter catches.
+
 ### 5b. From The Barrow (second inspired-by source, light touch)
 
 The fingerprint leans slightly toward this author's longer sentences and fuller paragraphs (blend 0.15).

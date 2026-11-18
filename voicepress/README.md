@@ -38,6 +38,16 @@ The Barrow 0.15) and an optional `skip` list of stats not to borrow. The `locked
 **Auto-allow.** If a phrase on the generic AI-ism list appears in your own samples ("jaw set",
 "couldn't help but", "And yet."), it's your voice, so it isn't flagged.
 
+## Craft library
+
+`voicepress/craft.md` is general fiction craft every voice gets, loaded into the writer and the story
+editor on every chapter: scene architecture (scene/sequel, try-fail "yes, but / no, and", arrive late
+leave early, the plan rule), promises and payoffs, suspense versus mystery versus surprise, stakes,
+motivation-reaction order, action clarity, dialogue, exposition, POV and interiority, humour (bathos,
+callbacks), desire and sex scenes, speeches, description, pacing, openings and endings, character, and a
+pre-flight checklist. The voice bible decides how sentences sound; the craft library decides how scenes
+work. Edit it freely; it's plain markdown.
+
 ## Start a new project
 
 Four steps, about ten minutes plus writing time. Replace `myvoice` and `books/mybook` with your names.

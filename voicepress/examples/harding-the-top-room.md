@@ -30,7 +30,7 @@ Ada was waiting at the study door with a lamp.
 
 Byron went past her and knelt.
 
-Master James lay on the carpet in a skin of frost. His eyes were open and his lips were blue. Ice had grown in the hollow of his throat in little white feathers, and it was still growing. Watched a new one form while he looked, down under the boy's collar. The window was out. Rain was coming in across the broken glass, and among the glass lay the pieces of the paperweight. Byron had dusted that paperweight every Thursday for sixteen years and never once been allowed to pick it up.
+Master James lay on the carpet in a skin of frost. His eyes were open and his lips were blue. Ice had grown in the hollow of his throat in little white feathers, and it was still growing; Byron watched a new one form while he looked, down under the boy's collar. The window was out. Rain was coming in across the broken glass, and among the glass lay the pieces of the paperweight. Byron had dusted that paperweight every Thursday for sixteen years and never once been allowed to pick it up.
 
 Pulled off a glove with his teeth and put two fingers to the boy's neck.
 

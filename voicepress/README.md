@@ -38,6 +38,35 @@ The Barrow 0.15) and an optional `skip` list of stats not to borrow. The `locked
 **Auto-allow.** If a phrase on the generic AI-ism list appears in your own samples ("jaw set",
 "couldn't help but", "And yet."), it's your voice, so it isn't flagged.
 
+## Start a new project
+
+Four steps, about ten minutes plus writing time. Replace `myvoice` and `books/mybook` with your names.
+
+```bash
+pip install -r requirements.txt
+export ANTHROPIC_API_KEY=...                     # or `ant auth login`
+
+# 1. A voice: copies the general craft rules (story engine, plain prose, threes, story shape, Never list)
+python -m voicepress new-voice myvoice
+#    then put 3,000+ words of the author's OWN pages in voices/myvoice/samples/, one scene per .md file
+
+# 2. Draft the voice-specific half of the bible from those samples, then read and correct it
+python -m voicepress --voice voices/myvoice distill
+python -m voicepress --voice voices/myvoice fingerprint     # the measured targets every chapter is checked against
+
+# 3. A book. To continue an existing manuscript, import its chapters and build the story ledger from them
+python -m voicepress --voice voices/myvoice new-book books/mybook --import path/to/existing/chapters --seed-ledger
+
+# 4. Write chapters. Each brief should name the scene's want, the plan, and what goes wrong (bible 1a)
+python -m voicepress --voice voices/myvoice chapter --book books/mybook \
+  "Kira needs the harbour master's seal before dawn. Plan: swap it during the tide-bell. It breaks when..."
+```
+
+Each chapter lands in `books/mybook/chapters/chNN.md` with an `chNN.author-pass.md` worksheet next to it.
+Work through that worksheet by hand before the chapter goes anywhere. Optional: inspired-by authors go in
+`voices/myvoice/inspired/<name>/` (kept local) with a `sources:` entry in `voice.yaml`, and their moves
+can be written up in bible section 5.
+
 ## Use
 
 ```bash

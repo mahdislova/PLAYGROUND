@@ -50,11 +50,55 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--passes", type=int, default=2)
     p.add_argument("--out", default=str(HERE / "runs"))
 
+    p = sub.add_parser("new-voice", help="start a new voice folder from the template")
+    p.add_argument("name")
+    p = sub.add_parser("distill", help="draft the voice-specific bible sections from samples/ (uses the API)")
+    p.add_argument("--notes", help="optional file of notes on inspired-by authors to fold into section 5")
+    p = sub.add_parser("new-book", help="make a book folder (chapters/ + ledger.md)")
+    p.add_argument("path")
+    p.add_argument("--import", dest="import_dir", help="folder of existing chapters (.md/.txt) to copy in, in name order")
+    p.add_argument("--seed-ledger", action="store_true", help="build the ledger from the imported chapters (uses the API)")
+
     for sp in sub.choices.values():
         sp.add_argument("--chunk-words", type=int, default=1500)
 
     a = ap.parse_args(argv)
+
+    if a.cmd == "new-voice":
+        from .project import new_voice
+        dest = new_voice(a.name, HERE / "voices")
+        print(f"created {dest}\nnext: put the author's own pages in {dest / 'samples'}, then run\n"
+              f"  python -m voicepress --voice {dest} distill")
+        return
+
+    if a.cmd == "new-book":
+        from .project import new_book
+        book = Path(a.path)
+        imported = new_book(book, Path(a.import_dir) if a.import_dir else None)
+        print(f"book folder ready: {book}  ({len(imported)} chapters imported)")
+        if a.seed_ledger and imported:
+            from .llm import LLM
+            from .pipeline import Engine
+            voice = load_voice(a.voice)
+            eng = Engine(voice, LLM(voice.get("model", "claude-opus-5-5"), voice.get("effort", "high")), book / "runs" / "ledger-seed")
+            ledger = ""
+            for i, ch in enumerate(sorted((book / "chapters").glob("ch*.md")), 1):
+                print(f"  reading chapter {i} into the ledger", file=sys.stderr)
+                ledger = eng.update_ledger(ledger, ch.read_text(), i)
+            (book / "ledger.md").write_text(ledger + "\n")
+            print(f"ledger written: {book / 'ledger.md'}  (check it and fix anything wrong by hand)")
+        return
+
     voice = load_voice(a.voice)
+
+    if a.cmd == "distill":
+        from .llm import LLM
+        from .project import distill
+        notes = Path(a.notes).read_text() if a.notes else ""
+        bible = distill(voice, LLM(voice.get("model", "claude-opus-5-5"), voice.get("effort", "high")), notes)
+        print(f"drafted sections 1-5 into {bible} (previous version saved alongside). Read it and correct it:\n"
+              f"it's a draft of how YOU write, and you're the authority on that.")
+        return
 
     if a.cmd == "fingerprint":
         for k, (lo, hi) in voice["_targets"].items():

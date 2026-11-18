@@ -39,7 +39,7 @@ def load_voice(path: str | Path) -> dict:
     bible = vdir / "bible.md"
     voice["_bible"] = bible.read_text() if bible.exists() else voice.get("voice", "")
 
-    samples = sorted((vdir / "samples").glob("*.md")) if (vdir / "samples").exists() else []
+    samples = sorted(f for f in (vdir / "samples").glob("*.md") if f.name.lower() != "readme.md") if (vdir / "samples").exists() else []
     voice["_sample_list"] = [(p.stem, p.read_text()) for p in samples]
     voice["_samples"] = "\n\n".join(t for _, t in voice["_sample_list"])
 

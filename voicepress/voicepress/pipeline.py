@@ -146,6 +146,21 @@ repeat themselves, say "well" and "aye" and "I don't know", and some exchanges j
 punchline. If a line sounds quotable, ask whether the author would really have written it; usually
 the plainer version is theirs.
 
+Deep third, Weeks's way (craft library 9b and 9c). No italics for thought: the narration slides
+from camera to the POV character's own idiom and back without tags, with self-address ("Just walk,
+Kip."), verdicts ("Of course."), jokes and rhetorical questions in the narration, about one sentence
+in eight or ten. No filter verbs (saw, felt, heard, knew) unless knowing is the event. Never report
+emotion from outside ("he looked tired"); give the POV character's biased read. Dialogue fights:
+every line is a move, people answer the question under the question, no echo replies, and the POV
+character's unspoken read sits between lines instead of stage directions like "She waited."
+
+Warmth and weight (craft library 9d and 9e). People who love each other show it in small, practical,
+unannounced kindnesses and in banter that someone loses; give friends shorthand and history, and give
+every two-hander a power shift. At a chapter's hinge, at most once, borrow Ruocchio's hindsight: a
+proleptic line that knows this moment will matter ("It was the last thing his brother ever gave him"),
+or one long opening-out sentence when something vast is on the page. Grief, not mechanism; images,
+not aphorisms.
+
 Make people particular, not legible. Characters understand each other partly and wrongly, out of
 resentment, love or self-interest; let at least one misreading stand uncorrected and one argument stay
 unsettled. Don't explain a gesture after showing it. Give the POV character uneven attention: he loses

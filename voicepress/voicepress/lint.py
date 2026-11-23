@@ -266,5 +266,13 @@ def lint(text: str, style: dict | None = None) -> Report:
     if one_liners > th["max_one_line_paragraph_ratio"] and "one_line_paragraphs" not in disabled:
         rep.flags.append(f"one-line paragraphs {one_liners:.0%} (limit {th['max_one_line_paragraph_ratio']:.0%})")
 
+    # Deep third person (Weeks): distance from the POV head, and dialogue that does no work.
+    if "pov" not in disabled:
+        from .pov import analyse, compare as pov_compare
+        pstats, pfind = analyse(text)
+        rep.findings += [Finding(f.category, f.text, f.line, f.note) for f in pfind]
+        rep.stats.update(pstats)
+        rep.flags += pov_compare(pstats)
+
     rep.findings.sort(key=lambda f: f.line)
     return rep

@@ -108,6 +108,85 @@ a law: great writers break them on purpose, once, for effect. Breaking them by a
 - **Clarity beats coyness.** The POV character may state what he works out.
 - **One POV per scene.** Switch at a scene break, and use the switch for dramatic irony.
 
+## 9b. Deep third, Weeks's way
+
+Brent Weeks's third limited has no italics for thought. The narration is a camera on a dolly: it
+starts outside, rolls in to the character's eyes, then into their mouth, and back out, with no
+signal. "Kip saw something in the mist. His heart leapt into his throat. The curve of a mail cowl.
+A glint of eyes... A ghost. Dear Orholam. Look on the bright side. Maybe wolves are scared of
+ghosts." Four depths in five lines.
+
+- **No italics for thought.** Write the thought as narration in the character's idiom: "Just walk,
+  Kip. Places to be." Italics are kept for telepathy, foreign words, and sounds.
+- **Self-address.** Characters talk to themselves by name and give themselves orders: "Pull it
+  together, Kip." "Smile, Nat. You know how."
+- **Verdicts in the narration.** After a line of dialogue or an event, the narration passes the
+  POV character's judgment on it, sideways and biased: "Of course." "Well, that went well."
+  "Which was a lie, and they both knew it." The reader learns the character from these.
+- **No filter verbs.** Not "she saw the knife", "he felt the cold", "she knew he was lying". Give
+  the knife, the cold, the lie. "She knew" only when knowing is itself the event.
+- **Never report emotion from outside.** Not "He looked very tired." The POV character reads him,
+  wrongly or rightly, in her words: "He had the face he got after three nights of cards, except
+  Jamie didn't play cards."
+- **Bias and blind spots.** The narration believes what the character believes. Let her misread
+  someone on the page and let the reader see past her, without the narrator correcting her.
+- **Thought is quick and funny under pressure.** The worse it gets, the drier the inner voice.
+  Fear comes out as a joke or a bargain, not as "she was afraid".
+- **Dosage.** In a POV scene, about one sentence in eight or ten should be unmistakably the
+  character's own voice (interior_per_1k of 6 or more). Action scenes can run cooler, quiet ones
+  hotter.
+
+## 9c. Dialogue that fights
+
+- **Every line is a move.** Each speaker wants something from this exchange; lines attack, dodge,
+  bargain, test, flirt. If a line only conveys information, give it a second job or cut it.
+- **Answer the question under the question,** or a different one, or with a joke. Direct
+  question-answer-question-answer is interrogation; use it only when someone is being interrogated.
+- **No echo replies.** "There's something alive in it." "Alive." is a machine tic. React with what
+  the listener would actually do: swear, laugh, call him a liar, ask the practical question.
+- **Interior between lines.** Between two lines of speech, put the POV character's read of what
+  was just said, especially what she won't say aloud. The gap between the line said and the line
+  thought is where Weeks's dialogue lives.
+- **No stage directions as beats.** "She waited." "He nodded." carry nothing. Use a beat only if
+  it is specific to this person (Miriam rolls the ticket edge under her thumb till it cuts).
+- **Banter is status play.** People who love each other insult each other. The one who makes the
+  other laugh first loses the point.
+- **Lore in dialogue only under pressure:** argued, disbelieved, or offered as a bribe. A speech
+  that explains the world to a silent listener is "as you know, Bob" in a coat.
+
+## 9d. Ruocchio's weight (seasoning, not the meal)
+
+Christopher Ruocchio (Sun Eater) writes as a man who already knows how it ends. Borrow that
+gravity in small doses, at the hinges of a chapter, never in the middle of an action beat.
+
+- **Prolepsis, once a chapter at most.** A sentence that steps outside the scene's time and tells
+  the reader this mattered: "It was the last thing his brother ever gave him, and he dropped it."
+  It makes a small moment heavy without explaining it. Never use it to give away a twist; give away
+  the grief, not the mechanism.
+- **Scale when something vast is on the page.** When a character faces the alien, the ancient, or
+  death, let one long sentence open out (the hull, the river, the city's lamps), then cut back to
+  the body: cold feet, a stinging palm.
+- **Memory as a wound.** A present detail calls up a specific past one, and the character
+  flinches from it. The flinch is shown, not named.
+- **No speeches about meaning.** Ruocchio's weight comes from concrete images and consequence,
+  not from aphorisms. If a sentence could be framed on a wall, cut it.
+
+## 9e. Sullivan's warmth: people who like each other
+
+Michael J. Sullivan's Riyria books run on two people who'd die for each other and would rather
+insult each other than say so. Interactions are the point, not the delivery system.
+
+- **Kindness is small, practical and unannounced.** Byron pockets the coal so it won't mark the
+  runner. Jennie carries Alice two miles and never mentions it. Nobody says "I care about you."
+- **Old friends have shorthand.** In-jokes, nicknames, a past argument they keep rerunning, a
+  signal (two fingers and a thumb). Readers fall for characters who have history with each other.
+- **Banter has a loser.** Somebody scores, somebody concedes, and the concession is affection.
+- **Let people surprise each other**, and let the POV character be wrong about someone they love.
+- **Comfort through the ordinary:** food, warmth, a chore done together, a stupid story told to
+  keep someone from thinking. The worse the night, the more ordinary the comfort.
+- **Every two-hander has a power shift.** By the end of the exchange one of them has given
+  something up or got something, even if it is only the last word.
+
 ## 10. Humour
 
 - **Bathos:** build a moment up, then puncture it with the mundane at its peak ("I've got to piss like

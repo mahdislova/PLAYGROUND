@@ -21,6 +21,7 @@ Each line is a pattern (alternatives separated by /). Any match must be recast. 
 - ozone
 - coppery / copper tang / taste
 - mingl ed / ing with
+- suddenly
 
 **cliche**
 
@@ -97,11 +98,11 @@ Rates are per 1,000 words unless they're shares (0 to 1). Stay inside the range.
 | sentence_sd | 8.24 to 12.89 | LOW: Rhythm is too even. Push both gears: stacks of short declaratives, and long comma-chained participial sentences of 30+ words. HIGH: Rhythm is erratic; settle some mid-length lines. |
 | short_sentence_share | 0.28 to 0.43 | LOW: More short beats (6 words or fewer). HIGH: Too many short beats; join some. |
 | long_sentence_share | 0.04 to 0.11 | LOW: Add long comma-chained sentences (30+ words) in action, sex, or emotional surges. HIGH: Fewer runaway sentences. |
-| paragraph_mean | 24.72 to 51.35 | LOW: Paragraphs are too short; let some breathe. HIGH: Paragraphs are too long; break them. The short paragraph is the unit of rhythm. |
+| paragraph_mean | 0.00 to 1000.00 | LOW: Paragraphs are too short; let some breathe. HIGH: Paragraphs are too long; break where the thought turns. |
 | threes_per_1k | 8.96 to 12.13 | HIGH: Too many groups of three. Break most into pairs, fours, or lopsided groups (two short items and a long trailing one); let some lists trail off. Keep only the threes that earn it. |
 | polysyndeton3_per_1k | 0.33 to 0.98 | HIGH: Too many 'X and Y and Z' chains. Keep one for a real surge; recast the rest. |
 | triple_beats_per_1k | 1.38 to 2.30 | HIGH: Too many three-short-sentence drumbeats. Fold one of the three into its neighbour, or let the beat run to two or four. |
-| stair_paragraphs_per_1k | 0.09 to 0.37 | HIGH: Too many runs of exactly three one-line paragraphs. Merge one into the paragraph next to it. |
+| stair_paragraphs_per_1k | 0.00 to 0.20 | HIGH: Too many runs of exactly three one-line paragraphs. Merge one into the paragraph next to it. |
 | the_way_similes_per_1k | 0.00 to 0.00 | HIGH: The author never writes 'the way a man does X' comparisons. Cut them or say the thing plainly. |
 | reversals_per_1k | 0.11 to 0.46 | HIGH: Too many reverse-and-qualify moves ('not X, nothing so Y, but Z'). State it once, plainly. |
 | aphorisms_per_1k | 0.04 to 0.38 | HIGH: Too many quotable general truths. Let characters say particular things, not maxims. |
@@ -168,6 +169,10 @@ every two-hander a power shift. At a chapter's hinge, at most once, borrow Ruocc
 proleptic line that knows this moment will matter ("It was the last thing his brother ever gave him"),
 or one long opening-out sentence when something vast is on the page. Grief, not mechanism; images,
 not aphorisms.
+
+Paragraph like a printed book (craft library 14b, bible "Paragraphing"): paragraphs run as long as the
+thought, fold reactions and memories into the paragraph of the action, vary hard, and at least one
+paragraph a chapter runs past 150 words. At most one or two lines set alone per chapter.
 
 Make people particular, not legible. Characters understand each other partly and wrongly, out of
 resentment, love or self-interest; let at least one misreading stand uncorrected and one argument stay
@@ -236,6 +241,20 @@ only to be beaten. Check the draft for each of these:
 18. SCENE-TYPE PLAYBOOKS: if the chapter has a speech, a romantic or sexual scene, a comic scene or a
    fight, check it against the matching playbook in the craft library (sections 6, 10, 11, 12) and
    name the one move that would most improve it.
+19. ESCALATION (Saunders): does each scene raise the pressure on the one before? If a scene could swap
+   places with its neighbour without loss, it isn't escalating; say what to raise.
+20. REQUEST MOMENT (Baxter): somewhere in the chapter someone should ask someone to do something that
+   costs them. Name it, or name where it should go.
+21. WANT AND FEAR (Baxter): beyond what the POV character wants, what are they afraid of in this scene,
+   and does the scene press on it?
+22. MICRO-TENSION (Maass): pick three random paragraphs. Does each hold a conflict of feeling inside
+   someone (not just a topic)? Flag dead paragraphs.
+23. PSYCHIC DISTANCE (Gardner): flag any jump in distance that isn't earned, e.g. from wide establishing
+   view straight into a character's interior voice mid-paragraph, or the reverse.
+24. THREAD NESTING (MICE): threads opened in the chapter close in reverse order (last opened, first
+   closed). Flag a thread opened and forgotten, or closed out of order without purpose.
+25. ROOT-FOR (Vonnegut): is there someone on the page the reader is on the side of, and is it clear why
+   by the end of the first scene?
 
 Return 3 to 7 numbered revision notes, the most important first. Each note gives the exact passage
 and a concrete fix. Skip any check the draft already passes. Do not rewrite the chapter.
@@ -309,7 +328,7 @@ effort: high
 # Never allowed, flagged on sight.
 forbidden_strings: ["—", "–"]
 
-# Generic AI-ism checks that misfire on this author. They use fragment stacks and one-line paragraphs on purpose.
+# Generic AI-ism checks that misfire on this author. They use fragment stacks on purpose.
 disabled_checks: [fragments, one_line_paragraphs, em, triads]   # threes are checked by the fingerprint instead
 
 # Your own phrases that the generic list would flag. Phrases found in samples/ are allowed automatically too.
@@ -327,7 +346,10 @@ max_same_opener: 4
 thresholds:
   similes_per_1k: 3
 
-targets: {}
+# Paragraphing follows printed books (voicepress/shape.py), not the samples' short web-style paragraphs.
+targets:
+  paragraph_mean: [0, 1000]
+  stair_paragraphs_per_1k: [0, 0.2]
 
 # Inspired-by authors. Each source's pages live in inspired/<name>/ (kept local, never committed
 # or sent to the model); only their measured numbers (inspired-<name>.json) are used.

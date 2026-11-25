@@ -251,7 +251,7 @@ Use these three, written in Voice A's punctuation and rhythm:
 3. **Economy in the melee.** Short clause per blow when there are many enemies. Save the surge sentence for the decisive stroke.
 
 The author asked for more of Voice B's flavour. These three moves appear **in every chapter**, written
-in Voice A's mechanics (subject-dropping, ` -` and `...`, short paragraphs, no em dash):
+in Voice A's mechanics (subject-dropping, ` -` and `...`, book-shaped paragraphs, no em dash):
 
 4. **Banter with teeth, and the wry verdict.** At least one exchange per chapter where two characters
    trade insults or needle each other, and the loser gives ground with good humour, or doesn't. Close it
@@ -448,3 +448,13 @@ Machine tells. Any of these is a defect.
   `her voice, sharp with…`, `a voice like…`, `and somewhere behind him…`, `sounding almost apologetic`,
   `with the patient interest of…`, `quiet certainty/menace`, `or rather`, `every last one`.
 - Stacks of threes (section 6).
+
+## Paragraphing (overrides the samples)
+
+Paragraph like a printed novel. A paragraph runs as long as the thought does: fold the reaction,
+the memory and the verdict into the paragraph of the action that caused them. Narration paragraphs
+average 55 words or more and vary hard; at least one paragraph a chapter opens out past 150 words.
+A line alone on the page is saved for the one moment in a chapter that earns it. Dialogue can come
+in quick single-line exchanges; narration can't. No runs of same-size three-to-four-sentence blocks.
+The author's samples paragraph short, web-style; that is a habit the author wants gone, not a
+signature to copy.

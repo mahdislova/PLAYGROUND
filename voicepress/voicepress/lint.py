@@ -73,6 +73,7 @@ PHRASES: list[tuple[str, str]] = [
     ("construction", r"\band yet\b"),
     ("construction", r"\ba reminder (that|of)\b"),
     ("construction", r"\bsomehow\b"),
+    ("diction", r"\bsuddenly\b"),
 ]
 
 SIMILE = re.compile(r"\b(like a|like an|like the|as if|as though)\b", re.I)
@@ -266,6 +267,13 @@ def lint(text: str, style: dict | None = None) -> Report:
     if one_liners > th["max_one_line_paragraph_ratio"] and "one_line_paragraphs" not in disabled:
         rep.flags.append(f"one-line paragraphs {one_liners:.0%} (limit {th['max_one_line_paragraph_ratio']:.0%})")
 
+    # Weak intensifiers in narration (King: the adverb is not your friend). The author averages ~0.4/1k.
+    narr_only = re.sub(r"[\"“][^\"”]*[\"”]", " ", text)
+    vr = len(re.findall(r"\b(?:very|really)\b", narr_only, re.I)) / k
+    rep.stats["very_really_narr_per_1k"] = vr
+    if vr > float(th.get("very_really_narr_per_1k", 1.0)):
+        rep.flags.append(f"very/really in narration = {vr:.1f}/1k (limit 1.0). Find the verb or the detail they're propping up.")
+
     # Deep third person (Weeks): distance from the POV head, and dialogue that does no work.
     if "pov" not in disabled:
         from .pov import analyse, compare as pov_compare
@@ -273,6 +281,14 @@ def lint(text: str, style: dict | None = None) -> Report:
         rep.findings += [Finding(f.category, f.text, f.line, f.note) for f in pfind]
         rep.stats.update(pstats)
         rep.flags += pov_compare(pstats)
+
+    # Paragraph shape: printed-book paragraphing, not web-fiction chunks.
+    if "shape" not in disabled:
+        from .shape import analyse as shape_analyse, compare as shape_compare
+        sstats, sfind = shape_analyse(text)
+        rep.findings += [Finding(f.category, f.text, f.line, f.note) for f in sfind]
+        rep.stats.update(sstats)
+        rep.flags += shape_compare(sstats)
 
     rep.findings.sort(key=lambda f: f.line)
     return rep

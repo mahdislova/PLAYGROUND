@@ -242,6 +242,16 @@ insult each other than say so. Interactions are the point, not the delivery syst
 - **The middle sags when nothing is at risk.** Add a ticking clock, a betrayal or a cost, not more
   description.
 
+## 14b. Paragraphing
+
+- **A paragraph is a unit of thought, not of drama.** It ends where the thought turns, not where a
+  line would look good alone.
+- **Fold, don't isolate.** The reaction to an event, the memory it calls up and the verdict on it
+  belong in the same paragraph as the event.
+- **Vary hard.** Half a page, then two lines, then a quick run of dialogue. Same-size blocks are the
+  web-fiction look.
+- **One lone line a chapter, at most two.** Spend it on the real hinge.
+
 ## 15. Openings and endings
 
 - **Open on a character in motion with a problem,** in a specific place, inside the first page.
@@ -272,3 +282,45 @@ insult each other than say so. Interactions are the point, not the delivery syst
 6. Can every action be followed: who, where, with what?
 7. Does at least one character want something unspoken from another in dialogue?
 8. Is there one laugh, or one release, before the worst blow?
+
+## 18. Lessons from the schools (universities, workshops, working writers)
+
+Distilled from university craft teaching and working writers. Each is one move, with its source, so
+you can go back to it.
+
+- **Psychic distance** (John Gardner, *The Art of Fiction*; taught at Stanford and most MFA programs).
+  Five levels, from "It was winter of the year 1853" to inside the character's skin. Most mainstream
+  fiction lives at levels 3 to 4. Move between levels on purpose and in steps; a sudden unexplained
+  jump reads as amateur. Open wide, dolly in, and come back out at the end of a scene.
+- **Escalation** (George Saunders, *A Swim in a Pond in the Rain*, from his Syracuse seminar). A story
+  is a system of escalation. Each scene must raise the pressure on the last. Revise by reading as a
+  reader and marking where attention drops, then cutting or raising there. Efficiency means every
+  bit earns its place in the reader's ride, not that sentences are short.
+- **Promise, progress, payoff** (Brandon Sanderson, BYU English 318R). The opening promises a kind of
+  story; show progress on it every chapter; pay off the promise you actually made.
+- **Micro-tension** (Donald Maass, *The Fire in Fiction*). Tension in every line, and it comes from
+  conflicting emotions inside a person, not from the topic. Test: shuffle the pages; any paragraph
+  with no unease, want or friction in it is dead.
+- **The request moment** (Charles Baxter, craft lecture; *The Art of Subtext*). When one person asks
+  another to do something, the scene is charged whether or not they do it. Ask not only "what does
+  the character want?" but "what is the character afraid of?" A scene is "the staging of a desire".
+  Subtext is what is displayed evoking what isn't.
+- **Crowding and leaping** (Ursula K. Le Guin, *Steering the Craft*). Crowd the page with what
+  matters, "load every rift with ore", and leap over what doesn't; the reader can bridge a gap you
+  leave on purpose. Read every page aloud; prose has a rhythm the ear catches before the eye does.
+- **The paragraph is the unit** (Stephen King, *On Writing*). A paragraph can be one word or run for
+  pages; vary them to set pace. The adverb is not your friend: "very", "really", "suddenly" are
+  usually a verb or a detail failing to do its job.
+- **The telling detail** (Chekhov's 1886 letter to his brother). Not "the moon was shining" but the
+  glint of moonlight on a piece of broken bottle by the mill dam. One exact detail chosen for this
+  story beats three general ones.
+- **Thread nesting** (Mary Robinette Kowal, MICE quotient, *Writing Excuses*). Milieu, Inquiry,
+  Character, Event threads open and close like nested brackets: first opened, last closed.
+- **Respect the reader's time** (Kurt Vonnegut). Give the reader at least one character to root for.
+  Write to please one person.
+- **Universal workshop practice.** Rewrite one event at several distances, tones or POVs to find the
+  right one. Read published stories for craft, not plot. Revise in passes, each with one question.
+
+**Checklist additions:** Does every scene escalate? Is there a request moment? What is the POV
+character afraid of here? Any dead paragraph? Any unearned jump in distance? Do threads close in
+reverse order? Is there someone to root for? Any "very / really / suddenly" doing a verb's job?

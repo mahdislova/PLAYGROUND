@@ -161,6 +161,10 @@ proleptic line that knows this moment will matter ("It was the last thing his br
 or one long opening-out sentence when something vast is on the page. Grief, not mechanism; images,
 not aphorisms.
 
+Paragraph like a printed book (craft library 14b, bible "Paragraphing"): paragraphs run as long as the
+thought, fold reactions and memories into the paragraph of the action, vary hard, and at least one
+paragraph a chapter runs past 150 words. At most one or two lines set alone per chapter.
+
 Make people particular, not legible. Characters understand each other partly and wrongly, out of
 resentment, love or self-interest; let at least one misreading stand uncorrected and one argument stay
 unsettled. Don't explain a gesture after showing it. Give the POV character uneven attention: he loses
@@ -230,6 +234,20 @@ only to be beaten. Check the draft for each of these:
 18. SCENE-TYPE PLAYBOOKS: if the chapter has a speech, a romantic or sexual scene, a comic scene or a
    fight, check it against the matching playbook in the craft library (sections 6, 10, 11, 12) and
    name the one move that would most improve it.
+19. ESCALATION (Saunders): does each scene raise the pressure on the one before? If a scene could swap
+   places with its neighbour without loss, it isn't escalating; say what to raise.
+20. REQUEST MOMENT (Baxter): somewhere in the chapter someone should ask someone to do something that
+   costs them. Name it, or name where it should go.
+21. WANT AND FEAR (Baxter): beyond what the POV character wants, what are they afraid of in this scene,
+   and does the scene press on it?
+22. MICRO-TENSION (Maass): pick three random paragraphs. Does each hold a conflict of feeling inside
+   someone (not just a topic)? Flag dead paragraphs.
+23. PSYCHIC DISTANCE (Gardner): flag any jump in distance that isn't earned, e.g. from wide establishing
+   view straight into a character's interior voice mid-paragraph, or the reverse.
+24. THREAD NESTING (MICE): threads opened in the chapter close in reverse order (last opened, first
+   closed). Flag a thread opened and forgotten, or closed out of order without purpose.
+25. ROOT-FOR (Vonnegut): is there someone on the page the reader is on the side of, and is it clear why
+   by the end of the first scene?
 
 Return 3 to 7 numbered revision notes, the most important first. Each note gives the exact passage
 and a concrete fix. Skip any check the draft already passes. Do not rewrite the chapter."""

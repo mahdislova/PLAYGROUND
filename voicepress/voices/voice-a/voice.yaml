@@ -9,7 +9,7 @@ effort: high
 # Never allowed, flagged on sight.
 forbidden_strings: ["—", "–"]
 
-# Generic AI-ism checks that misfire on this author. They use fragment stacks and one-line paragraphs on purpose.
+# Generic AI-ism checks that misfire on this author. They use fragment stacks on purpose.
 disabled_checks: [fragments, one_line_paragraphs, em, triads]   # threes are checked by the fingerprint instead
 
 # Your own phrases that the generic list would flag. Phrases found in samples/ are allowed automatically too.
@@ -27,7 +27,10 @@ max_same_opener: 4
 thresholds:
   similes_per_1k: 3
 
-targets: {}
+# Paragraphing follows printed books (voicepress/shape.py), not the samples' short web-style paragraphs.
+targets:
+  paragraph_mean: [0, 1000]
+  stair_paragraphs_per_1k: [0, 0.2]
 
 # Inspired-by authors. Each source's pages live in inspired/<name>/ (kept local, never committed
 # or sent to the model); only their measured numbers (inspired-<name>.json) are used.

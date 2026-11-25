@@ -90,7 +90,7 @@ ADVICE = {
     "image_paragraph_share": ("", "Too many paragraphs carry an image. Most paragraphs should be plain and functional; keep the best image, flatten the rest."),
     "explained_subtext_per_1k": ("", "Narration keeps re-explaining gestures the reader already understood. Keep explanations that add clarity; cut the redundant ones."),
     "plain_dialogue_share": ("Dialogue is too efficient. Let people hedge, ramble, answer literally, mishear, say 'well' and 'aye' and 'I don't know'. Not every line should land.", "Too many hedges and fillers; it's turning into a tic. Let some lines be direct."),
-    "paragraph_mean": ("Paragraphs are too short; let some breathe.", "Paragraphs are too long; break them. The short paragraph is the unit of rhythm."),
+    "paragraph_mean": ("Paragraphs are too short; let some breathe.", "Paragraphs are too long; break where the thought turns."),
 }
 
 

@@ -1,5 +1,3 @@
-# Style bible: Voice A
-
 # Style Bible — Voice A
 
 Distilled from the six OWN samples (≈5,000 words) and the analysis of the full two-novel corpus,

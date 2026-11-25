@@ -4,14 +4,18 @@ from pathlib import Path
 from voicepress import pipeline, lint, fingerprint, pov, project
 from voicepress.pipeline import load_voice
 
-OUT = Path("handoff/chatgpt"); OUT.mkdir(parents=True, exist_ok=True)
-V = Path("voices/voice-a")
+import sys
+V = Path(sys.argv[1] if len(sys.argv) > 1 else "voices/voice-a")
+OUT = Path(sys.argv[2] if len(sys.argv) > 2 else "handoff/chatgpt"); OUT.mkdir(parents=True, exist_ok=True)
 voice = load_voice(V)
 
 # 02 bible
-(OUT / "02-style-bible.md").write_text("# Style bible: Voice A\n\n" + (V / "bible.md").read_text())
+(OUT / "02-style-bible.md").write_text((V / "bible.md").read_text())
 # 03 craft
-(OUT / "03-craft-library.md").write_text((Path("voicepress") / "craft.md").read_text())
+craft = (Path("voicepress") / "craft.md").read_text()
+if voice.get("mode") == "relaxed":
+    craft = craft.split("## 5.")[0] + "\n(Relaxed mode: the style bible and benchmark sample override everything else.)\n"
+(OUT / "03-craft-library.md").write_text(craft)
 
 # 04 checks
 def readable(rx):
@@ -55,8 +59,8 @@ L += ["", "Definitions: *spaced_hyphen* = ' -' cut-offs; *subjectless* = sentenc
 for k, (lo, hi) in pov.TARGETS.items():
     L.append(f"| {k} | {lo} to {hi} | {pov.ADVICE[k]} |")
 L += ["", "Filter verbs: saw, heard, felt, noticed, watched, realised, wondered, thought, knew, sensed, seemed to. Outside emotion: 'looked/seemed/sounded (very) tired/sad/angry/afraid...'. Stage beats: one-line 'She waited.' 'He nodded.' 'She looked at him.' Echo line: a 1 to 2 word reply repeating the previous speaker's word. Interior sentences: narration that can only be the character's own voice (interjections, verdicts, self-address by name, rhetorical questions, imperatives to self, generic 'you').", "",
-      "## 4. Writer brief (the full drafting prompt)", "", "```", pipeline.WRITER, "```", "",
-      "## 5. Story editor: checks 0 to 18", "", "```", pipeline.STORY_EDITOR, "```", "",
+      "## 4. Writer brief (the full drafting prompt)", "", "```", pipeline.writer_prompt(voice), "```", "",
+      "## 5. Story editor checks", "", "```", pipeline.STORY_EDITOR, "```", "",
       "## 6. Story revision brief", "", "```", pipeline.STORY_REVISE, "```", "",
       "## 7. Line editor brief", "", "```", pipeline.EDITOR, "```", "",
       "## 8. Story ledger", "", "Brief:", "", "```", pipeline.LEDGER, "```", "", "Template:", "", "```", project.LEDGER_TEMPLATE, "```", "",
@@ -69,7 +73,9 @@ L += ["", "Filter verbs: saw, heard, felt, noticed, watched, realised, wondered,
 def bundle(title, files):
     return f"# {title}\n\n" + "\n\n---\n\n".join(Path(f).read_text().strip() for f in files) + "\n"
 (OUT / "05-voice-samples.md").write_text(bundle("Voice A: the author's own pages", sorted(glob.glob(str(V / "samples/own-*.md")))))
-(OUT / "06-technique-studies.md").write_text(bundle("Technique studies: inspired-by moves in Voice A", sorted(glob.glob(str(V / "techniques/*.md")))))
+tech = sorted(glob.glob(str(V / "techniques/*.md")))
+if tech:
+    (OUT / "06-technique-studies.md").write_text(bundle("Technique studies: inspired-by moves in Voice A", tech))
 
 # engine zip
 with zipfile.ZipFile(OUT / "voicepress-engine.zip", "w", zipfile.ZIP_DEFLATED) as z:

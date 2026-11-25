@@ -1,0 +1,33 @@
+# Voice A, relaxed: the author's own register, benchmarked on samples/own-10-the-march-to-nazarovo.md.
+# No inspired-by blend, no workshop rules. Fingerprint is measured from the Hugh chapters only.
+name: voice-relaxed
+mode: relaxed
+model: claude-opus-5-5
+effort: high
+
+forbidden_strings: ["—", "–"]
+
+# The author writes summary, sincere spoken feeling, adverbs and steady mid-length paragraphs.
+# These checks were built for a different style and fight this one.
+disabled_checks: [pov, shape, fragments, one_line_paragraphs, em, triads, stock_beats]
+
+allowed_phrases: ["and yet", "couldn't help but", "somehow", "the weight of"]
+banned_phrases: []
+max_same_opener: 5
+
+thresholds:
+  similes_per_1k: 4
+  very_really_narr_per_1k: 3
+
+# Ranges widened to include the benchmark (own-10); the benchmark is the authority.
+targets:
+  paragraph_mean: [0, 1000]
+  ellipsis_per_1k: [0, 1.5]
+  semicolon_per_1k: [0.5, 3.5]
+  subjectless_per_1k: [0, 3]
+  short_sentence_share: [0.18, 0.4]
+  long_sentence_share: [0.05, 0.22]
+  plain_dialogue_share: [0.05, 0.32]
+
+chapter:
+  words: 4500

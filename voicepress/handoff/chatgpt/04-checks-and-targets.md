@@ -190,7 +190,7 @@ Return only the chapter inside <prose></prose>. Start with the chapter heading. 
 commentary.
 ```
 
-## 5. Story editor: checks 0 to 18
+## 5. Story editor checks
 
 ```
 You are a developmental editor. You read a draft chapter for story shape, not sentences.

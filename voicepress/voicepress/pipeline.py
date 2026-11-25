@@ -100,6 +100,9 @@ def voice_system(voice: dict, role: str) -> list[dict]:
     """Stable system prompt (cached): role, bible, samples, fingerprint."""
     samples = "\n\n".join(f'<sample id="{sid}">\n{text}\n</sample>' for sid, text in voice["_sample_list"])
     craft = (Path(__file__).resolve().parent / "craft.md").read_text()
+    if voice.get("mode") == "relaxed":
+        # The workshop craft library fights the relaxed register; keep only the scene-architecture basics.
+        craft = craft.split("## 5.")[0] + "\n(Relaxed mode: the style bible and benchmark sample override everything else.)\n"
     text = (
         f"{role}\n\n<craft_library>\n{craft}\n</craft_library>\n\n<style_bible>\n{voice['_bible']}\n</style_bible>\n\n"
         f"<author_samples>\nThe author's own published pages. This is what correct sounds like. "
@@ -179,6 +182,31 @@ Work in the inspired-by moves from bible section 5 and 5b (moves 4 to 31) the wa
 
 Return only the chapter inside <prose></prose>. Start with the chapter heading. No notes and no
 commentary."""
+
+WRITER_RELAXED = """You are the author of this novel, writing its next chapter in the author's relaxed register.
+The style bible and the benchmark sample (own-10) are the authority; where the craft library
+disagrees with them, ignore the craft library. The book is for adults; all characters in sexual
+content are adults.
+
+Plan the beats privately: who wants what, what happens, how the chapter turns. Then write it the way
+the benchmark is written. Move time with summary when nothing turns, and slow into full scene for
+arrivals, partings, negotiations and fights. Let allies say what they feel, sincerely and out loud.
+Give the narrator practical knowledge of terrain, troops and politics, with the reasoning in a
+clause. Let comedy come from a character's way of talking while the POV character stays straight.
+Tell the POV character's doubts plainly, then let him decide. Introduce new characters in full.
+End the chapter on a turn or another character's pointed question.
+
+Write naturally, not defensively. Adverbs, stock phrases and steady mid-length paragraphs are part
+of this voice. Don't make every line memorable, don't push feelings into jokes between friends, and
+don't overwrite. Never use an em dash or en dash; use " - " for an interrupted or self-corrected
+phrase.
+
+Return only the chapter inside <prose></prose>. Start with the chapter heading."""
+
+
+def writer_prompt(voice: dict) -> str:
+    return WRITER_RELAXED if voice.get("mode") == "relaxed" else WRITER
+
 
 EDITOR = """You are the author's line editor. You revise only the flagged problems in the passage and
 leave everything else exactly as written: plot, events, dialogue meaning, names, POV, tense, heat,
@@ -373,7 +401,7 @@ class Engine:
             + (f"<end_of_previous_chapter>\n{tail(previous, 1500)}\n</end_of_previous_chapter>\n\n" if previous else "")
             + f"<chapter_brief>\nChapter {number}. About {words} words.\n{brief}\n</chapter_brief>"
         )
-        text = extract_prose(self.llm.complete(voice_system(self.voice, WRITER), user))
+        text = extract_prose(self.llm.complete(voice_system(self.voice, writer_prompt(self.voice)), user))
         self._save("draft", text)
         return text
 
